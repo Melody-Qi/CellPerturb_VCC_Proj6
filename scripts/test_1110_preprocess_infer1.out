@@ -1,0 +1,50 @@
+Mon Nov 10 14:41:06 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:18:00.0 Off |                  N/A |
+| 26%   27C    P8              4W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+Loading AnnData from ../vcc_data/adata_Training.h5ad
+Set random seed to 42
+Identifying control cells with condition: 'non-targeting'
+Found 38176 control cells out of 221273 total cells
+Processing 150 non-control perturbations
+Replacement complete! Replaced expression in 183097 cells
+Control cells (38176) retain their original expression
+============================================================
+PREPROCESSING SUMMARY:
+  - Input: 221273 cells, 18080 genes
+  - Control condition: 'non-targeting'
+  - Control cells: 38176 (unchanged)
+  - Perturbed cells: 183097 (replaced with control expression)
+  - Perturbations processed: 150
+  - Using expression matrix (X)
+
+USAGE:
+  The output file contains cells with control expression but original
+  perturbation annotations. When passed through state_transition inference,
+  the model will apply perturbation effects to simulate the original data.
+  Compare: state_transition(output) ≈ original_input
+============================================================
+Saving preprocessed data to ../vcc_data/adata_Infer.h5ad
+Preprocessing complete!

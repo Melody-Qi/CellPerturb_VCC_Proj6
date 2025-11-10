@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J test_1110_preprocess1
+#SBATCH -J test_1110_preprocess_infer1
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
@@ -26,9 +26,15 @@ import torch
 print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1110_preprocess1.slurm
+
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1110_preprocess_infer1.slurm
 cd ./STATE || exit 1
-state tx preprocess_train \
+
+state tx preprocess_infer \
   --adata ../vcc_data/adata_Training.h5ad \
-  --output preprocessed_data/preprocessed_training_data_2000.h5ad \
-  --num_hvgs 2000
+  --output ../vcc_data/adata_Infer.h5ad \
+  --control-condition "non-targeting" \
+  --pert-col "target_gene" \
+  --seed 42
+
+
