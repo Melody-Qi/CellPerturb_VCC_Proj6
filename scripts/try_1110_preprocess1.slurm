@@ -32,3 +32,10 @@ state tx preprocess_train \
   --adata ../vcc_data/adata_Training.h5ad \
   --output preprocessed_data/preprocessed_training_data_2000.h5ad \
   --num_hvgs 2000
+
+# 这一步会做：
+
+# Normalize (sc.pp.normalize_total)
+# Log1p (Log transform)
+# 选取高变基因 (sc.pp.highly_variable_genes) 2000
+# 输出 .obsm['X_hvg']，供模型训练使用。

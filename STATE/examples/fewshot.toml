@@ -23,3 +23,14 @@ vcc = "train"
 [fewshot."vcc.H1"]
 val = []
 test = []
+
+# few-shot learning（少样本学习）就是：
+# 用很少的数据就能训练或者调优模型，使它学会做任务。
+# 训练配置会刻意 减少训练样本或 steps，用小批量、少步数来做测试或快速试验
+# 这是一个快速验证模型可行性的方式，不像 full-training 那样用整个大数据集。
+
+# 配置文件 fewshot.toml
+# [datasets] vcc = "../vcc_data/"	指定数据集路径
+# [training] vcc = "train"	告诉训练使用 vcc 数据集的训练集
+# [fewshot][fewshot."vcc.H1"] val = [] test = []	few-shot 配置：H1 是 cell line 名称，这里 val/test 为空，意味着暂时不做验证/测试，训练主要用于检查模型能跑通
+# 这个配置告诉模型：只用训练数据做 quick run，不分验证集，也不做测试集。
