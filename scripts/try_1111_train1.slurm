@@ -37,7 +37,7 @@ state tx train \
   data.kwargs.num_workers=8 \
   data.kwargs.batch_col=batch \
   data.kwargs.pert_col=target_gene \
-  data.kwargs.cell_type_key=null \
+  data.kwargs.cell_type_key=cell_type \
   data.kwargs.control_pert=non-targeting \
   training.max_steps=20000 \
   training.ckpt_every_n_steps=100 \

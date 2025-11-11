@@ -13,7 +13,7 @@ data:
     should_yield_control_cells: true
     batch_col: batch
     pert_col: target_gene
-    cell_type_key: null
+    cell_type_key: cell_type
     control_pert: non-targeting
     map_controls: true
     perturbation_features_file: null
