@@ -31,6 +31,6 @@ test = []
 
 # 配置文件 fewshot.toml
 # [datasets] vcc = "../vcc_data/"	指定数据集路径
-# [training] vcc = "train"	告诉训练使用 vcc 数据集的训练集
+# [training] vcc = "train"	告诉训练使用 vcc 数据集的训练集，找包含 "train" 字样的 .h5ad（例如 preprocessed_training_data.h5ad）
 # [fewshot][fewshot."vcc.H1"] val = [] test = []	few-shot 配置：H1 是 cell line 名称，这里 val/test 为空，意味着暂时不做验证/测试，训练主要用于检查模型能跑通
 # 这个配置告诉模型：只用训练数据做 quick run，不分验证集，也不做测试集。

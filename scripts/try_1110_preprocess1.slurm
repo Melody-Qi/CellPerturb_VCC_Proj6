@@ -30,7 +30,7 @@ print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.dev
 cd ./STATE || exit 1
 state tx preprocess_train \
   --adata ../vcc_data/adata_Training.h5ad \
-  --output preprocessed_data/preprocessed_training_data_2000.h5ad \
+  --output ../vcc_data/preprocessed_training_data_2000.h5ad \
   --num_hvgs 2000
 
 # 这一步会做：
