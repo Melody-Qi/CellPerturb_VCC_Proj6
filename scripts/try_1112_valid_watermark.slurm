@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J test_1112_cell_eval1
+#SBATCH -J test_1112_valid_watermark
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
@@ -27,18 +27,7 @@ print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
 
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1112_cell_eval1.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1112_valid_watermark.slurm
 cd ./STATE || exit 1
 
-mkdir -p ./submission
-
-# conda install -c conda-forge zstd
-
-# cell-eval version 0.6.6
-cell-eval prep \
-  -i competition_support_set/prediction_test.h5ad \
-  -o submission/my_submission2.vcc \
-  -p target_gene \
-  -g ../vcc_data/gene_names.csv \
-  -c cell_type
-
+python valid_watermark.py

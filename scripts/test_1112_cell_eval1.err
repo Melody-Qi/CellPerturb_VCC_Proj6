@@ -1,4 +1,5 @@
 INFO:cell_eval._cli._prep:Reading input anndata
+INFO:cell_eval._cli._prep:Reading gene list
 INFO:cell_eval._cli._prep:Preparing anndata
 INFO:cell_eval._cli._prep:Using 32-bit float encoding
 INFO:cell_eval._cli._prep:Setting data to sparse if not already
@@ -6,4 +7,10 @@ INFO:cell_eval._cli._prep:Simplifying obs dataframe
 INFO:cell_eval._cli._prep:Simplifying var dataframe
 INFO:cell_eval._cli._prep:Creating final minimal AnnData object
 INFO:cell_eval._cli._prep:Applying normlog transformation if required
-INFO:cell_eval._cli._prep:Writing output to submission/my_submission.vcc
+INFO:cell_eval.utils:Data appears to be log1p normalized (decimals detected, range [0.00, 10.03])
+INFO:cell_eval._evaluator:Input is found to be log-normalized already - skipping transformation.
+INFO:cell_eval._cli._prep:Writing h5ad output to /tmp/tmp4hrjbp0s/pred.h5ad
+INFO:cell_eval._cli._prep:Zstd compressing /tmp/tmp4hrjbp0s/pred.h5ad
+/tmp/tmp4hrjbp0s/pred.h5ad : 50.59%   (  9.86 GiB =>   4.99 GiB, /tmp/tmp4hrjbp0s/pred.h5ad.zst) 
+INFO:cell_eval._cli._prep:Packing files into submission/my_submission2.vcc
+INFO:cell_eval._cli._prep:Done
