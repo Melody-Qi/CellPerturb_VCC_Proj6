@@ -40,6 +40,16 @@ for i, row in test_df.iterrows():
 synthetic_adata = ad.concat(synthetic_cells, axis=0)
 synthetic_adata.obs.reset_index(drop=True, inplace=True)
 
+# ✅ 附加一部分 control 细胞作为 baseline
+n_ctrl = min(1000, control_cells.n_obs)  # 最多1000个control样本
+control_template = control_cells[np.random.choice(control_cells.n_obs, size=n_ctrl, replace=False)].copy()
+control_template.obs["target_gene"] = "non-targeting"
+
+synthetic_adata = ad.concat([synthetic_adata, control_template], axis=0)
+synthetic_adata.obs.reset_index(drop=True, inplace=True)
+
+print(synthetic_adata.obs["target_gene"].value_counts().head())
+
 # ======= 4️⃣ 生成 .h5ad 文件 =======
 synthetic_adata.write_h5ad(output_path)
 print(f"✅ Saved test input template to {output_path}")
