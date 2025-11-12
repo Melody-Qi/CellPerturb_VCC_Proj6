@@ -1,0 +1,9 @@
+INFO:cell_eval._cli._prep:Reading input anndata
+INFO:cell_eval._cli._prep:Preparing anndata
+INFO:cell_eval._cli._prep:Using 32-bit float encoding
+INFO:cell_eval._cli._prep:Setting data to sparse if not already
+INFO:cell_eval._cli._prep:Simplifying obs dataframe
+INFO:cell_eval._cli._prep:Simplifying var dataframe
+INFO:cell_eval._cli._prep:Creating final minimal AnnData object
+INFO:cell_eval._cli._prep:Applying normlog transformation if required
+INFO:cell_eval._cli._prep:Writing output to submission/my_submission.vcc
