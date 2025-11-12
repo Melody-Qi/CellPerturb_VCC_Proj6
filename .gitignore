@@ -2,3 +2,5 @@
 *.ckpt
 *.h5
 *.pt
+*.pkl
+test_1111_train2.out

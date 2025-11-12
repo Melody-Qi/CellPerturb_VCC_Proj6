@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J test_1110_infer1
+#SBATCH -J test_1112_predict1
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
@@ -26,16 +26,10 @@ import torch
 print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
-
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1110_infer1.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1112_predict1.slurm
 cd ./STATE || exit 1
 
-mkdir -p ./submission
-
-# Run inference on validation anndata - make sure the checkpoint exists
-state tx infer \
-  --output "competition/prediction.h5ad" \
-  --model-dir "checkpoints/first_run" \
-  --checkpoint "checkpoints/first_run/checkpoints/step=20000.ckpt" \
-  --adata "competition_support_set/competition_val_template.h5ad" \
-  --pert-col "target_gene"
+state tx predict \
+  --output-dir competition/first_run \
+  --checkpoint final.ckpt \
+  data.kwargs.test_file="../vcc_data/pert_counts_Test.csv"

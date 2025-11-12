@@ -1,0 +1,31 @@
+[rank: 0] Seed set to 42
+Dataset path does not exist: competition_support_set/{competition_train,k562_gwps,rpe1,jurkat,k562,hepg2}.h5
+Processing replogle_h1:   0%|          | 0/6 [00:00<?, ?it/s]                                                             Processing replogle_h1:   0%|          | 0/6 [00:00<?, ?it/s]Processing replogle_h1:  17%|█▋        | 1/6 [00:00<00:02,  2.24it/s]No cell barcode information found in competition_support_set/k562_gwps.h5. Generating generic barcodes.
+                                                                     Processing replogle_h1:  17%|█▋        | 1/6 [00:00<00:02,  2.24it/s]Processing replogle_h1:  33%|███▎      | 2/6 [00:00<00:00,  4.06it/s]No cell barcode information found in competition_support_set/rpe1.h5. Generating generic barcodes.
+                                                                     Processing replogle_h1:  33%|███▎      | 2/6 [00:00<00:00,  4.06it/s]No cell barcode information found in competition_support_set/jurkat.h5. Generating generic barcodes.
+                                                                     Processing replogle_h1:  33%|███▎      | 2/6 [00:00<00:00,  4.06it/s]No cell barcode information found in competition_support_set/k562.h5. Generating generic barcodes.
+                                                                     Processing replogle_h1:  33%|███▎      | 2/6 [00:00<00:00,  4.06it/s]Processing replogle_h1:  83%|████████▎ | 5/6 [00:00<00:00,  9.91it/s]No cell barcode information found in competition_support_set/hepg2.h5. Generating generic barcodes.
+                                                                     Processing replogle_h1:  83%|████████▎ | 5/6 [00:00<00:00,  9.91it/s]Processing replogle_h1: 100%|██████████| 6/6 [00:00<00:00,  8.50it/s]
+wandb: Network error (ConnectionError), entering retry loop.
+wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
+wandb: Network error (ConnectionError), entering retry loop.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name                 | Type        | Params | Mode 
+-------------------------------------------------------------
+0 | loss_fn              | SamplesLoss | 0      | train
+1 | pert_encoder         | Sequential  | 4.8 M  | train
+2 | basal_encoder        | Linear      | 12.2 M | train
+3 | transformer_backbone | LlamaModel  | 50.4 M | train
+4 | project_out          | Sequential  | 13.5 M | train
+5 | final_down_then_up   | Sequential  | 81.7 M | train
+6 | relu                 | ReLU        | 0      | train
+-------------------------------------------------------------
+141 M     Trainable params
+21.5 M    Non-trainable params
+162 M     Total params
+650.506   Total estimated model params size (MB)
+86        Modules in train mode
+0         Modules in eval mode

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J test_1110_infer1
+#SBATCH -J test_1111_train2
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
@@ -26,16 +26,22 @@ import torch
 print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
-
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1110_infer1.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1111_train2.slurm
 cd ./STATE || exit 1
 
-mkdir -p ./submission
-
-# Run inference on validation anndata - make sure the checkpoint exists
-state tx infer \
-  --output "competition/prediction.h5ad" \
-  --model-dir "checkpoints/first_run" \
-  --checkpoint "checkpoints/first_run/checkpoints/step=20000.ckpt" \
-  --adata "competition_support_set/competition_val_template.h5ad" \
-  --pert-col "target_gene"
+state tx train \
+  data.kwargs.toml_config_path="competition_support_set/starter.toml" \
+  data.kwargs.num_workers=8 \
+  data.kwargs.batch_col="batch_var" \
+  data.kwargs.pert_col="target_gene" \
+  data.kwargs.cell_type_key="cell_type" \
+  data.kwargs.control_pert="non-targeting" \
+  data.kwargs.perturbation_features_file="competition_support_set/ESM2_pert_features.pt" \
+  training.max_steps=40000 \
+  training.ckpt_every_n_steps=20000 \
+  model=state_sm \
+  wandb.tags="[first_run]" \
+  wandb.project=vcc \
+  wandb.entity=arcinstitute \
+  output_dir="./checkpoints" \
+  name="first_run"
