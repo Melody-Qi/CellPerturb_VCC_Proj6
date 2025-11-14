@@ -32,5 +32,30 @@ def main():
     print("平均最小值表达值：", np.mean(gene_min))
     print("基因完全不表达的比例：", np.mean(gene_nonzero_fraction == 0))
 
+    df_stats = pd.DataFrame({
+    "gene": adata.var_names,
+    "mean": gene_means,
+    "max": gene_max,
+    "min": gene_min,
+    "nonzero_fraction": gene_nonzero_fraction
+    })
+    df_stats.to_csv("gene_statistics.csv", index=False)
+
+
+    import os
+
+    # 创建保存目录
+    os.makedirs("plots", exist_ok=True)
+
+    plt.figure(figsize=(8,5))
+    plt.hist(np.log1p(gene_means), bins=50)
+    plt.xlabel("log(1 + gene_means)")
+    plt.ylabel("gene_num")
+    plt.title("18080 genes mean distribution")
+
+    # 保存图像
+    plt.savefig("plots/gene_mean_distribution.png", dpi=300, bbox_inches="tight")
+    plt.close()
+
 if __name__ == "__main__":
     main()
