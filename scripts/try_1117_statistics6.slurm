@@ -27,9 +27,9 @@ print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
 
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1116_statistics3.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1117_statistics6.slurm
 cd ./statistics || exit 1
 
 python training_data_statistics.py \
-    --input ../STATE/preprocessed_data/preprocessed_training_data_2000.h5ad
+    --input ../STATE/competition_support_set/competition_train.h5
 
