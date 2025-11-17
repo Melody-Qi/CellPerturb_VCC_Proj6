@@ -79,7 +79,7 @@ def main():
         })
 
     result_df = pd.DataFrame(results).sort_values("affected_genes", ascending=False)
-    result_df.to_csv(outdir / "perturbation_strength.csv", index=False)
+    # result_df.to_csv(outdir / "perturbation_strength.csv", index=False)
 
     print("\n=== 扰动强度分类 ===")
     print(result_df["strength"].value_counts())
