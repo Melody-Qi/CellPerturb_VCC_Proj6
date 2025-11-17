@@ -1,27 +1,22 @@
 # VCC Training Data Statistics
 
-文件夹 (`statistics/`) 包含对 VCC 训练数据 (`adata_Training.h5ad`) 的初步数据分析
+文件夹 (`statistics/`) 包含对 VCC 训练数据 (`adata_Training.h5ad`)(`STATE/preprocessed_data/preprocessed_training_data_2000.h5ad`) 的初步数据分析
 
-## 📁 目录结构
-```
-statistics/
-│
-├── training_data_statistics.py # 全体数据统计
-├── gene_delta_statistics.py # Control vs Perturbation 差异分析
-│
-├── gene_statistics.csv # 所有基因基础统计
-├── gene_delta_all_sorted.csv # 所有基因按 abs_delta 排序
-├── gene_delta_top50.csv # 变化最大的前 50 个基因
-├── gene_delta_with_nonzero_fraction.csv # 多一列：基因在 control 中的表达比例
-│
-└── plots/
-├── gene_mean_distribution.png
-├── control_gene_mean_distribution.png
-├── gene_delta_distribution.png
-├── ctrl_vs_pert_scatter.png
-├── top50_delta_barh.png
-```
+`STATE/preprocessed_data/preprocessed_training_data_2000.h5ad`由以下指令得到
 
+```
+cd ./STATE || exit 1
+state tx preprocess_train \
+  --adata vcc_data/adata_Training.h5ad \
+  --output preprocessed_data/preprocessed_training_data_2000.h5ad \
+  --num_hvgs 2000
+```
+这一步会做：
+
+- Normalize (sc.pp.normalize_total)
+- Log1p (Log transform)
+- 选取高变基因 (sc.pp.highly_variable_genes) 2000
+- 输出 .obsm['X_hvg']，供模型训练使用。
 ---
 
 ## 📌 1️⃣ `training_data_statistics.py`
@@ -35,7 +30,6 @@ statistics/
 
 ### 📈 输出示例
 ```
-终端输出：
 读取数据：../STATE/vcc_data/adata_Training.h5ad
 AnnData object with n_obs × n_vars = 221273 × 18080
 obs: target_gene, guide_id, batch
@@ -46,9 +40,42 @@ var: gene_id
 平均最小值表达值： 0.007522124
 基因完全不表达的比例： 0.0002212389
 ```
+```
+读取数据：../STATE/preprocessed_data/preprocessed_training_data_2000.h5ad
+AnnData object with n_obs × n_vars = 221273 × 18080
+    obs: 'target_gene', 'guide_id', 'batch'
+    var: 'gene_id', 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
+    uns: 'hvg', 'log1p'
+    obsm: 'X_hvg'
+obs keys: Index(['target_gene', 'guide_id', 'batch'], dtype='object')
+var keys: Index(['gene_id', 'highly_variable', 'means', 'dispersions',
+       'dispersions_norm'],
+      dtype='object')
+平均表达值均值： 0.7703777
+平均最大表达值： 2.6602652
+平均最小值表达值： 0.005208211
+基因完全不表达的比例： 0.00022123893805309734
+保存统计文件: preprocessed_training_data_2000/preprocessed_training_data_2000_gene_statistics.csv
+保存统计图: preprocessed_training_data_2000/plots/preprocessed_training_data_2000_gene_mean_distribution.png
+```
+| 字段                 | 含义                 | 作用               |
+| ------------------ | ------------------ | ---------------- |
+| `means`            | 每个基因在全部细胞中的平均表达    | 用于评估基因表达水平       |
+| `dispersions`      | 原始变异度（基因表达方差 / 均值） | 衡量基因表达变化大小       |
+| `dispersions_norm` | 标准化后的变异度（去除表达量偏置）  | 用于排序并筛选 HVGs     |
+| `highly_variable`  | True / False       | 是否被标记为高变基因 (HVG) |
+
+| 情况                          | 含义                          |
+| --------------------------- | --------------------------- |
+| 高 mean & 高 dispersions_norm | 信息量高的重点基因                   |
+| 高 mean & 低 dispersions_norm | 高表达但不变 = housekeeping genes |
+| 低 mean & 高 dispersions_norm | 稀有信号（可能有用，也可能是噪声）           |
+| 低 mean & 低 dispersions_norm | 基本无信息基因                     |
+
 
 ### 🧪 生成的 CSV
-`gene_statistics.csv`（前几行示例）：
+`gene_statistics.csv`
+`preprocessed_training_data_2000_gene_statistics`（前几行示例）：
 | gene     | mean | max  | min  | nonzero_fraction |
 |----------|------|------|------|-----------------|
 | SAMD11   |  |  |   |             |
