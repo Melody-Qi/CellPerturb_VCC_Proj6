@@ -1,4 +1,4 @@
-Sun Nov 16 18:30:55 2025       
+Mon Nov 17 10:48:00 2025       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
 |-----------------------------------------+------------------------+----------------------+
@@ -6,8 +6,8 @@ Sun Nov 16 18:30:55 2025
 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
-|   0  Tesla V100-PCIE-16GB           On  |   00000000:86:00.0 Off |                  Off |
-| N/A   30C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:18:00.0 Off |                  Off |
+| N/A   27C    P0             24W /  250W |       0MiB /  16384MiB |      0%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -24,19 +24,70 @@ CUDA_VISIBLE_DEVICES: 0
 === PyTorch检测 ===
 PyTorch检测GPU数: 1
 可用GPU: ['Tesla V100-PCIE-16GB']
-读取数据：../STATE/preprocessed_data/preprocessed_training_data_2000.h5ad
+读取数据：../STATE/vcc_data/adata_Training.h5ad
 AnnData object with n_obs × n_vars = 221273 × 18080
     obs: 'target_gene', 'guide_id', 'batch'
-    var: 'gene_id', 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
-    uns: 'hvg', 'log1p'
-    obsm: 'X_hvg'
-obs keys: Index(['target_gene', 'guide_id', 'batch'], dtype='object')
-var keys: Index(['gene_id', 'highly_variable', 'means', 'dispersions',
-       'dispersions_norm'],
-      dtype='object')
-平均表达值均值： 0.7703777
-平均最大表达值： 2.6602652
-平均最小值表达值： 0.005208211
-基因完全不表达的比例： 0.00022123893805309734
-保存统计文件: preprocessed_training_data_2000/preprocessed_training_data_2000_gene_statistics.csv
-保存统计图: preprocessed_training_data_2000/plots/preprocessed_training_data_2000_gene_mean_distribution.png
+    var: 'gene_id'
+
+=== 基因数量 ===
+151
+
+=== 每个 batch 的细胞数量 ===
+        batch  cell_n
+0   Flex_1_01    4339
+1   Flex_1_02    4299
+2   Flex_1_03    4341
+3   Flex_1_04    4406
+4   Flex_1_05    4386
+5   Flex_1_06    4565
+6   Flex_1_07    4398
+7   Flex_1_08    4438
+8   Flex_1_09    4083
+9   Flex_1_10    4512
+10  Flex_1_11    4449
+11  Flex_1_12    4292
+12  Flex_1_13    4575
+13  Flex_1_14    4336
+14  Flex_1_15    4548
+15  Flex_1_16    4256
+16  Flex_2_01    4501
+17  Flex_2_02    4527
+18  Flex_2_03    4499
+19  Flex_2_04    4575
+20  Flex_2_05    4472
+21  Flex_2_06    4680
+22  Flex_2_07    4452
+23  Flex_2_08    4493
+24  Flex_2_09    4434
+25  Flex_2_10    4526
+26  Flex_2_11    4673
+27  Flex_2_12    4191
+28  Flex_2_13    4718
+29  Flex_2_14    4614
+30  Flex_2_15    4716
+31  Flex_2_16    4427
+32  Flex_3_01    4645
+33  Flex_3_02    4895
+34  Flex_3_03    4977
+35  Flex_3_04    4936
+36  Flex_3_05    4825
+37  Flex_3_06    5068
+38  Flex_3_07    4888
+39  Flex_3_08    4988
+40  Flex_3_09    4834
+41  Flex_3_10    5082
+42  Flex_3_11    4988
+43  Flex_3_12    4627
+44  Flex_3_13    4955
+45  Flex_3_14    4980
+46  Flex_3_15    5038
+47  Flex_3_16    4826
+
+=== 计算扰动强度（表达变化基因数量） ===
+
+=== 扰动强度分类 ===
+strength
+Strong    150
+Name: count, dtype: int64
+
+文件已输出至 /public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/statistics/perturbation_analysis
