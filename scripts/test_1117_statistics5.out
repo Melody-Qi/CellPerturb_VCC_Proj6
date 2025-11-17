@@ -24,3 +24,12 @@ CUDA_VISIBLE_DEVICES: 0
 === PyTorch检测 ===
 PyTorch检测GPU数: 1
 可用GPU: ['Tesla V100-PCIE-16GB']
+读取数据： ../STATE/preprocessed_data/preprocessed_training_data_2000.h5ad
+AnnData object with n_obs × n_vars = 221273 × 18080
+    obs: 'target_gene', 'guide_id', 'batch'
+    var: 'gene_id', 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
+    uns: 'hvg', 'log1p'
+    obsm: 'X_hvg'
+自动选取 top-150 perturbations (by frequency).
+计算 150 perturbations ... (min_cells=20, logfc_thresh=0.25)
+已写出： /public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/statistics/perturbation_analysis/perturbation_strength.csv
