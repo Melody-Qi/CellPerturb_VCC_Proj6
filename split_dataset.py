@@ -48,7 +48,7 @@ for d in [adata_val, adata_test, adata_train]:
     )
     d = ad.concat(
         [
-            adata,
+            d,
             ntc_adata,
         ]
     )
