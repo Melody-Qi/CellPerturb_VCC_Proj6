@@ -1,4 +1,7 @@
-# 包含non-targeting 控制组的三个数据集划分代码
+'''
+包含non-targeting 控制组的三个数据集划分代码
+注意文件路径
+'''
 import numpy as np
 import anndata as ad
 
@@ -40,21 +43,13 @@ adata_val = adata[adata.obs['target_gene'].isin(val_genes)].copy()
 adata_test = adata[adata.obs['target_gene'].isin(test_genes)].copy()
 adata_train=adata[adata.obs['target_gene'].isin(train_genes)].copy()
 
-
 # Append the non-targeting controls to the example anndata if they're missing
-for d in [adata_val, adata_test, adata_train]:
-    assert np.all(d.var_names.values == ntc_adata.var_names.values), (
-        "Gene-Names are out of order or unequal"
-    )
-    d = ad.concat(
-        [
-            d,
-            ntc_adata,
-        ]
-    )
+adata_val=ad.concat([adata_val, ntc_adata])
+adata_test=ad.concat([adata_test, ntc_adata])
+adata_train=ad.concat([adata_train, ntc_adata])
 
-# 保存文件（英文文件名）
-date="1119"
+# 保存文件
+date="1120"
 adata_val.write_h5ad(f"validation_set_{date}.h5ad")
 adata_test.write_h5ad(f"test_set_{date}.h5ad")
 adata_train.write_h5ad(f"training_set_{date}.h5ad")
