@@ -1,0 +1,9 @@
+{
+  "DES": 1.0,
+  "PDS": 1.0,
+  "MAE": 0.0,
+  "DES_scaled": 1.0,
+  "PDS_scaled": 1.0,
+  "MAE_scaled": 1.0,
+  "overall_score_percent": 100.0
+}
