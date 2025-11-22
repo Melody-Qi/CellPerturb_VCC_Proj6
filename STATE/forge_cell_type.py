@@ -1,9 +1,14 @@
 import anndata as ad
 
-import pandas as pd
+# 读取两个文件
+adata_raw = ad.read_h5ad("./competition_support_set/competition_train.h5")
+adata_hvg = ad.read_h5ad("./preprocessed_data/preprocessed_training_data_2000.h5ad")
 
-adata = ad.read_h5ad("../vcc_data/preprocessed_training_data_2000.h5ad")
-# adata.obs["cell_type"] = "H1"   # 全部设为同一个类型
+# 把原始 obs 补回 HVG 数据
+adata_hvg.obs["batch_var"] = adata_raw.obs["batch_var"]
+adata_hvg.obs["cell_type"] = adata_raw.obs["cell_type"]
 
-adata.obs["cell_type"] = pd.Categorical(["H1"] * adata.n_obs)
-adata.write_h5ad("../vcc_data/preprocessed_training_data_2000withcelltype.h5ad")
+# 保存新的 h5ad
+adata_hvg.write_h5ad("./preprocessed_data/preprocessed_training_data_2000_with_obs.h5ad")
+
+print("Done! obs 现在包含 batch_var & cell_type")
