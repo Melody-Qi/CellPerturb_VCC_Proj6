@@ -12,6 +12,9 @@ def main():
     print(f"📥 Loading input AnnData from: {args.input}")
     adata = ad.read_h5ad(args.input)
 
+    print(f"Normalizing total counts per cell")
+    sc.pp.normalize_total(adata)
+
     print(f"🔍 Selecting top {args.num_hvgs} highly variable genes...")
     sc.pp.highly_variable_genes(adata, n_top_genes=args.num_hvgs)
 
