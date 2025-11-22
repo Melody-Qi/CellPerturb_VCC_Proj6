@@ -1,0 +1,38 @@
+Sat Nov 22 15:09:04 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:18:00.0 Off |                  Off |
+| N/A   28C    P0             24W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+
+读取 anndata (.h5ad)...
+adata: AnnData object with n_obs × n_vars = 221273 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    var: 'gene_id', 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
+    uns: 'hvg', 'log1p'
+    obsm: 'X_hvg'
+扰动基因数量： 150
+Validation genes: 45
+Test genes: 30
+Train genes: 75
+保存完成：validation_set_1122.h5ad, test_set_1122.h5ad, training_set_1122.h5ad
