@@ -72,6 +72,22 @@ var keys: Index([], dtype='object')
 保存统计文件: competition_train/competition_train_gene_statistics.csv
 保存统计图: competition_train/plots/competition_train_gene_mean_distribution.png
 ```
+```
+读取数据：../STATE/competition_support_set/competition_train_HVG.h5ad
+AnnData object with n_obs × n_vars = 221273 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    var: 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
+    uns: 'hvg', 'log1p'
+    obsm: 'X_hvg'
+obs keys: Index(['target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'], dtype='object')
+var keys: Index(['highly_variable', 'means', 'dispersions', 'dispersions_norm'], dtype='object')
+平均表达值均值： 0.77909714
+平均最大表达值： 2.7455091
+平均最小值表达值： 0.0037615602
+基因完全不表达的比例： 0.00022123893805309734
+保存统计文件: competition_train_HVG/competition_train_HVG_gene_statistics.csv
+保存统计图: competition_train_HVG/plots/competition_train_HVG_gene_mean_distribution.png
+```
 | 字段                 | 含义                 | 作用               |
 | ------------------ | ------------------ | ---------------- |
 | `means`            | 每个基因在全部细胞中的平均表达    | 用于评估基因表达水平       |
