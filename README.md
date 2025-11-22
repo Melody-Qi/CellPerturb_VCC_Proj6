@@ -71,6 +71,84 @@ var keys: Index([], dtype='object')
 基因完全不表达的比例： 0.00022123893805309734
 保存统计文件: competition_train/competition_train_gene_statistics.csv
 保存统计图: competition_train/plots/competition_train_gene_mean_distribution.png
+
+📥 Loading AnnData from: ../STATE/competition_support_set/competition_train.h5
+
+=== 📌 Basic Info ===
+AnnData object with n_obs × n_vars = 221273 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    uns: 'log1p'
+
+=== 🔑 obs columns ===
+['target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type']
+
+=== 🔍 obs (前 10 行) ===
+                                      target_gene  ... cell_type
+AAACAAGCAACCTTGTACTTTAGG-Flex_1_01          CHMP3  ...    ARC_H1
+AAACAAGCATTGCCGCACTTTAGG-Flex_1_01           AKT2  ...    ARC_H1
+AAACCAATCAATGTTCACTTTAGG-Flex_1_01          SHPRH  ...    ARC_H1
+AAACCAATCCCTCGCTACTTTAGG-Flex_1_01         TMSB4X  ...    ARC_H1
+AAACCAATCTAAATCCACTTTAGG-Flex_1_01          KLF10  ...    ARC_H1
+AAACGGGCACCTAAGAACTTTAGG-Flex_1_01         TARBP2  ...    ARC_H1
+AAACGTTCACTAAGGCACTTTAGG-Flex_1_01          KDM2B  ...    ARC_H1
+AAACTGGGTAACCCATACTTTAGG-Flex_1_01  non-targeting  ...    ARC_H1
+AAACTGGGTAATGTCCACTTTAGG-Flex_1_01           SV2A  ...    ARC_H1
+AAACTGGGTTGCATCGACTTTAGG-Flex_1_01          CLDN6  ...    ARC_H1
+
+[10 rows x 5 columns]
+
+=== 🔑 var columns ===
+[]
+
+=== 🔍 var (前 10 行) ===
+Empty DataFrame
+Columns: []
+Index: [SAMD11, NOC2L, KLHL17, PLEKHN1, PERM1, HES4, ISG15, AGRN, RNF223, C1orf159]
+
+=== 📦 X matrix type & shape ===
+<class 'scipy.sparse._csr.csr_matrix'> (221273, 18080)
+
+=== 🧬 uns keys ===
+['log1p']
+
+=== FULL OBS TABLE INFO ===
+<class 'pandas.core.frame.DataFrame'>
+Index: 221273 entries, AAACAAGCAACCTTGTACTTTAGG-Flex_1_01 to TTTGTGAGTGGACACGATTCGGTT-Flex_3_16
+Data columns (total 5 columns):
+ #   Column       Non-Null Count   Dtype   
+---  ------       --------------   -----   
+ 0   target_gene  221273 non-null  category
+ 1   guide_id     221273 non-null  category
+ 2   batch        221273 non-null  category
+ 3   batch_var    221273 non-null  category
+ 4   cell_type    221273 non-null  category
+dtypes: category(5)
+memory usage: 11.2+ MB
+None
+
+=== OBS HEAD (no truncated columns) ===
+                                      target_gene                                             guide_id      batch  batch_var cell_type
+AAACAAGCAACCTTGTACTTTAGG-Flex_1_01          CHMP3                            CHMP3_P1P2_A|CHMP3_P1P2_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACAAGCATTGCCGCACTTTAGG-Flex_1_01           AKT2                              AKT2_P1P2_A|AKT2_P1P2_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACCAATCAATGTTCACTTTAGG-Flex_1_01          SHPRH                            SHPRH_P1P2_A|SHPRH_P1P2_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACCAATCCCTCGCTACTTTAGG-Flex_1_01         TMSB4X                              TMSB4X_P1_A|TMSB4X_P1_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACCAATCTAAATCCACTTTAGG-Flex_1_01          KLF10                                KLF10_P2_A|KLF10_P2_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACGGGCACCTAAGAACTTTAGG-Flex_1_01         TARBP2                          TARBP2_P1P2_A|TARBP2_P1P2_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACGTTCACTAAGGCACTTTAGG-Flex_1_01          KDM2B  KDM2B_ENST00000377071.4_A|KDM2B_ENST00000377071.4_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACTGGGTAACCCATACTTTAGG-Flex_1_01  non-targeting              non-targeting_00021|non-targeting_03430  Flex_1_01  Flex_1_01    ARC_H1
+AAACTGGGTAATGTCCACTTTAGG-Flex_1_01           SV2A                              SV2A_P1P2_A|SV2A_P1P2_B  Flex_1_01  Flex_1_01    ARC_H1
+AAACTGGGTTGCATCGACTTTAGG-Flex_1_01          CLDN6                            CLDN6_P1P2_A|CLDN6_P1P2_B  Flex_1_01  Flex_1_01    ARC_H1
+
+=== VAR INFO ===
+<class 'pandas.core.frame.DataFrame'>
+Index: 18080 entries, SAMD11 to MT-CYB
+Empty DataFrame
+None
+
+=== VAR HEAD (should show only index) ===
+Empty DataFrame
+Columns: []
+Index: [SAMD11, NOC2L, KLHL17, PLEKHN1, PERM1, HES4, ISG15, AGRN, RNF223, C1orf159]
 ```
 | 字段                 | 含义                 | 作用               |
 | ------------------ | ------------------ | ---------------- |
