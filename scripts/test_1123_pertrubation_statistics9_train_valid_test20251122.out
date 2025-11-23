@@ -1,0 +1,233 @@
+Sun Nov 23 10:45:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:18:00.0 Off |                  Off |
+| N/A   30C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+读取数据：../STATE/train_valid_test_split20251122/training_set_1122.h5ad
+AnnData object with n_obs × n_vars = 121975 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    obsm: 'X_hvg'
+
+=== 基因数量 ===
+76
+
+=== 每个 batch 的细胞数量 ===
+        batch  cell_n
+0   Flex_1_01    2408
+1   Flex_1_02    2357
+2   Flex_1_03    2382
+3   Flex_1_04    2467
+4   Flex_1_05    2491
+5   Flex_1_06    2513
+6   Flex_1_07    2391
+7   Flex_1_08    2457
+8   Flex_1_09    2241
+9   Flex_1_10    2496
+10  Flex_1_11    2438
+11  Flex_1_12    2401
+12  Flex_1_13    2602
+13  Flex_1_14    2430
+14  Flex_1_15    2553
+15  Flex_1_16    2312
+16  Flex_2_01    2463
+17  Flex_2_02    2415
+18  Flex_2_03    2494
+19  Flex_2_04    2531
+20  Flex_2_05    2499
+21  Flex_2_06    2580
+22  Flex_2_07    2468
+23  Flex_2_08    2490
+24  Flex_2_09    2446
+25  Flex_2_10    2538
+26  Flex_2_11    2556
+27  Flex_2_12    2290
+28  Flex_2_13    2578
+29  Flex_2_14    2514
+30  Flex_2_15    2560
+31  Flex_2_16    2485
+32  Flex_3_01    2539
+33  Flex_3_02    2698
+34  Flex_3_03    2669
+35  Flex_3_04    2689
+36  Flex_3_05    2683
+37  Flex_3_06    2756
+38  Flex_3_07    2724
+39  Flex_3_08    2747
+40  Flex_3_09    2610
+41  Flex_3_10    2821
+42  Flex_3_11    2772
+43  Flex_3_12    2508
+44  Flex_3_13    2788
+45  Flex_3_14    2748
+46  Flex_3_15    2773
+47  Flex_3_16    2604
+
+=== 计算扰动强度（表达变化基因数量） ===
+
+=== 扰动强度分类 ===
+strength
+Weak      30
+Medium    28
+Strong    17
+Name: count, dtype: int64
+
+文件已输出至 /public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/statistics/train20251122_perturbation_analysis
+读取数据：../STATE/train_valid_test_split20251122/validation_set_1122.h5ad
+AnnData object with n_obs × n_vars = 97529 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    obsm: 'X_hvg'
+
+=== 基因数量 ===
+46
+
+=== 每个 batch 的细胞数量 ===
+        batch  cell_n
+0   Flex_1_01    1962
+1   Flex_1_02    1879
+2   Flex_1_03    1964
+3   Flex_1_04    1928
+4   Flex_1_05    1938
+5   Flex_1_06    2029
+6   Flex_1_07    1942
+7   Flex_1_08    1958
+8   Flex_1_09    1828
+9   Flex_1_10    2026
+10  Flex_1_11    1951
+11  Flex_1_12    1851
+12  Flex_1_13    1989
+13  Flex_1_14    1905
+14  Flex_1_15    2019
+15  Flex_1_16    1909
+16  Flex_2_01    1984
+17  Flex_2_02    2008
+18  Flex_2_03    1942
+19  Flex_2_04    2071
+20  Flex_2_05    1931
+21  Flex_2_06    2013
+22  Flex_2_07    1967
+23  Flex_2_08    2025
+24  Flex_2_09    2036
+25  Flex_2_10    1981
+26  Flex_2_11    2048
+27  Flex_2_12    1822
+28  Flex_2_13    2036
+29  Flex_2_14    2114
+30  Flex_2_15    2086
+31  Flex_2_16    1971
+32  Flex_3_01    2001
+33  Flex_3_02    2178
+34  Flex_3_03    2250
+35  Flex_3_04    2169
+36  Flex_3_05    2091
+37  Flex_3_06    2257
+38  Flex_3_07    2174
+39  Flex_3_08    2147
+40  Flex_3_09    2150
+41  Flex_3_10    2183
+42  Flex_3_11    2160
+43  Flex_3_12    2011
+44  Flex_3_13    2121
+45  Flex_3_14    2164
+46  Flex_3_15    2261
+47  Flex_3_16    2099
+
+=== 计算扰动强度（表达变化基因数量） ===
+
+=== 扰动强度分类 ===
+strength
+Weak      17
+Strong    15
+Medium    13
+Name: count, dtype: int64
+
+文件已输出至 /public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/statistics/validation20251122_perturbation_analysis
+读取数据：../STATE/train_valid_test_split20251122/test_set_1122.h5ad
+AnnData object with n_obs × n_vars = 78121 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    obsm: 'X_hvg'
+
+=== 基因数量 ===
+31
+
+=== 每个 batch 的细胞数量 ===
+        batch  cell_n
+0   Flex_1_01    1467
+1   Flex_1_02    1529
+2   Flex_1_03    1525
+3   Flex_1_04    1553
+4   Flex_1_05    1507
+5   Flex_1_06    1581
+6   Flex_1_07    1535
+7   Flex_1_08    1557
+8   Flex_1_09    1432
+9   Flex_1_10    1576
+10  Flex_1_11    1590
+11  Flex_1_12    1546
+12  Flex_1_13    1578
+13  Flex_1_14    1561
+14  Flex_1_15    1652
+15  Flex_1_16    1495
+16  Flex_2_01    1594
+17  Flex_2_02    1530
+18  Flex_2_03    1577
+19  Flex_2_04    1623
+20  Flex_2_05    1580
+21  Flex_2_06    1629
+22  Flex_2_07    1603
+23  Flex_2_08    1598
+24  Flex_2_09    1584
+25  Flex_2_10    1577
+26  Flex_2_11    1629
+27  Flex_2_12    1493
+28  Flex_2_13    1668
+29  Flex_2_14    1652
+30  Flex_2_15    1652
+31  Flex_2_16    1587
+32  Flex_3_01    1641
+33  Flex_3_02    1813
+34  Flex_3_03    1766
+35  Flex_3_04    1788
+36  Flex_3_05    1661
+37  Flex_3_06    1791
+38  Flex_3_07    1740
+39  Flex_3_08    1726
+40  Flex_3_09    1688
+41  Flex_3_10    1836
+42  Flex_3_11    1746
+43  Flex_3_12    1676
+44  Flex_3_13    1762
+45  Flex_3_14    1758
+46  Flex_3_15    1734
+47  Flex_3_16    1735
+
+=== 计算扰动强度（表达变化基因数量） ===
+
+=== 扰动强度分类 ===
+strength
+Weak      15
+Strong     8
+Medium     7
+Name: count, dtype: int64
+
+文件已输出至 /public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/statistics/test20251122_perturbation_analysis
