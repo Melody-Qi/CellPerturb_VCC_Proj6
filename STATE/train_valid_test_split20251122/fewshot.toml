@@ -1,0 +1,27 @@
+# Dataset paths - maps dataset names to their directories
+[datasets]
+vcc = "preprocessed_data/preprocessed_training_data_2000_with_obs.h5ad"
+
+# Training specifications
+# All cell types in a dataset automatically go into training (excluding zeroshot/fewshot overrides)
+[training]
+vcc = "train"
+
+# Zeroshot specifications - entire cell types go to val or test
+[zeroshot]
+
+# Fewshot specifications - explicit perturbation lists
+[fewshot]
+[fewshot."vcc.ARC_H1"]
+val = ["ANTXR1", "ATP1B1", "ATP6V0B", "ATP6V0C", "BIRC2", "BRD9", "DAXX",
+  "EPB41L2", "EPHB4", "FDPS", "FOXH1", "HAT1", "HIRA", "IDE", "IGF2R",
+  "INSIG1", "KIF20A", "KLF10", "MAP3K7", "MAST2", "MBTPS1", "MED13L",
+  "METTL14", "METTL17", "NDUFB4", "NDUFB6", "NISCH", "OXA1L", "POLB",
+  "PRCP", "PRR12", "RAB3B", "SMARCA4", "SMARCA5", "SNCA", "SRC",
+  "STAG2", "TADA1", "TCF3", "TMBIM6", "TMSB10", "TRAPPC6A", "UQCRQ",
+  "WSB2", "ZNF593"]
+test = ["ACAT2", "ACVR1B", "C1QBP", "CENPO", "CHMP3", "CLDN7", "CREG1",
+  "DHCR24", "DHX36", "EID2", "EWSR1", "HMGB2", "HMGN1", "KAT2A",
+  "KDM1A", "KDR", "LZTR1", "MED13", "MED24", "NRAS", "PHF14",
+  "PLCB3", "PMS1", "RNF2", "SIN3B", "SLC39A6", "STAT1", "TSC22D4",
+  "ZNF286A", "ZNF426"]
