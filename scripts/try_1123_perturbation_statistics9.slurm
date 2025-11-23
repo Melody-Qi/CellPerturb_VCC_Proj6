@@ -35,3 +35,10 @@ python analyze_perturbations.py -i ../STATE/train_valid_test_split20251122/train
 python analyze_perturbations.py -i ../STATE/train_valid_test_split20251122/validation_set_1122.h5ad -o validation20251122_perturbation_analysis
 
 python analyze_perturbations.py -i ../STATE/train_valid_test_split20251122/test_set_1122.h5ad -o test20251122_perturbation_analysis
+
+# cut -d',' -f1 ./statistics/validation20251122_perturbation_analysis/gene_cell_counts.csv \
+  > ./statistics/validation20251122_perturbation_analysis/valid20251122_gene_names.csv
+
+# cut -d',' -f1 ./statistics/test20251122_perturbation_analysis/gene_cell_counts.csv \
+  > ./statistics/test20251122_perturbation_analysis/test20251122_gene_names.csv
+
