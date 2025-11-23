@@ -1,0 +1,62 @@
+Sun Nov 23 10:24:10 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:18:00.0 Off |                  Off |
+| N/A   29C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+读取数据：../STATE/train_valid_test_split20251122/training_set_1122.h5ad
+AnnData object with n_obs × n_vars = 121975 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    obsm: 'X_hvg'
+obs keys: Index(['target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'], dtype='object')
+var keys: Index([], dtype='object')
+平均表达值均值： 0.77005494
+平均最大表达值： 2.5810337
+平均最小值表达值： 0.0071685445
+基因完全不表达的比例： 0.00165929203539823
+保存统计文件: training_set_1122/training_set_1122_gene_statistics.csv
+保存统计图: training_set_1122/plots/training_set_1122_gene_mean_distribution.png
+读取数据：../STATE/train_valid_test_split20251122/validation_set_1122.h5ad
+AnnData object with n_obs × n_vars = 97529 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    obsm: 'X_hvg'
+obs keys: Index(['target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'], dtype='object')
+var keys: Index([], dtype='object')
+平均表达值均值： 0.77051634
+平均最大表达值： 2.50691
+平均最小值表达值： 0.009691693
+基因完全不表达的比例： 0.0032079646017699115
+保存统计文件: validation_set_1122/validation_set_1122_gene_statistics.csv
+保存统计图: validation_set_1122/plots/validation_set_1122_gene_mean_distribution.png
+读取数据：../STATE/train_valid_test_split20251122/test_set_1122.h5ad
+AnnData object with n_obs × n_vars = 78121 × 18080
+    obs: 'target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'
+    obsm: 'X_hvg'
+obs keys: Index(['target_gene', 'guide_id', 'batch', 'batch_var', 'cell_type'], dtype='object')
+var keys: Index([], dtype='object')
+平均表达值均值： 0.77065754
+平均最大表达值： 2.4604387
+平均最小值表达值： 0.011780431
+基因完全不表达的比例： 0.0045353982300884955
+保存统计文件: test_set_1122/test_set_1122_gene_statistics.csv
+保存统计图: test_set_1122/plots/test_set_1122_gene_mean_distribution.png
