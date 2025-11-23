@@ -1,0 +1,26 @@
+[rank: 0] Seed set to 42
+Processing vcc:   0%|          | 0/1 [00:00<?, ?it/s]                                                     Processing vcc:   0%|          | 0/1 [00:00<?, ?it/s]Processing vcc: 100%|██████████| 1/1 [00:00<00:00,  2.15it/s]Processing vcc: 100%|██████████| 1/1 [00:00<00:00,  2.15it/s]
+wandb: Network error (ConnectionError), entering retry loop.
+wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
+wandb: Network error (ConnectionError), entering retry loop.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name                 | Type                   | Params | Mode 
+------------------------------------------------------------------------
+0 | loss_fn              | SamplesLoss            | 0      | train
+1 | gene_decoder         | LatentToGeneDecoder    | 12.9 M | train
+2 | pert_encoder         | Sequential             | 2.0 M  | train
+3 | basal_encoder        | Linear                 | 656 K  | train
+4 | transformer_backbone | GPT2BidirectionalModel | 26.9 M | train
+5 | project_out          | Sequential             | 981 K  | train
+6 | final_down_then_up   | Sequential             | 1.0 M  | train
+7 | relu                 | ReLU                   | 0      | train
+------------------------------------------------------------------------
+27.9 M    Trainable params
+16.5 M    Non-trainable params
+44.4 M    Total params
+177.662   Total estimated model params size (MB)
+155       Modules in train mode
+0         Modules in eval mode

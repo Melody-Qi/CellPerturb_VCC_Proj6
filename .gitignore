@@ -7,3 +7,5 @@ test_1111_train2.out
 *.vcc
 hepg2_pred_de.csv
 hepg2_real_de.csv
+*.torch
+.nfs00000008768b0301000030f7

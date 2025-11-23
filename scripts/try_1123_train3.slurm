@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J test_1122_train3
+#SBATCH -J test_1123_train3
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
@@ -26,22 +26,41 @@ import torch
 print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1122_train3.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1123_train3.slurm
 cd ./STATE || exit 1
 
 state tx train \
-  data.kwargs.toml_config_path="competition_support_set/starter.toml" \
-  data.kwargs.num_workers=8 \
+  data.kwargs.toml_config_path="train_valid_test_split20251122/fewshot.toml" \
+  data.kwargs.embed_key=X_hvg \
+  data.kwargs.num_workers=12 \
   data.kwargs.batch_col="batch_var" \
   data.kwargs.pert_col="target_gene" \
   data.kwargs.cell_type_key="cell_type" \
   data.kwargs.control_pert="non-targeting" \
   data.kwargs.perturbation_features_file="competition_support_set/ESM2_pert_features.pt" \
-  training.max_steps=40000 \
-  training.ckpt_every_n_steps=20000 \
-  model=state_sm \
-  wandb.tags="[first_run]" \
+  training.max_steps=60000 \
+  training.val_freq=100 \
+  training.ckpt_every_n_steps=100 \
+  training.batch_size=8 \
+  training.lr=1e-4 \
+  model.kwargs.cell_set_len=64 \
+  model.kwargs.hidden_dim=328 \
+  model.kwargs.init_from="../ST-Tahoe/final.ckpt" \
+  wandb.tags="[second_run20251123]" \
   wandb.project=vcc \
   wandb.entity=arcinstitute \
   output_dir="./checkpoints" \
-  name="first_run"
+  name="second_run20251123"
+
+# state tx train \
+#   model_dir="./ST-Tahoe" \
+#   data.kwargs.toml_config_path="examples/fewshot.toml" \
+#   data.kwargs.embed_key=X_hvg \
+#   data.kwargs.batch_col=batch \
+#   data.kwargs.pert_col=target_gene \
+#   data.kwargs.cell_type_key=cell_type \
+#   data.kwargs.control_pert=CONTROL \
+#   training.max_steps=5000 \
+#   training.batch_size=4 \
+#   output_dir="./finetune_output" \
+#   name="finetune_tahoe"
