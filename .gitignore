@@ -9,3 +9,5 @@ hepg2_pred_de.csv
 hepg2_real_de.csv
 *.torch
 .nfs00000008768b0301000030f7
+test_1123_train3.out
+scripts/test_1123_train3.out
