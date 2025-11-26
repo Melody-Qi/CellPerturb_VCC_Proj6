@@ -3,10 +3,11 @@
 train_and_write_pred.py
 
 Usage examples:
-python Ridge.py --input-h5ad ../vcc_data/small_set.h5ad --pred-out ./pred/small_set_pred.h5ad --model-out ./pred/ridge_baseline.joblib --use-log1p
+python linear_regression.py --input-h5ad ../vcc_data/small_set.h5ad --pred-out ./pred/small_pred_lr.h5ad --model-out ./pred/lr_baseline.joblib --use-log1p
+python linear_regression.py --input-h5ad ../vcc_data/training_set_1119.h5ad --pred-out ./pred/training_lr.h5ad --model-out ./pred/lr_baseline.joblib --use-log1p
 
 # memory-friendly (SGD incremental)
-python train_and_write_pred.py \
+python linear_regression.py \
         --input-h5ad ../full_training.h5ad \
         --pred-out ../small_set_pred.h5ad \
         --use-sgd --chunk-size 20000
@@ -52,8 +53,8 @@ def load_and_preprocess(h5ad_path: str, use_log1p: bool = True):
 
 def build_design_matrix(adata: ad.AnnData, cat_cols=["target_gene", "guide_id", "batch"]):
     obs_df = adata.obs[cat_cols].astype(str).copy()
-    enc = OneHotEncoder(sparse_output=True, handle_unknown='ignore')
-    X_sparse = enc.fit_transform(obs_df.values)
+    enc = OneHotEncoder(sparse_output=True, handle_unknown='ignore')#把这些分类变量编码成稀疏矩阵（0/1）
+    X_sparse = enc.fit_transform(obs_df.values) #(n_cells,n_features) 
     feature_names = []
     for i, col in enumerate(cat_cols):
         cats = enc.categories_[i]
@@ -72,6 +73,7 @@ def fit_sgd_incremental(X_sparse: sparse.csr_matrix, Y: np.ndarray, chunk_size: 
     """
     Memory-friendly incremental training using one SGDRegressor per gene.
     Warning: creates n_genes estimators; useful when dense solvers OOM.
+    对于大数据集（例如百万级细胞），避免一次性加载全部数据。
     """
     n_samples, n_genes = Y.shape
     print(f"SGD incremental training: {n_samples} samples, {n_genes} genes, chunk_size={chunk_size}")
@@ -147,6 +149,9 @@ def main():
     Y_pred = model.predict(X)  # (n_cells, n_genes)
     # ensure dtype float32
     Y_pred = Y_pred.astype(np.float32)
+    Y_pred = np.maximum(Y_pred, 0)  # 负值截断为0
+    #Y_pred = np.log1p(Y_pred)       # 再取log1p压缩
+    #Y_pred = np.minimum(Y_pred, 1e5)
 
     # Construct pred AnnData: preserve obs & var ordering
     print("Constructing pred AnnData and saving to:", args.pred_out)

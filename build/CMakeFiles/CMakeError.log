@@ -1,0 +1,63 @@
+Performing C++ SOURCE FILE Test HWY_EMSCRIPTEN failed with the following output:
+Change Dir: /home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4024e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4024e.dir/build.make CMakeFiles/cmTC_4024e.dir/build
+gmake[1]: Entering directory '/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4024e.dir/src.cxx.o
+/usr/bin/g++-11 -DHWY_EMSCRIPTEN  -fPIE -std=c++17 -o CMakeFiles/cmTC_4024e.dir/src.cxx.o -c /home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/src.cxx
+/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/src.cxx:3:21: error: static assertion failed: __EMSCRIPTEN__ is not defined
+    3 |       static_assert(false, "__EMSCRIPTEN__ is not defined");
+      |                     ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_4024e.dir/build.make:78: CMakeFiles/cmTC_4024e.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4024e/fast] Error 2
+
+
+Source file was:
+int main() {
+      #if !defined(__EMSCRIPTEN__)
+      static_assert(false, "__EMSCRIPTEN__ is not defined");
+      #endif
+      return 0;
+    }
+Performing C++ SOURCE FILE Test HWY_RISCV failed with the following output:
+Change Dir: /home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b38e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b38e.dir/build.make CMakeFiles/cmTC_4b38e.dir/build
+gmake[1]: Entering directory '/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b38e.dir/src.cxx.o
+/usr/bin/g++-11 -DHWY_RISCV  -fPIE -std=c++17 -o CMakeFiles/cmTC_4b38e.dir/src.cxx.o -c /home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/src.cxx
+/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/src.cxx:3:21: error: static assertion failed: __riscv is not defined
+    3 |       static_assert(false, "__riscv is not defined");
+      |                     ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_4b38e.dir/build.make:78: CMakeFiles/cmTC_4b38e.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4b38e/fast] Error 2
+
+
+Source file was:
+int main() {
+      #if !defined(__riscv)
+      static_assert(false, "__riscv is not defined");
+      #endif
+      return 0;
+    }
+Determining if the include file asm/hwcap.h exists failed with the following output:
+Change Dir: /home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9a2e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9a2e3.dir/build.make CMakeFiles/cmTC_9a2e3.dir/build
+gmake[1]: Entering directory '/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a2e3.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-11   -fPIE -o CMakeFiles/cmTC_9a2e3.dir/CheckIncludeFile.c.o -c /home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: asm/hwcap.h: No such file or directory
+    1 | #include <asm/hwcap.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9a2e3.dir/build.make:78: CMakeFiles/cmTC_9a2e3.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/user/Desktop/CODE/VCC/CellPerturb_VCC_Proj6/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9a2e3/fast] Error 2
+
+
+
