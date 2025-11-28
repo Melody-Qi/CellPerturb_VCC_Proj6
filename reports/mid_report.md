@@ -50,31 +50,19 @@
 
 ---
 
-# Slide 3 — Data Preprocessing
+# Data Preprocessing
 
-## 1 Normalization
-- Apply `log1p` or CPM/TMM normalization
-- Rationale: scRNA-seq counts are highly skewed; normalization stabilizes training
+1. **Normalization**  
+   Adjust each cell’s total counts to the same scale (e.g., 10,000).
 
-## 2 Highly Variable Gene (HVG) selection
-- Typical choice: **2k–5k HVGs**
-- Purpose: remove noisy genes, reduce dimensionality and compute cost
-- Use HVGs as `X_hvg` input to models
+2. **Log1p Transformation**  
+   Stabilizes variance and reduces the dominance of highly expressed genes.
 
-## 3 Virtual cell embedding (STATE-specific)
-- Use VAE / cell encoder to map per-cell expression → low-dim latent
-- These embeddings form the model input (virtual cells / cell sets)
+3. **Highly Variable Gene (HVG) Selection**  
+   Identify the top **2,000 genes** with the highest normalized dispersion.
 
-## 4 Perturbation feature processing
-- Encode `target_gene` via:
-  - ESM2 perturbation embeddings (provided by challenge), OR
-  - one-hot vectors, OR
-  - learned embeddings
-- Normalize or standardize perturbation features as needed
-
-## 5 Data split principle
-- **Split by perturbation gene** (not by cell)
-- Prevents leakage and allows evaluation of zero-shot generalization
+4. **Output Matrix**  
+   Store processed features in `obsm["X_hvg"]` (shape: *n_cells × 2000*).
 
 > **Speaker notes:**  
 > We perform standard scRNA-seq preprocessing (normalization + HVG selection), compute virtual-cell embeddings for STATE, and use ESM2 or similar embeddings for perturbations. Splits are by perturbation gene to avoid leakage.
