@@ -28,14 +28,10 @@
 ## 1 Severe imbalance in perturbation samples
 - Some perturbations have **>10,00 cells**
 - Many perturbations have **<500 cells**
-- → **Long-tail distribution**: hard for models to learn rare perturbations
-
-*(Recommend plotting: bar plot of `target_gene` counts; show top 20 + "others")*
 
 ## 2 Strong batch effects
 - Multiple sequencing batches present
 - scRNA-seq batch effects can dominate biological signal
-- → Model must learn **batch-invariant** representations
 
 *(Recommend plotting: histogram/pie chart of `batch` counts)*
 
