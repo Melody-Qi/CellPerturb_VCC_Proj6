@@ -33,12 +33,8 @@
 - Multiple sequencing batches present
 - scRNA-seq batch effects can dominate biological signal
 
-*(Recommend plotting: histogram/pie chart of `batch` counts)*
-
 ## 3 Control vs perturbed imbalance
-- Control (`non-targeting`) cells are limited
 - Perturbed cells dominate but are unevenly distributed
-- → Mean-based evaluation is sensitive to this imbalance
 
 *(Recommend reporting counts: #control cells vs #perturbed cells)*
 
