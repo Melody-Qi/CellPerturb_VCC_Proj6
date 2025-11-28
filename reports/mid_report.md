@@ -7,6 +7,7 @@
 **Dataset shape**
 - **221,273 cells × 18,080 genes**
 - **150 perturbation target genes**
+- **38176 non-targeting/control cells**
 
 **Annotations (obs)**
 - `target_gene`: perturbed gene  
@@ -25,8 +26,8 @@
 # Slide 2 — Data Distribution: Why This Task Is Hard
 
 ## 1 Severe imbalance in perturbation samples
-- Some perturbations have **>10,000 cells**
-- Many perturbations have **<300 cells**
+- Some perturbations have **>10,00 cells**
+- Many perturbations have **<500 cells**
 - → **Long-tail distribution**: hard for models to learn rare perturbations
 
 *(Recommend plotting: bar plot of `target_gene` counts; show top 20 + "others")*
@@ -53,7 +54,7 @@
 # Data Preprocessing
 
 1. **Normalization**  
-   Adjust each cell’s total counts to the same scale (e.g., 10,000).
+   Makes gene expression comparable across cells.  
 
 2. **Log1p Transformation**  
    Stabilizes variance and reduces the dominance of highly expressed genes.
