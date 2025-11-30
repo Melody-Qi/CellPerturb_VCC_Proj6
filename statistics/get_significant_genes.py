@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # 1. 读取 DE 结果表
-df = pd.read_csv("../vcc_data/cell-eval-outdir/real_de.csv")
+df = pd.read_csv("../vcc_data/cell-eval-outdir-30/real_de.csv")
 
 # 2. 筛选显著基因（FDR ≤ 0.05）
 df_sig = df[df["fdr"] <= 0.05]

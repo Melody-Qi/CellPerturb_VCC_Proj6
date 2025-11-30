@@ -27,7 +27,7 @@ print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
 
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1123_statistics8.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1129_statistics9.slurm
 cd ./statistics || exit 1
 
 python top_100_plot.py

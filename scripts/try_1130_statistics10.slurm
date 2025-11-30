@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J test_1130_statistics10_getTrueDEgenes
+#SBATCH -J test_1130_statistics10_getTrueDEgenes_30
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=128G
@@ -27,7 +27,7 @@ print(f'PyTorch检测GPU数: {torch.cuda.device_count()}')
 print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())]}')
 "
 
-#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1123_statistics8.slurm
+#在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1130_statistics10.slurm
 cd ./statistics || exit 1
 
 python get_significant_genes.py

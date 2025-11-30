@@ -1,0 +1,57 @@
+Sun Nov 30 20:17:47 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:D8:00.0 Off |                  N/A |
+| 26%   26C    P8              4W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+✔ Saved ./perturbation_analysis/ACAT2/ACAT2.csv (n=6755)
+✔ Saved ./perturbation_analysis/ACVR1B/ACVR1B.csv (n=1675)
+✔ Saved ./perturbation_analysis/C1QBP/C1QBP.csv (n=3585)
+✔ Saved ./perturbation_analysis/CENPO/CENPO.csv (n=1017)
+✔ Saved ./perturbation_analysis/CHMP3/CHMP3.csv (n=4020)
+✔ Saved ./perturbation_analysis/CLDN7/CLDN7.csv (n=1811)
+✔ Saved ./perturbation_analysis/CREG1/CREG1.csv (n=445)
+✔ Saved ./perturbation_analysis/DHCR24/DHCR24.csv (n=1644)
+✔ Saved ./perturbation_analysis/DHX36/DHX36.csv (n=10287)
+✔ Saved ./perturbation_analysis/EID2/EID2.csv (n=344)
+✔ Saved ./perturbation_analysis/EWSR1/EWSR1.csv (n=4439)
+✔ Saved ./perturbation_analysis/HMGB2/HMGB2.csv (n=2183)
+✔ Saved ./perturbation_analysis/HMGN1/HMGN1.csv (n=482)
+✔ Saved ./perturbation_analysis/KAT2A/KAT2A.csv (n=10272)
+✔ Saved ./perturbation_analysis/KDM1A/KDM1A.csv (n=9344)
+✔ Saved ./perturbation_analysis/KDR/KDR.csv (n=384)
+✔ Saved ./perturbation_analysis/LZTR1/LZTR1.csv (n=5827)
+✔ Saved ./perturbation_analysis/MED13/MED13.csv (n=6325)
+✔ Saved ./perturbation_analysis/MED24/MED24.csv (n=5274)
+✔ Saved ./perturbation_analysis/NRAS/NRAS.csv (n=430)
+✔ Saved ./perturbation_analysis/PHF14/PHF14.csv (n=2069)
+✔ Saved ./perturbation_analysis/PLCB3/PLCB3.csv (n=511)
+✔ Saved ./perturbation_analysis/PMS1/PMS1.csv (n=274)
+✔ Saved ./perturbation_analysis/RNF2/RNF2.csv (n=7802)
+✔ Saved ./perturbation_analysis/SIN3B/SIN3B.csv (n=8067)
+✔ Saved ./perturbation_analysis/SLC39A6/SLC39A6.csv (n=3707)
+✔ Saved ./perturbation_analysis/STAT1/STAT1.csv (n=361)
+✔ Saved ./perturbation_analysis/TSC22D4/TSC22D4.csv (n=1194)
+✔ Saved ./perturbation_analysis/ZNF286A/ZNF286A.csv (n=261)
+✔ Saved ./perturbation_analysis/ZNF426/ZNF426.csv (n=365)
+All done.
