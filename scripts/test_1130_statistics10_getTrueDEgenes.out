@@ -1,0 +1,32 @@
+Sun Nov 30 17:05:11 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:D8:00.0 Off |                  N/A |
+| 26%   26C    P8              4W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+✔ Saved ./perturbation_analysis/AKT2/AKT2.csv (n=1513)
+✔ Saved ./perturbation_analysis/CHMP3/CHMP3.csv (n=3508)
+✔ Saved ./perturbation_analysis/KLF10/KLF10.csv (n=1943)
+✔ Saved ./perturbation_analysis/SHPRH/SHPRH.csv (n=336)
+✔ Saved ./perturbation_analysis/TMSB4X/TMSB4X.csv (n=423)
+All done.
