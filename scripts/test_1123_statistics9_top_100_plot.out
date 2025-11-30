@@ -1,0 +1,334 @@
+Sat Nov 29 08:51:37 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:18:00.0 Off |                  Off |
+| N/A   29C    P0             24W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+Loaded: AnnData object with n_obs × n_vars = 221273 × 18080
+    obs: 'target_gene', 'guide_id', 'batch'
+    var: 'gene_id', 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
+    uns: 'hvg', 'log1p'
+    obsm: 'X_hvg'
+global max = 7.286552429199219
+
+=== Processing CHMP3 ===
+
+=== Processing AKT2 ===
+
+=== Processing SHPRH ===
+
+=== Processing TMSB4X ===
+
+=== Processing KLF10 ===
+
+=== Processing TARBP2 ===
+
+=== Processing KDM2B ===
+
+=== Processing SV2A ===
+
+=== Processing CLDN6 ===
+
+=== Processing TCF3 ===
+
+=== Processing ANTXR1 ===
+
+=== Processing NDUFB6 ===
+
+=== Processing TADA1 ===
+
+=== Processing MED12 ===
+
+=== Processing CAMSAP2 ===
+
+=== Processing IDE ===
+
+=== Processing PRCP ===
+
+=== Processing WFS1 ===
+
+=== Processing FOXH1 ===
+
+=== Processing SMARCA4 ===
+
+=== Processing TWF2 ===
+
+=== Processing SAFB ===
+
+=== Processing POLB ===
+
+=== Processing TSC22D4 ===
+
+=== Processing ACVR1B ===
+
+=== Processing PMS1 ===
+
+=== Processing NISCH ===
+
+=== Processing INSIG1 ===
+
+=== Processing DHCR24 ===
+
+=== Processing MAP3K7 ===
+
+=== Processing TMSB10 ===
+
+=== Processing SMARCA5 ===
+
+=== Processing STAG2 ===
+
+=== Processing ZNF426 ===
+
+=== Processing DNMT1 ===
+
+=== Processing SSBP1 ===
+
+=== Processing HIRA ===
+
+=== Processing USP22 ===
+
+=== Processing PBX1 ===
+
+=== Processing EID2 ===
+
+=== Processing KAT2A ===
+
+=== Processing MAPKAPK2 ===
+
+=== Processing SRC ===
+
+=== Processing HSBP1 ===
+
+=== Processing MED13 ===
+
+=== Processing ZNF593 ===
+
+=== Processing TET1 ===
+
+=== Processing KDR ===
+
+=== Processing EIF4B ===
+
+=== Processing SIX4 ===
+
+=== Processing TFAM ===
+
+=== Processing MAST2 ===
+
+=== Processing SMAGP ===
+
+=== Processing CAST ===
+
+=== Processing MTA1 ===
+
+=== Processing ATP1B1 ===
+
+=== Processing KIF20A ===
+
+=== Processing KIF1B ===
+
+=== Processing NCK2 ===
+
+=== Processing XRCC4 ===
+
+=== Processing RNF2 ===
+
+=== Processing CASP3 ===
+
+=== Processing HMGN1 ===
+
+=== Processing GSK3B ===
+
+=== Processing RAB3B ===
+
+=== Processing MED13L ===
+
+=== Processing HMGB2 ===
+
+=== Processing DHX36 ===
+
+=== Processing IGF2R ===
+
+=== Processing HAT1 ===
+
+=== Processing STAT6 ===
+
+=== Processing ARID1A ===
+
+=== Processing CDCA2 ===
+
+=== Processing SNCA ===
+
+=== Processing TRAM2 ===
+
+=== Processing STAT1 ===
+
+=== Processing TMBIM6 ===
+
+=== Processing PMEL ===
+
+=== Processing DAXX ===
+
+=== Processing PRDM14 ===
+
+=== Processing NREP ===
+
+=== Processing CREG1 ===
+
+=== Processing METTL14 ===
+
+=== Processing RAF1 ===
+
+=== Processing RRM1 ===
+
+=== Processing UQCRQ ===
+
+=== Processing BIRC2 ===
+
+=== Processing IKBKG ===
+
+=== Processing LRPPRC ===
+
+=== Processing SDC1 ===
+
+=== Processing ZNF714 ===
+
+=== Processing CASP2 ===
+
+=== Processing STX4 ===
+
+=== Processing IRF3 ===
+
+=== Processing CENPO ===
+
+=== Processing EWSR1 ===
+
+=== Processing PLCB3 ===
+
+=== Processing PHF14 ===
+
+=== Processing MAU2 ===
+
+=== Processing TAZ ===
+
+=== Processing DLG5 ===
+
+=== Processing CLDN7 ===
+
+=== Processing PAGR1 ===
+
+=== Processing PTPN1 ===
+
+=== Processing NDUFB4 ===
+
+=== Processing KDM1A ===
+
+=== Processing UBE3C ===
+
+=== Processing TGFBR2 ===
+
+=== Processing TRAPPC6A ===
+
+=== Processing MED24 ===
+
+=== Processing METTL17 ===
+
+=== Processing DZIP3 ===
+
+=== Processing SOX2 ===
+
+=== Processing ZNF286A ===
+
+=== Processing MKI67 ===
+
+=== Processing TXNDC9 ===
+
+=== Processing MAP1B ===
+
+=== Processing ACAT2 ===
+
+=== Processing PRR12 ===
+
+=== Processing TAF13 ===
+
+=== Processing LAD1 ===
+
+=== Processing CALM3 ===
+
+=== Processing C1QBP ===
+
+=== Processing NRAS ===
+
+=== Processing SALL4 ===
+
+=== Processing MED1 ===
+
+=== Processing NIT1 ===
+
+=== Processing MBTPS1 ===
+
+=== Processing ATP6V0B ===
+
+=== Processing ZNF562 ===
+
+=== Processing PHF10 ===
+
+=== Processing WSB2 ===
+
+=== Processing FDPS ===
+
+=== Processing SIN3B ===
+
+=== Processing METTL3 ===
+
+=== Processing SLC25A3 ===
+
+=== Processing OXCT1 ===
+
+=== Processing LZTR1 ===
+
+=== Processing SLC39A6 ===
+
+=== Processing RNF20 ===
+
+=== Processing SEC62 ===
+
+=== Processing EPB41L2 ===
+
+=== Processing OXA1L ===
+
+=== Processing ATP6V0C ===
+
+=== Processing ETV4 ===
+
+=== Processing EPHB4 ===
+
+=== Processing BRD9 ===
+
+=== Processing SUPT4H1 ===
+
+=== Processing ATM ===
+
+=== Processing DNAJA3 ===
+
+All tasks complete.

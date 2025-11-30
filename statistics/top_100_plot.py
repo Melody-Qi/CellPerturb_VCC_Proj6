@@ -88,17 +88,16 @@ for pert in pert_genes:
         pert_vals = sub.X[:, gi].toarray().ravel()
 
         plt.figure(figsize=(5, 4))
-        plt.scatter(ctrl_vals, pert_vals, s=5, alpha=0.5)
+        # plt.scatter(ctrl_vals, pert_vals, s=5, alpha=0.5)
 
-        plt.xlabel("Control expression")
-        plt.ylabel("Perturbed expression")
+        plt.violinplot([ctrl_vals, pert_vals], showmeans=True)
+
+        plt.xticks([1, 2], ["Control", "Perturbed"])
+        plt.ylabel("Expression")
         plt.title(f"{pert} — {gene} {tag}")
 
-        plt.xlim(0, global_max)
-        plt.ylim(0, global_max)
-
         plt.tight_layout()
-        plt.savefig(os.path.join(out_dir, f"{gene}.png"), dpi=120)
+        plt.savefig(os.path.join(out_dir, f"{gene}_violin.png"), dpi=120)
         plt.close()
 
 print("\nAll tasks complete.")
