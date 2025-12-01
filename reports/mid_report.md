@@ -69,8 +69,8 @@
 - To evaluate model **generalization to unseen perturbations** (zero-shot)
 
 ## Example split (by pert. gene)
-- **Training:** 80% of perturbation genes  
-- **Validation:** 10%  
+- **Training:** 50% of perturbation genes  
+- **Validation:** 30%  
 - **Test:** 30-gene test set 20%  
 - Controls (non-targeting) included in all splits  
 - **No overlap** of perturbation genes between splits
@@ -82,6 +82,55 @@
 
 > **Speaker notes:**  
 > We split at the perturbation-gene level (not by cells). This avoids leakage and lets us measure whether a model can predict effects for genes it never saw during training.
+
+---
+# 🧬 STATE Model Reproduction — Summary
+
+---
+
+## 1️⃣ Core Idea of STATE
+- **SE (State Embedding):**  
+  Learns biologically informed cell embeddings using gene-level ESM2 features + Transformer.
+- **ST (State Transition):**  
+  Learns how a perturbation transforms control → perturbed cells using a Transformer + **MMD loss**.
+
+**Goal:** Model how genetic perturbations reshape single-cell transcriptomes.
+
+---
+
+## 2️⃣ Model Architecture (High-Level)
+
+### **SE Module**
+- Input: top **2048 expressed genes** per cell  
+- Gene embeddings from **ESM2 → 672-dim**  
+- Add expression-value soft-binning (10 bins)  
+- Sequence = genes + **[CLS]** + **[DS]**  
+- Transformer encoder → **cell embedding (682-dim)**
+
+### **ST Module**
+- Inputs:
+  - control cell embedding  
+  - perturbation embedding  
+  - batch embedding  
+- Project to shared hidden dim  
+- Transformer backbone models “state shift”  
+- Output: predicted perturbed expression  
+- Loss: **MMD** between predicted vs real distributions
+
+---
+
+## 3️⃣ Reproduction Workflow
+
+### **Data Preparation**
+- Load VCC training data  
+- Normalize/log-transform   
+
+### **ST Module**
+ 
+
+---
+
+## 4️⃣ Fine-tuning Pipeline
 
 ---
 
