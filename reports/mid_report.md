@@ -69,8 +69,8 @@
 - To evaluate model **generalization to unseen perturbations** (zero-shot)
 
 ## Example split (by pert. gene)
-- **Training:** 50% of perturbation genes  
-- **Validation:** 30%  
+- **Training:** 64% of perturbation genes  
+- **Validation:** 16%  
 - **Test:** 30-gene test set 20%  
 - Controls (non-targeting) included in all splits  
 - **No overlap** of perturbation genes between splits
