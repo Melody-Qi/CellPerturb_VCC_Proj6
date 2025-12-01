@@ -23,7 +23,7 @@
 
 ---
 
-# Slide 2 — Data Distribution: Why This Task Is Hard
+# Data Distribution
 
 ## 1 Severe imbalance in perturbation samples
 - Some perturbations have **>10,00 cells**
@@ -33,13 +33,14 @@
 - Multiple sequencing batches present
 - scRNA-seq batch effects can dominate biological signal
 
-## 3 Control vs perturbed imbalance
-- Perturbed cells dominate but are unevenly distributed
-
-*(Recommend reporting counts: #control cells vs #perturbed cells)*
+## 3 Large variation in DEG counts across perturbations
+- Different perturbations yield drastically different numbers of DEGs  
+- Some targets show only a few hundred DEGs (e.g., **MED13: 204 DEGs, 70 up / 134 down**)  
+- Others show thousands (e.g., **KDM1A: 3053 DEGs, 2194 up / 859 down**)  
+- This creates heterogeneity in signal strength and complicates model training and evaluation
 
 > **Speaker notes:**  
-> The dataset poses three core challenges: severe class imbalance across perturbations, clear batch effects, and limited control cells — all of which make prediction and fair evaluation difficult.
+> Beyond sample imbalance and batch effects, perturbations differ dramatically in the strength of their transcriptional response — some produce only modest changes while others induce thousands of DEGs. This wide dynamic range makes it challenging for models to generalize across perturbations with very different effect sizes.
 
 ---
 
@@ -62,7 +63,7 @@
 
 ---
 
-# Slide 4 — Dataset Split Strategy
+# Dataset Split Strategy
 
 ## Why split by perturbation gene?
 - To evaluate model **generalization to unseen perturbations** (zero-shot)
@@ -70,7 +71,7 @@
 ## Example split (by pert. gene)
 - **Training:** 80% of perturbation genes  
 - **Validation:** 10%  
-- **Test:** 10%  
+- **Test:** 30-gene test set 20%  
 - Controls (non-targeting) included in all splits  
 - **No overlap** of perturbation genes between splits
 
@@ -84,18 +85,3 @@
 
 ---
 
-# Appendix — Suggested Figures and Commands
-
-## Suggested figures to create (quick summary)
-1. Bar plot: `target_gene` counts (sorted, top-20 + others)
-2. Histogram / pie chart: `batch` distribution
-3. Table: counts of control vs perturbed cells
-4. HVG selection: scree plot or histogram of gene variance; show chosen HVG count
-
-## Quick preprocessing CLI examples
-```bash
-# select 2000 HVGs (STATE preprocessing example)
-state tx preprocess_train \
-  --adata ./vcc_data/adata_Training.h5ad \
-  --output ./preprocessed_data/preprocessed_training_data_2000.h5ad \
-  --num_hvgs 2000
