@@ -123,7 +123,7 @@
 
 ### **Data Preparation**
 - Load VCC training data  
-- Normalize/log-transform   
+- log-transform   
 
 ### **ST Module**
  
