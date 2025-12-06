@@ -23,3 +23,4 @@ LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
 650.506   Total estimated model params size (MB)
 86        Modules in train mode
 0         Modules in eval mode
+slurmstepd: error: *** JOB 792632 ON ai_gpu24 CANCELLED AT 2025-12-03T23:18:56 DUE TO TIME LIMIT ***

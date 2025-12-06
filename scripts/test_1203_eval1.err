@@ -1,0 +1,24 @@
+INFO:hpdex.de:🎯 Found 30 valid target groups
+INFO:hpdex.de:⚙️ Converting to CSC matrix...
+INFO:hpdex.de:📊 Data shape: 68271 cells × 18080 genes, 596514002 non-zero entries
+INFO:hpdex.de:📉 Matrix density: 0.48
+INFO:hpdex.de:🧪 Reference group: non-targeting (38176 cells)
+INFO:hpdex.de:🎯 Target groups: ['MBTPS1', 'HMGN1', 'SRC', 'NDUFB4', 'CALM3']... (30095 cells)
+INFO:hpdex.de:🔢 Expected output: 524320 comparisons
+INFO:hpdex.de:⚙️ Computing group means... (for fold change)
+INFO:hpdex.de:📈 Running Mann-Whitney U test (this may take a while)
+INFO:hpdex.de:🚀 Accelerated with C++ backend, please hold on 🥰😘🥳
+INFO:hpdex.de:✨ Applying Benjamini-Hochberg FDR correction...
+INFO:hpdex.de:✅ Differential expression analysis complete!
+INFO:hpdex.de:🎯 Found 30 valid target groups
+INFO:hpdex.de:⚙️ Converting to CSC matrix...
+INFO:hpdex.de:📊 Data shape: 68271 cells × 18080 genes, 639512610 non-zero entries
+INFO:hpdex.de:📉 Matrix density: 0.52
+INFO:hpdex.de:🧪 Reference group: non-targeting (38176 cells)
+INFO:hpdex.de:🎯 Target groups: ['MBTPS1', 'HMGN1', 'SRC', 'NDUFB4', 'CALM3']... (30095 cells)
+INFO:hpdex.de:🔢 Expected output: 524320 comparisons
+INFO:hpdex.de:⚙️ Computing group means... (for fold change)
+INFO:hpdex.de:📈 Running Mann-Whitney U test (this may take a while)
+INFO:hpdex.de:🚀 Accelerated with C++ backend, please hold on 🥰😘🥳
+INFO:hpdex.de:✨ Applying Benjamini-Hochberg FDR correction...
+INFO:hpdex.de:✅ Differential expression analysis complete!
