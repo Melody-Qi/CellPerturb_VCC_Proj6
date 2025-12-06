@@ -1,0 +1,86 @@
+Sat Dec  6 10:52:17 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:3B:00.0 Off |                  Off |
+| N/A   28C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+competition_support_set/competition_train.h5
+vcc ARC_H1 {'val': 24, 'test': 30}
+Processed competition_train: 154221 train, 75133 val, 68271 test
+StateTransitionPerturbationModel(
+  (loss_fn): SamplesLoss()
+  (pert_encoder): Sequential(
+    (0): Linear(in_features=5120, out_features=672, bias=True)
+    (1): GELU(approximate='none')
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=672, out_features=672, bias=True)
+    (4): GELU(approximate='none')
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=672, out_features=672, bias=True)
+    (7): GELU(approximate='none')
+    (8): Dropout(p=0.1, inplace=False)
+    (9): Linear(in_features=672, out_features=672, bias=True)
+  )
+  (basal_encoder): Linear(in_features=18080, out_features=672, bias=True)
+  (transformer_backbone): LlamaModel(
+    (embed_tokens): Embedding(32000, 672, padding_idx=0)
+    (layers): ModuleList(
+      (0-3): 4 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=672, out_features=672, bias=False)
+          (k_proj): Linear(in_features=672, out_features=672, bias=False)
+          (v_proj): Linear(in_features=672, out_features=672, bias=False)
+          (o_proj): Linear(in_features=672, out_features=672, bias=False)
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=672, out_features=2688, bias=False)
+          (up_proj): Linear(in_features=672, out_features=2688, bias=False)
+          (down_proj): Linear(in_features=2688, out_features=672, bias=False)
+          (act_fn): SiLUActivation()
+        )
+        (input_layernorm): LlamaRMSNorm((672,), eps=1e-06)
+        (post_attention_layernorm): LlamaRMSNorm((672,), eps=1e-06)
+      )
+    )
+    (norm): LlamaRMSNorm((672,), eps=1e-06)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (project_out): Sequential(
+    (0): Linear(in_features=672, out_features=672, bias=True)
+    (1): GELU(approximate='none')
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=672, out_features=672, bias=True)
+    (4): GELU(approximate='none')
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=672, out_features=672, bias=True)
+    (7): GELU(approximate='none')
+    (8): Dropout(p=0.1, inplace=False)
+    (9): Linear(in_features=672, out_features=18080, bias=True)
+  )
+  (final_down_then_up): Sequential(
+    (0): Linear(in_features=18080, out_features=2260, bias=True)
+    (1): GELU(approximate='none')
+    (2): Linear(in_features=2260, out_features=18080, bias=True)
+  )
+  (relu): ReLU()
+)
