@@ -525,8 +525,8 @@ if __name__ == '__main__':
     #           "eval_outcome/small_set",
     #           "de_result/small_de_results.csv",
     #           "de_result/small_pred_de_results.csv")
-    main_eval("../checkpoints/forth_run20251202/eval_step=15400.ckpt/adata_real.h5ad",
-              "../checkpoints/forth_run20251202/eval_step=15400.ckpt/adata_pred.h5ad",
-              "../checkpoints/forth_run20251202/eval_step=15400.ckpt/name",
-              "../checkpoints/forth_run20251202/eval_step=15400.ckpt/de_result/adata_T_de_results.csv",
-              "../checkpoints/forth_run20251202/eval_step=15400.ckpt/de_result/pred_de_results.csv")
+    main_eval("../checkpoints/forth_run20251202/eval_step=step=22000-val_loss=val_loss=0.9084.ckpt/adata_real.h5ad",
+              "../checkpoints/forth_run20251202/eval_step=step=22000-val_loss=val_loss=0.9084.ckpt/adata_pred.h5ad",
+              "../checkpoints/forth_run20251202/eval_step=step=22000-val_loss=val_loss=0.9084.ckpt/name",
+              "../checkpoints/forth_run20251202/eval_step=step=22000-val_loss=val_loss=0.9084.ckpt/de_result/adata_T_de_results.csv",
+              "../checkpoints/forth_run20251202/eval_step=step=22000-val_loss=val_loss=0.9084.ckpt/de_result/pred_de_results.csv")
