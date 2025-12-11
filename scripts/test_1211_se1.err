@@ -1,0 +1,21 @@
+INFO:state._cli._emb._transform:Using model checkpoint: ./SE-600M/se600m_epoch16.ckpt
+INFO:state._cli._emb._transform:Creating inference object
+INFO:state._cli._emb._transform:Loading model from checkpoint: ./SE-600M/se600m_epoch16.ckpt
+Traceback (most recent call last):
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/bin/state", line 7, in <module>
+    sys.exit(main())
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/STATE/src/state/__main__.py", line 104, in main
+    run_emb_transform(args)
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/STATE/src/state/_cli/_emb/_transform.py", line 111, in run_emb_transform
+    inferer.load_model(args.checkpoint)
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/STATE/src/state/emb/inference.py", line 141, in load_model
+    all_pe = self.protein_embeds or get_embeddings(self._vci_conf)
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/STATE/src/state/emb/train/trainer.py", line 28, in get_embeddings
+    all_pe = torch.load(get_embedding_cfg(cfg).all_embeddings, weights_only=False)
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/data/auxillary/Homo_sapiens.GRCh38.gene_symbol_to_embedding_ESM2.pt'
