@@ -12,3 +12,4 @@ hepg2_real_de.csv
 test_1123_train3.out
 scripts/test_1123_train3.out
 *.png
+*.parquet

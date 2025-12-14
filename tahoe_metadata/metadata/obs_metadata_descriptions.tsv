@@ -1,0 +1,18 @@
+Column	description
+plate	plate number
+BARCODE_SUB_LIB_ID	cell identifier
+sample	"unique treatment identifier, distinguishes replicated treatments"
+gene_count	number of genes with at least one count
+tsc_count	"number of transcripts, aka UMI count"
+mread_count	number of reads per cell
+drugname_drugconc	"drug name, concentration and concentration unit"
+drug	"drug name, as used in the drugname_drugconc field"
+cell_line	cell line Cellosaurus identifier
+sublibrary	sublibrary id (related to library prep and sequencing)
+BARCODE	barcode id
+pcnt_mito	percentage mitochondrial reads
+S_score	inferred S phase score
+G2M_score	inferred G2M phase score
+phase	"inferred cell cycle phase (G1, S, G2M)"
+pass_filter	full' filters are more stringent on gene_count and tsc_count and result in ~ 96 M cells
+cell_name	commonly-used cell line name (related to the cell_line field)
