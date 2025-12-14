@@ -5,6 +5,4 @@ Traceback (most recent call last):
     from .model import *
   File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/STATE/UniPert-main/unipert/model.py", line 9, in <module>
     import mmseqs
-  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/mmseqs/__init__.py", line 1, in <module>
-    from .mmseqs_native import Databases, SearchResults
-ModuleNotFoundError: No module named 'mmseqs.mmseqs_native'
+ModuleNotFoundError: No module named 'mmseqs'

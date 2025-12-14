@@ -57,7 +57,8 @@ embeddings:
     size: 5120
     valid_genes_masks: /large_storage/ctc/userspace/aadduri/data/auxillary/esm_basecount_tahoe_cellxgene_valid_masks.torch
   esm2-cellxgene-tahoe:
-    all_embeddings: /large_storage/ctc/userspace/aadduri/data/auxillary/Homo_sapiens.GRCh38.gene_symbol_to_embedding_ESM2.pt
+    # all_embeddings: /large_storage/ctc/userspace/aadduri/data/auxillary/Homo_sapiens.GRCh38.gene_symbol_to_embedding_ESM2.pt
+    all_embeddings: /public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/STATE/SE-600M/config.yaml
     ds_emb_mapping: /large_storage/ctc/userspace/aadduri/data/auxillary/esm_basecount_tahoe_cellxgene_ds_mapping.torch
     num: 19790
     size: 5120
