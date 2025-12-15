@@ -65,6 +65,12 @@ gsutil -m cp -r \
 
 ## 12.16
 
----
-
 Tahoe-100M中有380种药物
+
+ChEMBL:
+drug → 已知靶点基因
+```
+e.g. drug: ADAGRASIB
+target_gene: KRAS
+mechanism: inhibitor
+```
