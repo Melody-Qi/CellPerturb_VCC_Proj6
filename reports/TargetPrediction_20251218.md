@@ -60,3 +60,11 @@ gsutil -m cp -r \
   gs://arc-ctc-tahoe100/2025-02-25/metadata \
   ./tahoe_metadata
 ```
+
+---
+
+## 12.16
+
+---
+
+Tahoe-100M中有380种药物

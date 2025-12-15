@@ -1,0 +1,220 @@
+Mon Dec 15 21:36:58 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:D8:00.0 Off |                  N/A |
+| 26%   26C    P8              4W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+=== Loaded metadata ===
+Sample metadata shape: (1344, 8)
+Obs (cell) metadata shape: (100648790, 17)
+
+=== Sample metadata columns ===
+['sample', 'plate', 'mean_gene_count', 'mean_tscp_count', 'mean_mread_count', 'mean_pcnt_mito', 'drug', 'drugname_drugconc']
+
+=== Sample metadata preview ===
+     sample   plate  ...          drug               drugname_drugconc
+0  smp_1495  plate1  ...  Infigratinib  [('Infigratinib', 0.05, 'uM')]
+1  smp_1496  plate1  ...  Erdafitinib   [('Erdafitinib ', 0.05, 'uM')]
+2  smp_1497  plate1  ...    Everolimus    [('Everolimus', 0.05, 'uM')]
+3  smp_1498  plate1  ...   Pemigatinib   [('Pemigatinib', 0.05, 'uM')]
+4  smp_1499  plate1  ...   Abemaciclib   [('Abemaciclib', 0.05, 'uM')]
+
+[5 rows x 8 columns]
+
+Number of samples: 1344
+Number of unique drugs: 380
+
+Top drugs by sample count:
+DMSO_TF                        28
+Adagrasib                      18
+Afatinib                        9
+Topotecan (hydrochloride)       6
+Fumaric acid                    6
+Daidzin                         6
+Trametinib                      6
+Berbamine (dihydrochloride)     6
+Naproxen                        6
+Almonertinib (mesylate)         6
+Irinotecan (hydrochloride)      6
+Binimetinib                     6
+Regorafenib                     6
+Pravastatin (sodium)            6
+Belumosudil                     6
+Everolimus                      6
+Cytarabine                      6
+Flumatinib (mesylate)           6
+Gemcitabine                     6
+Terfenadine                     5
+Name: drug, dtype: int64
+
+=== Obs metadata columns ===
+['plate', 'BARCODE_SUB_LIB_ID', 'sample', 'gene_count', 'tscp_count', 'mread_count', 'drugname_drugconc', 'drug', 'cell_line', 'sublibrary', 'BARCODE', 'pcnt_mito', 'S_score', 'G2M_score', 'phase', 'pass_filter', 'cell_name']
+
+=== Obs metadata preview ===
+     plate   BARCODE_SUB_LIB_ID    sample  ...  phase  pass_filter   cell_name
+0  plate10  01_001_001-lib_1681  smp_2359  ...     G1         full   NCI-H1573
+1  plate10  01_002_149-lib_1681  smp_2359  ...     G1         full    NCI-H460
+2  plate10  01_003_052-lib_1681  smp_2359  ...     G1         full  hTERT-HPNE
+3  plate10  01_003_090-lib_1681  smp_2359  ...     G1      minimal        SW48
+4  plate10  01_003_093-lib_1681  smp_2359  ...     G1         full       HOP62
+
+[5 rows x 17 columns]
+
+Number of cells: 100648790
+Cell lines:
+CVCL_0546    6364321
+CVCL_0459    5943411
+CVCL_0480    4170586
+CVCL_1285    3420378
+CVCL_0399    3274272
+CVCL_1056    2785040
+CVCL_0293    2766680
+CVCL_0334    2742987
+CVCL_0023    2664482
+CVCL_1119    2495566
+CVCL_0428    2491219
+CVCL_0152    2474241
+CVCL_1693    2444712
+CVCL_0359    2396294
+CVCL_1550    2360694
+CVCL_0504    2358711
+CVCL_0131    2352722
+CVCL_0371    2332035
+CVCL_1381    2278841
+CVCL_1478    2254353
+CVCL_0320    2252219
+CVCL_1097    2098357
+CVCL_1717    2039153
+CVCL_1517    1987892
+CVCL_0397    1946902
+CVCL_1495    1889509
+CVCL_1547    1835947
+CVCL_C466    1791578
+CVCL_1731    1791184
+CVCL_0332    1771742
+CVCL_1635    1755313
+CVCL_1666    1713177
+CVCL_0292    1682550
+CVCL_0069    1613877
+CVCL_1094    1599310
+CVCL_0366    1546064
+CVCL_0218    1531054
+CVCL_1055    1472434
+CVCL_1098    1355321
+CVCL_0099    1343339
+CVCL_0179    1322285
+CVCL_1239    1075515
+CVCL_1724    1032791
+CVCL_0028     634931
+CVCL_1125     586551
+CVCL_1716     229595
+CVCL_1715     163938
+CVCL_1577     144860
+CVCL_1531      39463
+CVCL_1571      30394
+Name: cell_line, dtype: int64
+
+=== How many cells per sample? ===
+smp_2553    215364
+smp_2643    202116
+smp_2177    196600
+smp_2613    195537
+smp_2638    192968
+Name: sample, dtype: int64
+
+=== Example drug: Adagrasib ===
+Samples for this drug:
+        sample       drug    plate
+93    smp_1588  Adagrasib   plate1
+189   smp_1684  Adagrasib   plate2
+285   smp_1780  Adagrasib   plate3
+381   smp_1876  Adagrasib   plate4
+477   smp_1972  Adagrasib   plate5
+573   smp_2068  Adagrasib   plate6
+657   smp_2152  Adagrasib   plate7
+669   smp_2164  Adagrasib   plate7
+753   smp_2248  Adagrasib   plate8
+765   smp_2260  Adagrasib   plate8
+849   smp_2344  Adagrasib   plate9
+861   smp_2356  Adagrasib   plate9
+957   smp_2452  Adagrasib  plate10
+1053  smp_2548  Adagrasib  plate11
+1149  smp_2644  Adagrasib  plate12
+1172  smp_2667  Adagrasib  plate13
+1173  smp_2668  Adagrasib  plate13
+1341  smp_2836  Adagrasib  plate14
+
+Cell lines for this drug:
+CVCL_0546    97814
+CVCL_0459    88031
+CVCL_0480    64667
+CVCL_1285    49612
+CVCL_0399    47297
+CVCL_0334    42742
+CVCL_1056    42423
+CVCL_0023    39766
+CVCL_1693    39112
+CVCL_0293    38596
+CVCL_0428    38355
+CVCL_1119    36928
+CVCL_0504    36595
+CVCL_0359    35451
+CVCL_1381    35185
+CVCL_0131    35120
+CVCL_0371    35104
+CVCL_0152    35055
+CVCL_0320    34268
+CVCL_1478    34181
+CVCL_1550    33895
+CVCL_1097    30828
+CVCL_1717    30190
+CVCL_0397    28646
+CVCL_1731    27257
+CVCL_1517    27255
+CVCL_0332    26663
+CVCL_1635    26212
+CVCL_1495    25809
+CVCL_1666    25682
+CVCL_0292    25462
+CVCL_C466    25093
+CVCL_1547    24947
+CVCL_0069    24723
+CVCL_1094    24432
+CVCL_1055    23480
+CVCL_0366    23215
+CVCL_0218    23199
+CVCL_0099    21984
+CVCL_0179    19936
+CVCL_1098    18845
+CVCL_1239    16787
+CVCL_1724    15711
+CVCL_0028     9679
+CVCL_1125     8987
+CVCL_1716     3232
+CVCL_1715     2361
+CVCL_1577     2333
+CVCL_1531      524
+CVCL_1571      409
+Name: cell_line, dtype: int64
+
+Done.
