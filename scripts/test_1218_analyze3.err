@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/tahoe_plate2/inspect_plate2_h5ad.py", line 98, in <module>
+    main()
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/tahoe_plate2/inspect_plate2_h5ad.py", line 68, in main
+    safe_value_counts("drug")
+TypeError: main.<locals>.safe_value_counts() missing 1 required positional argument: 'name'
