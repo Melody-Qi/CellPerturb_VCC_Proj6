@@ -1,0 +1,45 @@
+Wed Dec 17 10:15:29 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:18:00.0 Off |                  N/A |
+| 25%   25C    P8             20W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+Total samples with ADAGRASIB: 18
+
+Plates containing ADAGRASIB:
+plate
+plate13    2
+plate7     2
+plate8     2
+plate9     2
+plate1     1
+plate10    1
+plate11    1
+plate12    1
+plate14    1
+plate2     1
+plate3     1
+plate4     1
+plate5     1
+plate6     1
+Name: sample, dtype: int64
