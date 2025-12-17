@@ -1,0 +1,52 @@
+Wed Dec 17 10:20:57 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:18:00.0 Off |                  N/A |
+| 25%   25C    P8             20W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+['smp_1588' 'smp_1684' 'smp_1780' 'smp_1876' 'smp_1972' 'smp_2068'
+ 'smp_2152' 'smp_2164' 'smp_2248' 'smp_2260' 'smp_2344' 'smp_2356'
+ 'smp_2452' 'smp_2548' 'smp_2644' 'smp_2667' 'smp_2668' 'smp_2836']
+Number of samples with ADAGRASIB: 18
+plate    cell_line
+plate8   CVCL_0546    12447
+plate13  CVCL_0546    11110
+plate2   CVCL_0459     9590
+plate13  CVCL_0459     9033
+plate2   CVCL_0546     8892
+plate9   CVCL_0459     8689
+         CVCL_0546     8463
+plate8   CVCL_0459     8204
+plate12  CVCL_0546     8013
+plate13  CVCL_0480     7992
+plate8   CVCL_0480     7799
+plate7   CVCL_0546     7730
+plate6   CVCL_0546     7698
+plate7   CVCL_0459     7695
+plate10  CVCL_0459     7503
+         CVCL_0546     7488
+plate8   CVCL_1693     7373
+plate11  CVCL_0459     7180
+plate4   CVCL_0546     6931
+plate7   CVCL_0480     6666
+dtype: int64

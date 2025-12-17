@@ -73,4 +73,51 @@ drug → 已知靶点基因
 e.g. drug: ADAGRASIB
 target_gene: KRAS
 mechanism: inhibitor
+KRAS G12C 抑制剂
+治疗肺癌
+```
+
+---
+
+## 12.17
+
+```
+['smp_1588' 'smp_1684' 'smp_1780' 'smp_1876' 'smp_1972' 'smp_2068'
+ 'smp_2152' 'smp_2164' 'smp_2248' 'smp_2260' 'smp_2344' 'smp_2356'
+ 'smp_2452' 'smp_2548' 'smp_2644' 'smp_2667' 'smp_2668' 'smp_2836']
+Number of samples with ADAGRASIB: 18
+plate    cell_line
+plate8   CVCL_0546    12447
+plate13  CVCL_0546    11110
+plate2   CVCL_0459     9590
+plate13  CVCL_0459     9033
+plate2   CVCL_0546     8892
+plate9   CVCL_0459     8689
+         CVCL_0546     8463
+plate8   CVCL_0459     8204
+plate12  CVCL_0546     8013
+plate13  CVCL_0480     7992
+plate8   CVCL_0480     7799
+plate7   CVCL_0546     7730
+plate6   CVCL_0546     7698
+plate7   CVCL_0459     7695
+plate10  CVCL_0459     7503
+         CVCL_0546     7488
+plate8   CVCL_1693     7373
+plate11  CVCL_0459     7180
+plate4   CVCL_0546     6931
+plate7   CVCL_0480     6666
+dtype: int64
+```
+CVCL_0546 结直肠腺癌细胞，KRAS G12V，不是 G12C
+
+CVCL_0459 肺癌细胞
+
+```
+mkdir -p tahoe_plate2
+
+gsutil cp \
+gs://arc-ctc-tahoe100/2025-02-25/h5ad/plate2_filt_Vevo_Tahoe100M_WServicesFrom_ParseGigalab.h5ad \
+./tahoe_plate2
+
 ```
