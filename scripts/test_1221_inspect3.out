@@ -1,0 +1,175 @@
+Sun Dec 21 14:07:29 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:04:00.0 Off |                  N/A |
+| 27%   29C    P8             14W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+输出目录内容:
+  train_0000.parquet (28.84 MB)
+
+读取文件: ./tahoe_under_10gb_subset/train_0000.parquet
+数据形状: (12000, 6)
+
+列名: ['gene_ids', 'counts', 'y', 'target_gene', 'drug', 'cell_line_id']
+
+前5行数据:
+                                            gene_ids                                             counts   y target_gene                       drug cell_line_id
+0  [12, 19, 26, 42, 43, 44, 70, 77, 103, 112, 160...  [1.0, 1.0, 2.0, 1.0, 2.0, 1.0, 1.0, 1.0, 3.0, ...  72        PRLR  Pentamidine (isethionate)    CVCL_1119
+1  [19, 45, 56, 58, 69, 81, 88, 103, 139, 146, 15...  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0, ...  72        PRLR  Pentamidine (isethionate)    CVCL_0428
+2  [14, 18, 32, 43, 45, 51, 77, 90, 103, 108, 112...  [1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, ...  72        PRLR  Pentamidine (isethionate)    CVCL_0320
+3  [11, 45, 52, 79, 94, 144, 171, 187, 192, 202, ...  [2.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, ...  72        PRLR  Pentamidine (isethionate)    CVCL_1478
+4  [5, 16, 25, 38, 42, 55, 70, 77, 78, 108, 109, ...  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0, ...  72        PRLR  Pentamidine (isethionate)    CVCL_0399
+
+数据基本信息:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 12000 entries, 0 to 11999
+Data columns (total 6 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   gene_ids      12000 non-null  object
+ 1   counts        12000 non-null  object
+ 2   y             12000 non-null  int64 
+ 3   target_gene   12000 non-null  object
+ 4   drug          12000 non-null  object
+ 5   cell_line_id  12000 non-null  object
+dtypes: int64(1), object(5)
+memory usage: 562.6+ KB
+None
+
+数值列统计:
+                  y
+count  12000.000000
+mean      49.541667
+std       29.034207
+min        0.000000
+25%       24.750000
+50%       51.500000
+75%       74.250000
+max       92.000000
+
+类别分布 (y值):
+0     500
+1     500
+4     500
+20    500
+22    500
+24    500
+25    500
+29    500
+32    500
+40    500
+45    500
+48    500
+55    500
+57    500
+61    500
+67    500
+72    500
+74    500
+75    500
+79    500
+88    500
+89    500
+90    500
+92    500
+Name: y, dtype: int64
+
+靶基因分布:
+PRLR     500
+ABL1     500
+ADRB2    500
+TRPA1    500
+EGFR     500
+SIRT1    500
+REN      500
+HRH1     500
+COMT     500
+DHFR     500
+Name: target_gene, dtype: int64
+
+药物分布 (前10):
+Pentamidine (isethionate)       500
+Radotinib                       500
+Vilanterol                      500
+Thymol                          500
+Almonertinib (hydrochloride)    500
+Resveratrol                     500
+Aliskiren                       500
+Terfenadine                     500
+Tolcapone                       500
+Trimetrexate                    500
+Name: drug, dtype: int64
+
+细胞系分布 (前10):
+CVCL_0546    731
+CVCL_0459    623
+CVCL_0399    412
+CVCL_0023    406
+CVCL_1285    391
+CVCL_0480    388
+CVCL_0293    382
+CVCL_0131    346
+CVCL_0152    342
+CVCL_1550    330
+Name: cell_line_id, dtype: int64
+
+基因数据示例:
+
+样本 0:
+  y值: 72
+  靶基因: PRLR
+  药物: Pentamidine (isethionate)
+  基因数量: 1013
+  前5个基因ID: [12 19 26 42 43]
+  前5个表达量: [1. 1. 2. 1. 2.]
+  表达量统计 - 最小值: 1.00, 最大值: 65.00, 平均值: 1.37
+
+样本 1:
+  y值: 72
+  靶基因: PRLR
+  药物: Pentamidine (isethionate)
+  基因数量: 1035
+  前5个基因ID: [19 45 56 58 69]
+  前5个表达量: [1. 1. 1. 1. 1.]
+  表达量统计 - 最小值: 1.00, 最大值: 65.00, 平均值: 1.26
+
+样本 2:
+  y值: 72
+  靶基因: PRLR
+  药物: Pentamidine (isethionate)
+  基因数量: 1938
+  前5个基因ID: [14 18 32 43 45]
+  前5个表达量: [1. 2. 2. 1. 2.]
+  表达量统计 - 最小值: 1.00, 最大值: 243.00, 平均值: 1.66
+
+数据完整性检查:
+空值统计:
+gene_ids        0
+counts          0
+y               0
+target_gene     0
+drug            0
+cell_line_id    0
+dtype: int64
+基因ID和表达量长度一致: True
+每个样本的基因数量 - 最小值: 475, 最大值: 2048, 平均值: 1240.6
