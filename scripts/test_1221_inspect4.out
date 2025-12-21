@@ -1,0 +1,30 @@
+Sun Dec 21 14:35:09 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:04:00.0 Off |                  N/A |
+| 25%   28C    P8             13W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+读取 drug_metadata.parquet, shape=(379, 9)
+已保存为 ./csv_output/drug_metadata.csv
+读取 gene_metadata.parquet, shape=(62710, 3)
+已保存为 ./csv_output/gene_metadata.csv
