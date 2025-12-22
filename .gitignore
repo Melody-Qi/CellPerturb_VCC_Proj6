@@ -13,4 +13,4 @@ test_1123_train3.out
 scripts/test_1123_train3.out
 *.png
 *.parquet
-tahoe_plate2/tahoe100M_obs.csv
+tahoe_plate2/tahoe100M_plate2_obs.csv
