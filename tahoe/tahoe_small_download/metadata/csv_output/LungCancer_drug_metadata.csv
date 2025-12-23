@@ -1,0 +1,10 @@
+drug,targets,moa-broad,moa-fine,human-approved,clinical-trials,gpt-notes-approval,canonical_smiles,pubchem_cid
+Pemetrexed,"TYMS, DHFR, GART",inhibitor/antagonist,DNA synthesis/repair inhibitor,yes,yes,Chemotherapy drug for mesothelioma and non-small cell lung cancer.,C1=CC(=CC=C1CCC2=CNC3=C2C(=O)NC(=N3)N)C(=O)NC(CCC(=O)O)C(=O)O,135410875.0
+Gemcitabine,,inhibitor/antagonist,DNA synthesis/repair inhibitor,yes,yes,Approved for cancer treatment like pancreatic and non-small cell lung cancer.,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)(F)F,60750.0
+Topotecan (hydrochloride),TOP1,inhibitor/antagonist,DNA synthesis/repair inhibitor,yes,yes,"Approved for treating ovarian, small cell lung, and cervical cancer.",CCC1(C2=C(COC1=O)C(=O)N3CC4=CC5=C(C=CC(=C5CN(C)C)O)N=C4C3=C2)O.Cl,60699.0
+Afatinib,"EGFR, ERBB2",inhibitor/antagonist,EGFR/ERBB inhibitor,yes,yes,"Approved for treatment of certain cancers, such as non-small cell lung cancer.",CN(C)CC=CC(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)OC4CCOC4,10184653.0
+Almonertinib (hydrochloride),EGFR,inhibitor/antagonist,EGFR/ERBB inhibitor,yes,yes,Approved in China for non-small cell lung cancer.,CN(C)CCN(C)C1=CC(=C(C=C1NC(=O)C=C)NC2=NC=CC(=N2)C3=CN(C4=CC=CC=C43)C5CC5)OC.Cl,137319707.0
+Adagrasib,KRAS,inhibitor/antagonist,RAS inhibitor,yes,yes,Approved for treating KRAS G12C-mutated non-small cell lung cancer.,CN1CCCC1COC2=NC3=C(CCN(C3)C4=CC=CC5=C4C(=CC=C5)Cl)C(=N2)N6CCN(C(C6)CC#N)C(=O)C(=C)F,138611145.0
+Gefitinib,EGFR,inhibitor/antagonist,EGFR/ERBB inhibitor,yes,yes,Approved for non-small cell lung cancer.,COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4,123631.0
+Erlotinib,EGFR,inhibitor/antagonist,EGFR/ERBB inhibitor,yes,yes,Approved for human use for non-small cell lung cancer.,COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC,176870.0
+Osimertinib (mesylate),EGFR,inhibitor/antagonist,EGFR/ERBB inhibitor,yes,yes,Approved for non-small cell lung cancer treatment.,CN1C=C(C2=CC=CC=C21)C3=NC(=NC=C3)NC4=C(C=C(C(=C4)NC(=O)C=C)N(C)CCN(C)C)OC.CS(=O)(=O)O  ,78357807.0
