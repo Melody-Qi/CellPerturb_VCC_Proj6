@@ -14,3 +14,4 @@ scripts/test_1123_train3.out
 *.png
 *.parquet
 tahoe_plate2/tahoe100M_plate2_obs.csv
+tahoe_single_target_scgptid_only_firstDMSO/csv/single_target_0001.csv
