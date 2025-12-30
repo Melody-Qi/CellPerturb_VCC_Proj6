@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/__init__.py", line 2240, in <module>
+    from torch import quantization as quantization  # usort: skip
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/quantization/__init__.py", line 2, in <module>
+    from .fake_quantize import *  # noqa: F403
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/quantization/fake_quantize.py", line 10, in <module>
+    from torch.ao.quantization.fake_quantize import (
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/ao/quantization/__init__.py", line 12, in <module>
+    from .pt2e._numeric_debugger import (  # noqa: F401
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/ao/quantization/pt2e/_numeric_debugger.py", line 9, in <module>
+    from torch.ao.quantization.pt2e.graph_utils import bfs_trace_with_node_process
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/ao/quantization/pt2e/graph_utils.py", line 9, in <module>
+    from torch.export import ExportedProgram
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/export/__init__.py", line 60, in <module>
+    from .decomp_utils import CustomDecompTable
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/export/decomp_utils.py", line 5, in <module>
+    from torch._export.utils import (
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/_export/__init__.py", line 30, in <module>
+    from torch.export.graph_signature import (
+ImportError: cannot import name 'SymBoolArgument' from 'torch.export.graph_signature' (/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/export/graph_signature.py)
+Traceback (most recent call last):
+  File "/public/home/CS286/qiyt2023-CS286/sea000123/gene-perturbation-prediction/src/main_new.py", line 7, in <module>
+    import torch
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/__init__.py", line 2240, in <module>
+    from torch import quantization as quantization  # usort: skip
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/quantization/__init__.py", line 2, in <module>
+    from .fake_quantize import *  # noqa: F403
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/quantization/fake_quantize.py", line 10, in <module>
+    from torch.ao.quantization.fake_quantize import (
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/ao/quantization/__init__.py", line 12, in <module>
+    from .pt2e._numeric_debugger import (  # noqa: F401
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/ao/quantization/pt2e/_numeric_debugger.py", line 9, in <module>
+    from torch.ao.quantization.pt2e.graph_utils import bfs_trace_with_node_process
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/ao/quantization/pt2e/graph_utils.py", line 9, in <module>
+    from torch.export import ExportedProgram
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/export/__init__.py", line 60, in <module>
+    from .decomp_utils import CustomDecompTable
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/export/decomp_utils.py", line 5, in <module>
+    from torch._export.utils import (
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/_export/__init__.py", line 30, in <module>
+    from torch.export.graph_signature import (
+ImportError: cannot import name 'SymBoolArgument' from 'torch.export.graph_signature' (/public/home/CS286/qiyt2023-CS286/miniconda3/envs/scgpt/lib/python3.10/site-packages/torch/export/graph_signature.py)
