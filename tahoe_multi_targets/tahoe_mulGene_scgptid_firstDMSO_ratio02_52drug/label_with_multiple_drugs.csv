@@ -1,0 +1,17 @@
+label,drugs,n_drugs,genes,n_genes
+9,"['Norepinephrine (hydrochloride)', 'Olanzapine']",2,['ADRA1A'],1
+10,"['Norepinephrine (hydrochloride)', 'Olanzapine']",2,['ADRA1B'],1
+11,"['Norepinephrine (hydrochloride)', 'Olanzapine']",2,['ADRA1D'],1
+12,"['Clonidine (hydrochloride)', 'Norepinephrine (hydrochloride)']",2,['ADRA2A'],1
+13,"['Clonidine (hydrochloride)', 'Norepinephrine (hydrochloride)']",2,['ADRA2B'],1
+14,"['Clonidine (hydrochloride)', 'Norepinephrine (hydrochloride)']",2,['ADRA2C'],1
+65,"['Cepharanthine', 'Gemfibrozil']",2,['CYP2C9'],1
+74,"['Lumateperone (tosylate)', 'Olanzapine']",2,['DRD2'],1
+79,"['Almonertinib (hydrochloride)', 'Neratinib (maleate)']",2,['EGFR'],1
+100,"['Elagolix sodium', 'Goserelin (acetate)', 'Relugolix']",3,['GNRHR'],1
+118,"['Lumateperone (tosylate)', 'Olanzapine']",2,['HTR2A'],1
+127,"['Tofacitinib', 'Tofacitinib (citrate)']",2,['JAK1'],1
+128,"['Tofacitinib', 'Tofacitinib (citrate)']",2,['JAK2'],1
+129,"['Tofacitinib', 'Tofacitinib (citrate)']",2,['JAK3'],1
+159,"['Rapamycin', 'Temsirolimus']",2,['MTOR'],1
+253,"['Amsacrine', 'Idarubicin (hydrochloride)', 'Mitoxantrone (dihydrochloride)']",3,['TOP2A'],1

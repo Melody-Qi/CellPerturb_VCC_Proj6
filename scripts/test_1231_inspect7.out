@@ -1,4 +1,4 @@
-Wed Dec 31 18:09:09 2025       
+Wed Dec 31 21:45:55 2025       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
 |-----------------------------------------+------------------------+----------------------+
@@ -6,8 +6,8 @@ Wed Dec 31 18:09:09 2025
 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
-|   0  NVIDIA TITAN V                 On  |   00000000:3B:00.0 Off |                  N/A |
-| 28%   29C    P8             24W /  250W |       0MiB /  12288MiB |      0%      Default |
+|   0  NVIDIA TITAN V                 On  |   00000000:18:00.0 Off |                  N/A |
+| 28%   29C    P8             25W /  250W |       0MiB /  12288MiB |      0%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -24,9 +24,29 @@ CUDA_VISIBLE_DEVICES: 0
 === PyTorch检测 ===
 PyTorch检测GPU数: 1
 可用GPU: ['NVIDIA TITAN V']
-Found 24 parquet files
+Processing single_target_0000.parquet
+Processing single_target_0001.parquet
+Processing single_target_0002.parquet
+Processing single_target_0003.parquet
+Processing single_target_0004.parquet
+Processing single_target_0005.parquet
+Processing single_target_0006.parquet
+Processing single_target_0007.parquet
+Processing single_target_0008.parquet
+Processing single_target_0009.parquet
+Processing single_target_0010.parquet
+Processing single_target_0011.parquet
+Processing single_target_0012.parquet
+Processing single_target_0013.parquet
+Processing single_target_0014.parquet
+Processing single_target_0015.parquet
+Processing single_target_0016.parquet
+Processing single_target_0017.parquet
+Processing single_target_0018.parquet
+Processing single_target_0019.parquet
+Processing single_target_0020.parquet
+Processing single_target_0021.parquet
+Processing single_target_0022.parquet
+Processing single_target_0023.parquet
 
-=== Step 1: Building gene vocabulary ===
-Vocabulary size: 31597 genes
-
-=== Step 2: Processing parquet files ===
+✅ Done! 5115 unique conditions written to all_conditions.csv

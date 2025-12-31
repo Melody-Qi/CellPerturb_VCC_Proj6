@@ -1,0 +1,5116 @@
+drug,target_gene,label,cell_line_id
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0023
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0069
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0099
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0131
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0152
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0179
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0292
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0293
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0320
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0359
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0366
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0371
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0397
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0399
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0428
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0459
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0480
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_0546
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1055
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1056
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1119
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1239
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1285
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1381
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1478
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1495
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1531
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1547
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1550
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1577
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1635
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1715
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1717
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1724
+(R)-Verapamil (hydrochloride),ABCB1,0,CVCL_1731
+Adagrasib,KRAS,135,CVCL_0069
+Adagrasib,KRAS,135,CVCL_0099
+Adagrasib,KRAS,135,CVCL_0131
+Adagrasib,KRAS,135,CVCL_0152
+Adagrasib,KRAS,135,CVCL_0179
+Adagrasib,KRAS,135,CVCL_0292
+Adagrasib,KRAS,135,CVCL_0293
+Adagrasib,KRAS,135,CVCL_0332
+Adagrasib,KRAS,135,CVCL_0359
+Adagrasib,KRAS,135,CVCL_0366
+Adagrasib,KRAS,135,CVCL_0371
+Adagrasib,KRAS,135,CVCL_0397
+Adagrasib,KRAS,135,CVCL_0399
+Adagrasib,KRAS,135,CVCL_0428
+Adagrasib,KRAS,135,CVCL_0459
+Adagrasib,KRAS,135,CVCL_0480
+Adagrasib,KRAS,135,CVCL_0504
+Adagrasib,KRAS,135,CVCL_0546
+Adagrasib,KRAS,135,CVCL_1055
+Adagrasib,KRAS,135,CVCL_1056
+Adagrasib,KRAS,135,CVCL_1097
+Adagrasib,KRAS,135,CVCL_1119
+Adagrasib,KRAS,135,CVCL_1239
+Adagrasib,KRAS,135,CVCL_1285
+Adagrasib,KRAS,135,CVCL_1381
+Adagrasib,KRAS,135,CVCL_1478
+Adagrasib,KRAS,135,CVCL_1495
+Adagrasib,KRAS,135,CVCL_1531
+Adagrasib,KRAS,135,CVCL_1547
+Adagrasib,KRAS,135,CVCL_1550
+Adagrasib,KRAS,135,CVCL_1577
+Adagrasib,KRAS,135,CVCL_1635
+Adagrasib,KRAS,135,CVCL_1715
+Adagrasib,KRAS,135,CVCL_1716
+Adagrasib,KRAS,135,CVCL_1717
+Adagrasib,KRAS,135,CVCL_1724
+Adagrasib,KRAS,135,CVCL_1731
+Adagrasib,KRAS,135,CVCL_C466
+Adenosine,ADORA1,5,CVCL_0023
+Adenosine,ADORA2A,6,CVCL_0023
+Adenosine,ADORA2B,7,CVCL_0023
+Adenosine,ADORA3,8,CVCL_0023
+Adenosine,ADORA1,5,CVCL_0069
+Adenosine,ADORA2A,6,CVCL_0069
+Adenosine,ADORA2B,7,CVCL_0069
+Adenosine,ADORA3,8,CVCL_0069
+Adenosine,ADORA1,5,CVCL_0099
+Adenosine,ADORA2A,6,CVCL_0099
+Adenosine,ADORA2B,7,CVCL_0099
+Adenosine,ADORA3,8,CVCL_0099
+Adenosine,ADORA1,5,CVCL_0131
+Adenosine,ADORA2A,6,CVCL_0131
+Adenosine,ADORA2B,7,CVCL_0131
+Adenosine,ADORA3,8,CVCL_0131
+Adenosine,ADORA1,5,CVCL_0152
+Adenosine,ADORA2A,6,CVCL_0152
+Adenosine,ADORA2B,7,CVCL_0152
+Adenosine,ADORA3,8,CVCL_0152
+Adenosine,ADORA1,5,CVCL_0179
+Adenosine,ADORA2A,6,CVCL_0179
+Adenosine,ADORA2B,7,CVCL_0179
+Adenosine,ADORA3,8,CVCL_0179
+Adenosine,ADORA1,5,CVCL_0218
+Adenosine,ADORA2A,6,CVCL_0218
+Adenosine,ADORA2B,7,CVCL_0218
+Adenosine,ADORA3,8,CVCL_0218
+Adenosine,ADORA1,5,CVCL_0292
+Adenosine,ADORA2A,6,CVCL_0292
+Adenosine,ADORA2B,7,CVCL_0292
+Adenosine,ADORA3,8,CVCL_0292
+Adenosine,ADORA1,5,CVCL_0293
+Adenosine,ADORA2A,6,CVCL_0293
+Adenosine,ADORA2B,7,CVCL_0293
+Adenosine,ADORA3,8,CVCL_0293
+Adenosine,ADORA1,5,CVCL_0332
+Adenosine,ADORA2A,6,CVCL_0332
+Adenosine,ADORA2B,7,CVCL_0332
+Adenosine,ADORA3,8,CVCL_0332
+Adenosine,ADORA1,5,CVCL_0334
+Adenosine,ADORA2A,6,CVCL_0334
+Adenosine,ADORA2B,7,CVCL_0334
+Adenosine,ADORA3,8,CVCL_0334
+Adenosine,ADORA1,5,CVCL_0359
+Adenosine,ADORA2A,6,CVCL_0359
+Adenosine,ADORA2B,7,CVCL_0359
+Adenosine,ADORA3,8,CVCL_0359
+Adenosine,ADORA1,5,CVCL_0366
+Adenosine,ADORA2A,6,CVCL_0366
+Adenosine,ADORA2B,7,CVCL_0366
+Adenosine,ADORA3,8,CVCL_0366
+Adenosine,ADORA1,5,CVCL_0371
+Adenosine,ADORA2A,6,CVCL_0371
+Adenosine,ADORA2B,7,CVCL_0371
+Adenosine,ADORA3,8,CVCL_0371
+Adenosine,ADORA1,5,CVCL_0397
+Adenosine,ADORA2A,6,CVCL_0397
+Adenosine,ADORA2B,7,CVCL_0397
+Adenosine,ADORA3,8,CVCL_0397
+Adenosine,ADORA1,5,CVCL_0399
+Adenosine,ADORA2A,6,CVCL_0399
+Adenosine,ADORA2B,7,CVCL_0399
+Adenosine,ADORA3,8,CVCL_0399
+Adenosine,ADORA1,5,CVCL_0428
+Adenosine,ADORA2A,6,CVCL_0428
+Adenosine,ADORA2B,7,CVCL_0428
+Adenosine,ADORA3,8,CVCL_0428
+Adenosine,ADORA1,5,CVCL_0459
+Adenosine,ADORA2A,6,CVCL_0459
+Adenosine,ADORA2B,7,CVCL_0459
+Adenosine,ADORA3,8,CVCL_0459
+Adenosine,ADORA1,5,CVCL_0480
+Adenosine,ADORA2A,6,CVCL_0480
+Adenosine,ADORA2B,7,CVCL_0480
+Adenosine,ADORA3,8,CVCL_0480
+Adenosine,ADORA1,5,CVCL_0504
+Adenosine,ADORA2A,6,CVCL_0504
+Adenosine,ADORA2B,7,CVCL_0504
+Adenosine,ADORA3,8,CVCL_0504
+Adenosine,ADORA1,5,CVCL_0546
+Adenosine,ADORA2A,6,CVCL_0546
+Adenosine,ADORA2B,7,CVCL_0546
+Adenosine,ADORA3,8,CVCL_0546
+Adenosine,ADORA1,5,CVCL_1055
+Adenosine,ADORA2A,6,CVCL_1055
+Adenosine,ADORA2B,7,CVCL_1055
+Adenosine,ADORA3,8,CVCL_1055
+Adenosine,ADORA1,5,CVCL_1056
+Adenosine,ADORA2A,6,CVCL_1056
+Adenosine,ADORA2B,7,CVCL_1056
+Adenosine,ADORA3,8,CVCL_1056
+Adenosine,ADORA1,5,CVCL_1094
+Adenosine,ADORA2A,6,CVCL_1094
+Adenosine,ADORA2B,7,CVCL_1094
+Adenosine,ADORA3,8,CVCL_1094
+Adenosine,ADORA1,5,CVCL_1097
+Adenosine,ADORA2A,6,CVCL_1097
+Adenosine,ADORA2B,7,CVCL_1097
+Adenosine,ADORA3,8,CVCL_1097
+Adenosine,ADORA1,5,CVCL_1098
+Adenosine,ADORA2A,6,CVCL_1098
+Adenosine,ADORA2B,7,CVCL_1098
+Adenosine,ADORA3,8,CVCL_1098
+Adenosine,ADORA1,5,CVCL_1119
+Adenosine,ADORA2A,6,CVCL_1119
+Adenosine,ADORA2B,7,CVCL_1119
+Adenosine,ADORA3,8,CVCL_1119
+Adenosine,ADORA1,5,CVCL_1125
+Adenosine,ADORA2A,6,CVCL_1125
+Adenosine,ADORA2B,7,CVCL_1125
+Adenosine,ADORA3,8,CVCL_1125
+Adenosine,ADORA1,5,CVCL_1239
+Adenosine,ADORA2A,6,CVCL_1239
+Adenosine,ADORA2B,7,CVCL_1239
+Adenosine,ADORA3,8,CVCL_1239
+Adenosine,ADORA1,5,CVCL_1285
+Adenosine,ADORA2A,6,CVCL_1285
+Adenosine,ADORA2B,7,CVCL_1285
+Adenosine,ADORA3,8,CVCL_1285
+Adenosine,ADORA1,5,CVCL_1381
+Adenosine,ADORA2A,6,CVCL_1381
+Adenosine,ADORA2B,7,CVCL_1381
+Adenosine,ADORA3,8,CVCL_1381
+Adenosine,ADORA1,5,CVCL_1478
+Adenosine,ADORA2A,6,CVCL_1478
+Adenosine,ADORA2B,7,CVCL_1478
+Adenosine,ADORA3,8,CVCL_1478
+Adenosine,ADORA1,5,CVCL_1495
+Adenosine,ADORA2A,6,CVCL_1495
+Adenosine,ADORA2B,7,CVCL_1495
+Adenosine,ADORA3,8,CVCL_1495
+Adenosine,ADORA1,5,CVCL_1517
+Adenosine,ADORA2A,6,CVCL_1517
+Adenosine,ADORA2B,7,CVCL_1517
+Adenosine,ADORA3,8,CVCL_1517
+Adenosine,ADORA1,5,CVCL_1531
+Adenosine,ADORA2A,6,CVCL_1531
+Adenosine,ADORA2B,7,CVCL_1531
+Adenosine,ADORA3,8,CVCL_1531
+Adenosine,ADORA1,5,CVCL_1547
+Adenosine,ADORA2A,6,CVCL_1547
+Adenosine,ADORA2B,7,CVCL_1547
+Adenosine,ADORA3,8,CVCL_1547
+Adenosine,ADORA1,5,CVCL_1550
+Adenosine,ADORA2A,6,CVCL_1550
+Adenosine,ADORA2B,7,CVCL_1550
+Adenosine,ADORA3,8,CVCL_1550
+Adenosine,ADORA1,5,CVCL_1577
+Adenosine,ADORA2A,6,CVCL_1577
+Adenosine,ADORA2B,7,CVCL_1577
+Adenosine,ADORA3,8,CVCL_1577
+Adenosine,ADORA1,5,CVCL_1635
+Adenosine,ADORA2A,6,CVCL_1635
+Adenosine,ADORA2B,7,CVCL_1635
+Adenosine,ADORA3,8,CVCL_1635
+Adenosine,ADORA1,5,CVCL_1693
+Adenosine,ADORA2A,6,CVCL_1693
+Adenosine,ADORA2B,7,CVCL_1693
+Adenosine,ADORA3,8,CVCL_1693
+Adenosine,ADORA1,5,CVCL_1715
+Adenosine,ADORA2A,6,CVCL_1715
+Adenosine,ADORA2B,7,CVCL_1715
+Adenosine,ADORA3,8,CVCL_1715
+Adenosine,ADORA1,5,CVCL_1716
+Adenosine,ADORA2A,6,CVCL_1716
+Adenosine,ADORA2B,7,CVCL_1716
+Adenosine,ADORA3,8,CVCL_1716
+Adenosine,ADORA1,5,CVCL_1717
+Adenosine,ADORA2A,6,CVCL_1717
+Adenosine,ADORA2B,7,CVCL_1717
+Adenosine,ADORA3,8,CVCL_1717
+Adenosine,ADORA1,5,CVCL_1724
+Adenosine,ADORA2A,6,CVCL_1724
+Adenosine,ADORA2B,7,CVCL_1724
+Adenosine,ADORA3,8,CVCL_1724
+Adenosine,ADORA1,5,CVCL_1731
+Adenosine,ADORA2A,6,CVCL_1731
+Adenosine,ADORA2B,7,CVCL_1731
+Adenosine,ADORA3,8,CVCL_1731
+Adenosine,ADORA1,5,CVCL_C466
+Adenosine,ADORA2A,6,CVCL_C466
+Adenosine,ADORA2B,7,CVCL_C466
+Adenosine,ADORA3,8,CVCL_C466
+Aliskiren,REN,216,CVCL_0069
+Aliskiren,REN,216,CVCL_0099
+Aliskiren,REN,216,CVCL_0131
+Aliskiren,REN,216,CVCL_0152
+Aliskiren,REN,216,CVCL_0292
+Aliskiren,REN,216,CVCL_0293
+Aliskiren,REN,216,CVCL_0320
+Aliskiren,REN,216,CVCL_0332
+Aliskiren,REN,216,CVCL_0359
+Aliskiren,REN,216,CVCL_0366
+Aliskiren,REN,216,CVCL_0371
+Aliskiren,REN,216,CVCL_0397
+Aliskiren,REN,216,CVCL_0399
+Aliskiren,REN,216,CVCL_0428
+Aliskiren,REN,216,CVCL_0459
+Aliskiren,REN,216,CVCL_0480
+Aliskiren,REN,216,CVCL_0504
+Aliskiren,REN,216,CVCL_1055
+Aliskiren,REN,216,CVCL_1098
+Aliskiren,REN,216,CVCL_1119
+Aliskiren,REN,216,CVCL_1125
+Aliskiren,REN,216,CVCL_1239
+Aliskiren,REN,216,CVCL_1285
+Aliskiren,REN,216,CVCL_1478
+Aliskiren,REN,216,CVCL_1495
+Aliskiren,REN,216,CVCL_1531
+Aliskiren,REN,216,CVCL_1547
+Aliskiren,REN,216,CVCL_1550
+Aliskiren,REN,216,CVCL_1577
+Aliskiren,REN,216,CVCL_1635
+Aliskiren,REN,216,CVCL_1715
+Aliskiren,REN,216,CVCL_1716
+Aliskiren,REN,216,CVCL_1717
+Aliskiren,REN,216,CVCL_1724
+Aliskiren,REN,216,CVCL_1731
+Aliskiren,REN,216,CVCL_C466
+Almonertinib (hydrochloride),EGFR,79,CVCL_0023
+Almonertinib (hydrochloride),EGFR,79,CVCL_0028
+Almonertinib (hydrochloride),EGFR,79,CVCL_0069
+Almonertinib (hydrochloride),EGFR,79,CVCL_0099
+Almonertinib (hydrochloride),EGFR,79,CVCL_0131
+Almonertinib (hydrochloride),EGFR,79,CVCL_0152
+Almonertinib (hydrochloride),EGFR,79,CVCL_0179
+Almonertinib (hydrochloride),EGFR,79,CVCL_0218
+Almonertinib (hydrochloride),EGFR,79,CVCL_0292
+Almonertinib (hydrochloride),EGFR,79,CVCL_0293
+Almonertinib (hydrochloride),EGFR,79,CVCL_0332
+Almonertinib (hydrochloride),EGFR,79,CVCL_0334
+Almonertinib (hydrochloride),EGFR,79,CVCL_0359
+Almonertinib (hydrochloride),EGFR,79,CVCL_0366
+Almonertinib (hydrochloride),EGFR,79,CVCL_0371
+Almonertinib (hydrochloride),EGFR,79,CVCL_0397
+Almonertinib (hydrochloride),EGFR,79,CVCL_0399
+Almonertinib (hydrochloride),EGFR,79,CVCL_0428
+Almonertinib (hydrochloride),EGFR,79,CVCL_0459
+Almonertinib (hydrochloride),EGFR,79,CVCL_0480
+Almonertinib (hydrochloride),EGFR,79,CVCL_0504
+Almonertinib (hydrochloride),EGFR,79,CVCL_0546
+Almonertinib (hydrochloride),EGFR,79,CVCL_1055
+Almonertinib (hydrochloride),EGFR,79,CVCL_1056
+Almonertinib (hydrochloride),EGFR,79,CVCL_1094
+Almonertinib (hydrochloride),EGFR,79,CVCL_1097
+Almonertinib (hydrochloride),EGFR,79,CVCL_1098
+Almonertinib (hydrochloride),EGFR,79,CVCL_1119
+Almonertinib (hydrochloride),EGFR,79,CVCL_1125
+Almonertinib (hydrochloride),EGFR,79,CVCL_1239
+Almonertinib (hydrochloride),EGFR,79,CVCL_1285
+Almonertinib (hydrochloride),EGFR,79,CVCL_1381
+Almonertinib (hydrochloride),EGFR,79,CVCL_1478
+Almonertinib (hydrochloride),EGFR,79,CVCL_1495
+Almonertinib (hydrochloride),EGFR,79,CVCL_1517
+Almonertinib (hydrochloride),EGFR,79,CVCL_1531
+Almonertinib (hydrochloride),EGFR,79,CVCL_1547
+Almonertinib (hydrochloride),EGFR,79,CVCL_1550
+Almonertinib (hydrochloride),EGFR,79,CVCL_1577
+Almonertinib (hydrochloride),EGFR,79,CVCL_1635
+Almonertinib (hydrochloride),EGFR,79,CVCL_1666
+Almonertinib (hydrochloride),EGFR,79,CVCL_1693
+Almonertinib (hydrochloride),EGFR,79,CVCL_1715
+Almonertinib (hydrochloride),EGFR,79,CVCL_1716
+Almonertinib (hydrochloride),EGFR,79,CVCL_1717
+Almonertinib (hydrochloride),EGFR,79,CVCL_1724
+Almonertinib (hydrochloride),EGFR,79,CVCL_1731
+Almonertinib (hydrochloride),EGFR,79,CVCL_C466
+Amsacrine,TOP2A,253,CVCL_0023
+Amsacrine,TOP2A,253,CVCL_0069
+Amsacrine,TOP2A,253,CVCL_0099
+Amsacrine,TOP2A,253,CVCL_0131
+Amsacrine,TOP2A,253,CVCL_0152
+Amsacrine,TOP2A,253,CVCL_0179
+Amsacrine,TOP2A,253,CVCL_0218
+Amsacrine,TOP2A,253,CVCL_0292
+Amsacrine,TOP2A,253,CVCL_0293
+Amsacrine,TOP2A,253,CVCL_0332
+Amsacrine,TOP2A,253,CVCL_0334
+Amsacrine,TOP2A,253,CVCL_0359
+Amsacrine,TOP2A,253,CVCL_0366
+Amsacrine,TOP2A,253,CVCL_0371
+Amsacrine,TOP2A,253,CVCL_0397
+Amsacrine,TOP2A,253,CVCL_0399
+Amsacrine,TOP2A,253,CVCL_0428
+Amsacrine,TOP2A,253,CVCL_0459
+Amsacrine,TOP2A,253,CVCL_0480
+Amsacrine,TOP2A,253,CVCL_0504
+Amsacrine,TOP2A,253,CVCL_0546
+Amsacrine,TOP2A,253,CVCL_1055
+Amsacrine,TOP2A,253,CVCL_1056
+Amsacrine,TOP2A,253,CVCL_1094
+Amsacrine,TOP2A,253,CVCL_1097
+Amsacrine,TOP2A,253,CVCL_1098
+Amsacrine,TOP2A,253,CVCL_1119
+Amsacrine,TOP2A,253,CVCL_1125
+Amsacrine,TOP2A,253,CVCL_1239
+Amsacrine,TOP2A,253,CVCL_1285
+Amsacrine,TOP2A,253,CVCL_1381
+Amsacrine,TOP2A,253,CVCL_1478
+Amsacrine,TOP2A,253,CVCL_1495
+Amsacrine,TOP2A,253,CVCL_1517
+Amsacrine,TOP2A,253,CVCL_1531
+Amsacrine,TOP2A,253,CVCL_1547
+Amsacrine,TOP2A,253,CVCL_1550
+Amsacrine,TOP2A,253,CVCL_1577
+Amsacrine,TOP2A,253,CVCL_1635
+Amsacrine,TOP2A,253,CVCL_1693
+Amsacrine,TOP2A,253,CVCL_1715
+Amsacrine,TOP2A,253,CVCL_1716
+Amsacrine,TOP2A,253,CVCL_1717
+Amsacrine,TOP2A,253,CVCL_1724
+Amsacrine,TOP2A,253,CVCL_1731
+Amsacrine,TOP2A,253,CVCL_C466
+Balsalazide (sodium hydrate),IL6,126,CVCL_0023
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0023
+Balsalazide (sodium hydrate),IL6,126,CVCL_0069
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0069
+Balsalazide (sodium hydrate),IL6,126,CVCL_0099
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0099
+Balsalazide (sodium hydrate),IL6,126,CVCL_0131
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0131
+Balsalazide (sodium hydrate),IL6,126,CVCL_0152
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0152
+Balsalazide (sodium hydrate),IL6,126,CVCL_0179
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0179
+Balsalazide (sodium hydrate),IL6,126,CVCL_0218
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0218
+Balsalazide (sodium hydrate),IL6,126,CVCL_0292
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0292
+Balsalazide (sodium hydrate),IL6,126,CVCL_0293
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0293
+Balsalazide (sodium hydrate),IL6,126,CVCL_0332
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0332
+Balsalazide (sodium hydrate),IL6,126,CVCL_0334
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0334
+Balsalazide (sodium hydrate),IL6,126,CVCL_0359
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0359
+Balsalazide (sodium hydrate),IL6,126,CVCL_0366
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0366
+Balsalazide (sodium hydrate),IL6,126,CVCL_0371
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0371
+Balsalazide (sodium hydrate),IL6,126,CVCL_0397
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0397
+Balsalazide (sodium hydrate),IL6,126,CVCL_0399
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0399
+Balsalazide (sodium hydrate),IL6,126,CVCL_0428
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0428
+Balsalazide (sodium hydrate),IL6,126,CVCL_0459
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0459
+Balsalazide (sodium hydrate),IL6,126,CVCL_0480
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0480
+Balsalazide (sodium hydrate),IL6,126,CVCL_0504
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0504
+Balsalazide (sodium hydrate),IL6,126,CVCL_0546
+Balsalazide (sodium hydrate),STAT3,247,CVCL_0546
+Balsalazide (sodium hydrate),IL6,126,CVCL_1055
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1055
+Balsalazide (sodium hydrate),IL6,126,CVCL_1056
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1056
+Balsalazide (sodium hydrate),IL6,126,CVCL_1094
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1094
+Balsalazide (sodium hydrate),IL6,126,CVCL_1097
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1097
+Balsalazide (sodium hydrate),IL6,126,CVCL_1098
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1098
+Balsalazide (sodium hydrate),IL6,126,CVCL_1119
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1119
+Balsalazide (sodium hydrate),IL6,126,CVCL_1125
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1125
+Balsalazide (sodium hydrate),IL6,126,CVCL_1239
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1239
+Balsalazide (sodium hydrate),IL6,126,CVCL_1285
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1285
+Balsalazide (sodium hydrate),IL6,126,CVCL_1381
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1381
+Balsalazide (sodium hydrate),IL6,126,CVCL_1478
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1478
+Balsalazide (sodium hydrate),IL6,126,CVCL_1495
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1495
+Balsalazide (sodium hydrate),IL6,126,CVCL_1517
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1517
+Balsalazide (sodium hydrate),IL6,126,CVCL_1531
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1531
+Balsalazide (sodium hydrate),IL6,126,CVCL_1547
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1547
+Balsalazide (sodium hydrate),IL6,126,CVCL_1550
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1550
+Balsalazide (sodium hydrate),IL6,126,CVCL_1577
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1577
+Balsalazide (sodium hydrate),IL6,126,CVCL_1635
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1635
+Balsalazide (sodium hydrate),IL6,126,CVCL_1693
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1693
+Balsalazide (sodium hydrate),IL6,126,CVCL_1715
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1715
+Balsalazide (sodium hydrate),IL6,126,CVCL_1716
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1716
+Balsalazide (sodium hydrate),IL6,126,CVCL_1717
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1717
+Balsalazide (sodium hydrate),IL6,126,CVCL_1724
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1724
+Balsalazide (sodium hydrate),IL6,126,CVCL_1731
+Balsalazide (sodium hydrate),STAT3,247,CVCL_1731
+Balsalazide (sodium hydrate),IL6,126,CVCL_C466
+Balsalazide (sodium hydrate),STAT3,247,CVCL_C466
+Berbamine,CACNA1C,37,CVCL_0023
+Berbamine,CACNA1C,37,CVCL_0069
+Berbamine,CACNA1C,37,CVCL_0099
+Berbamine,CACNA1C,37,CVCL_0131
+Berbamine,CACNA1C,37,CVCL_0152
+Berbamine,CACNA1C,37,CVCL_0179
+Berbamine,CACNA1C,37,CVCL_0292
+Berbamine,CACNA1C,37,CVCL_0293
+Berbamine,CACNA1C,37,CVCL_0320
+Berbamine,CACNA1C,37,CVCL_0359
+Berbamine,CACNA1C,37,CVCL_0366
+Berbamine,CACNA1C,37,CVCL_0371
+Berbamine,CACNA1C,37,CVCL_0397
+Berbamine,CACNA1C,37,CVCL_0399
+Berbamine,CACNA1C,37,CVCL_0428
+Berbamine,CACNA1C,37,CVCL_0459
+Berbamine,CACNA1C,37,CVCL_0480
+Berbamine,CACNA1C,37,CVCL_0546
+Berbamine,CACNA1C,37,CVCL_1055
+Berbamine,CACNA1C,37,CVCL_1056
+Berbamine,CACNA1C,37,CVCL_1119
+Berbamine,CACNA1C,37,CVCL_1239
+Berbamine,CACNA1C,37,CVCL_1285
+Berbamine,CACNA1C,37,CVCL_1381
+Berbamine,CACNA1C,37,CVCL_1478
+Berbamine,CACNA1C,37,CVCL_1495
+Berbamine,CACNA1C,37,CVCL_1531
+Berbamine,CACNA1C,37,CVCL_1547
+Berbamine,CACNA1C,37,CVCL_1550
+Berbamine,CACNA1C,37,CVCL_1577
+Berbamine,CACNA1C,37,CVCL_1635
+Berbamine,CACNA1C,37,CVCL_1715
+Berbamine,CACNA1C,37,CVCL_1716
+Berbamine,CACNA1C,37,CVCL_1717
+Berbamine,CACNA1C,37,CVCL_1724
+Berbamine,CACNA1C,37,CVCL_1731
+Cepharanthine,CYP2C9,65,CVCL_0023
+Cepharanthine,CYP2E1,66,CVCL_0023
+Cepharanthine,CYP3A4,67,CVCL_0023
+Cepharanthine,CYP2C9,65,CVCL_0069
+Cepharanthine,CYP2E1,66,CVCL_0069
+Cepharanthine,CYP3A4,67,CVCL_0069
+Cepharanthine,CYP2C9,65,CVCL_0099
+Cepharanthine,CYP2E1,66,CVCL_0099
+Cepharanthine,CYP3A4,67,CVCL_0099
+Cepharanthine,CYP2C9,65,CVCL_0131
+Cepharanthine,CYP2E1,66,CVCL_0131
+Cepharanthine,CYP3A4,67,CVCL_0131
+Cepharanthine,CYP2C9,65,CVCL_0152
+Cepharanthine,CYP2E1,66,CVCL_0152
+Cepharanthine,CYP3A4,67,CVCL_0152
+Cepharanthine,CYP2C9,65,CVCL_0179
+Cepharanthine,CYP2E1,66,CVCL_0179
+Cepharanthine,CYP3A4,67,CVCL_0179
+Cepharanthine,CYP2C9,65,CVCL_0292
+Cepharanthine,CYP2E1,66,CVCL_0292
+Cepharanthine,CYP3A4,67,CVCL_0292
+Cepharanthine,CYP2C9,65,CVCL_0293
+Cepharanthine,CYP2E1,66,CVCL_0293
+Cepharanthine,CYP3A4,67,CVCL_0293
+Cepharanthine,CYP2C9,65,CVCL_0320
+Cepharanthine,CYP2E1,66,CVCL_0320
+Cepharanthine,CYP3A4,67,CVCL_0320
+Cepharanthine,CYP2C9,65,CVCL_0332
+Cepharanthine,CYP2E1,66,CVCL_0332
+Cepharanthine,CYP3A4,67,CVCL_0332
+Cepharanthine,CYP2C9,65,CVCL_0359
+Cepharanthine,CYP2E1,66,CVCL_0359
+Cepharanthine,CYP3A4,67,CVCL_0359
+Cepharanthine,CYP2C9,65,CVCL_0366
+Cepharanthine,CYP2E1,66,CVCL_0366
+Cepharanthine,CYP3A4,67,CVCL_0366
+Cepharanthine,CYP2C9,65,CVCL_0371
+Cepharanthine,CYP2E1,66,CVCL_0371
+Cepharanthine,CYP3A4,67,CVCL_0371
+Cepharanthine,CYP2C9,65,CVCL_0397
+Cepharanthine,CYP2E1,66,CVCL_0397
+Cepharanthine,CYP3A4,67,CVCL_0397
+Cepharanthine,CYP2C9,65,CVCL_0399
+Cepharanthine,CYP2E1,66,CVCL_0399
+Cepharanthine,CYP3A4,67,CVCL_0399
+Cepharanthine,CYP2C9,65,CVCL_0428
+Cepharanthine,CYP2E1,66,CVCL_0428
+Cepharanthine,CYP3A4,67,CVCL_0428
+Cepharanthine,CYP2C9,65,CVCL_0459
+Cepharanthine,CYP2E1,66,CVCL_0459
+Cepharanthine,CYP3A4,67,CVCL_0459
+Cepharanthine,CYP2C9,65,CVCL_0480
+Cepharanthine,CYP2E1,66,CVCL_0480
+Cepharanthine,CYP3A4,67,CVCL_0480
+Cepharanthine,CYP2C9,65,CVCL_0504
+Cepharanthine,CYP2E1,66,CVCL_0504
+Cepharanthine,CYP3A4,67,CVCL_0504
+Cepharanthine,CYP2C9,65,CVCL_1055
+Cepharanthine,CYP2E1,66,CVCL_1055
+Cepharanthine,CYP3A4,67,CVCL_1055
+Cepharanthine,CYP2C9,65,CVCL_1056
+Cepharanthine,CYP2E1,66,CVCL_1056
+Cepharanthine,CYP3A4,67,CVCL_1056
+Cepharanthine,CYP2C9,65,CVCL_1097
+Cepharanthine,CYP2E1,66,CVCL_1097
+Cepharanthine,CYP3A4,67,CVCL_1097
+Cepharanthine,CYP2C9,65,CVCL_1119
+Cepharanthine,CYP2E1,66,CVCL_1119
+Cepharanthine,CYP3A4,67,CVCL_1119
+Cepharanthine,CYP2C9,65,CVCL_1125
+Cepharanthine,CYP2E1,66,CVCL_1125
+Cepharanthine,CYP3A4,67,CVCL_1125
+Cepharanthine,CYP2C9,65,CVCL_1239
+Cepharanthine,CYP2E1,66,CVCL_1239
+Cepharanthine,CYP3A4,67,CVCL_1239
+Cepharanthine,CYP2C9,65,CVCL_1285
+Cepharanthine,CYP2E1,66,CVCL_1285
+Cepharanthine,CYP3A4,67,CVCL_1285
+Cepharanthine,CYP2C9,65,CVCL_1381
+Cepharanthine,CYP2E1,66,CVCL_1381
+Cepharanthine,CYP3A4,67,CVCL_1381
+Cepharanthine,CYP2C9,65,CVCL_1478
+Cepharanthine,CYP2E1,66,CVCL_1478
+Cepharanthine,CYP3A4,67,CVCL_1478
+Cepharanthine,CYP2C9,65,CVCL_1495
+Cepharanthine,CYP2E1,66,CVCL_1495
+Cepharanthine,CYP3A4,67,CVCL_1495
+Cepharanthine,CYP2C9,65,CVCL_1531
+Cepharanthine,CYP2E1,66,CVCL_1531
+Cepharanthine,CYP3A4,67,CVCL_1531
+Cepharanthine,CYP2C9,65,CVCL_1547
+Cepharanthine,CYP2E1,66,CVCL_1547
+Cepharanthine,CYP3A4,67,CVCL_1547
+Cepharanthine,CYP2C9,65,CVCL_1550
+Cepharanthine,CYP2E1,66,CVCL_1550
+Cepharanthine,CYP3A4,67,CVCL_1550
+Cepharanthine,CYP2C9,65,CVCL_1577
+Cepharanthine,CYP2E1,66,CVCL_1577
+Cepharanthine,CYP3A4,67,CVCL_1577
+Cepharanthine,CYP2C9,65,CVCL_1635
+Cepharanthine,CYP2E1,66,CVCL_1635
+Cepharanthine,CYP3A4,67,CVCL_1635
+Cepharanthine,CYP2C9,65,CVCL_1715
+Cepharanthine,CYP2E1,66,CVCL_1715
+Cepharanthine,CYP3A4,67,CVCL_1715
+Cepharanthine,CYP2C9,65,CVCL_1716
+Cepharanthine,CYP2E1,66,CVCL_1716
+Cepharanthine,CYP3A4,67,CVCL_1716
+Cepharanthine,CYP2C9,65,CVCL_1717
+Cepharanthine,CYP2E1,66,CVCL_1717
+Cepharanthine,CYP3A4,67,CVCL_1717
+Cepharanthine,CYP2C9,65,CVCL_1724
+Cepharanthine,CYP2E1,66,CVCL_1724
+Cepharanthine,CYP3A4,67,CVCL_1724
+Cepharanthine,CYP2C9,65,CVCL_1731
+Cepharanthine,CYP2E1,66,CVCL_1731
+Cepharanthine,CYP3A4,67,CVCL_1731
+Cepharanthine,CYP2C9,65,CVCL_C466
+Cepharanthine,CYP2E1,66,CVCL_C466
+Cepharanthine,CYP3A4,67,CVCL_C466
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0023
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0023
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0023
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0069
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0069
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0069
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0099
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0099
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0099
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0131
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0131
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0131
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0152
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0152
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0152
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0292
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0292
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0292
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0293
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0293
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0293
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0320
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0320
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0320
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0359
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0359
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0359
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0366
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0366
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0366
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0371
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0371
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0371
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0397
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0397
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0397
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0399
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0399
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0399
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0428
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0428
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0428
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0459
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0459
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0459
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0480
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0480
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0480
+Clonidine (hydrochloride),ADRA2A,12,CVCL_0504
+Clonidine (hydrochloride),ADRA2B,13,CVCL_0504
+Clonidine (hydrochloride),ADRA2C,14,CVCL_0504
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1055
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1055
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1055
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1097
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1097
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1097
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1119
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1119
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1119
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1239
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1239
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1239
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1285
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1285
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1285
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1381
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1381
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1381
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1478
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1478
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1478
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1495
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1495
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1495
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1531
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1531
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1531
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1547
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1547
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1547
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1550
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1550
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1550
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1577
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1577
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1577
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1635
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1635
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1635
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1715
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1715
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1715
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1716
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1716
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1716
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1717
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1717
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1717
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1724
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1724
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1724
+Clonidine (hydrochloride),ADRA2A,12,CVCL_1731
+Clonidine (hydrochloride),ADRA2B,13,CVCL_1731
+Clonidine (hydrochloride),ADRA2C,14,CVCL_1731
+Clotrimazole,CYP2A6,61,CVCL_0023
+Clotrimazole,CYP51A1,69,CVCL_0023
+Clotrimazole,CYP2A6,61,CVCL_0028
+Clotrimazole,CYP51A1,69,CVCL_0028
+Clotrimazole,CYP2A6,61,CVCL_0069
+Clotrimazole,CYP51A1,69,CVCL_0069
+Clotrimazole,CYP2A6,61,CVCL_0099
+Clotrimazole,CYP51A1,69,CVCL_0099
+Clotrimazole,CYP2A6,61,CVCL_0131
+Clotrimazole,CYP51A1,69,CVCL_0131
+Clotrimazole,CYP2A6,61,CVCL_0152
+Clotrimazole,CYP51A1,69,CVCL_0152
+Clotrimazole,CYP2A6,61,CVCL_0179
+Clotrimazole,CYP51A1,69,CVCL_0179
+Clotrimazole,CYP2A6,61,CVCL_0218
+Clotrimazole,CYP51A1,69,CVCL_0218
+Clotrimazole,CYP2A6,61,CVCL_0292
+Clotrimazole,CYP51A1,69,CVCL_0292
+Clotrimazole,CYP2A6,61,CVCL_0293
+Clotrimazole,CYP51A1,69,CVCL_0293
+Clotrimazole,CYP2A6,61,CVCL_0332
+Clotrimazole,CYP51A1,69,CVCL_0332
+Clotrimazole,CYP2A6,61,CVCL_0334
+Clotrimazole,CYP51A1,69,CVCL_0334
+Clotrimazole,CYP2A6,61,CVCL_0359
+Clotrimazole,CYP51A1,69,CVCL_0359
+Clotrimazole,CYP2A6,61,CVCL_0366
+Clotrimazole,CYP51A1,69,CVCL_0366
+Clotrimazole,CYP2A6,61,CVCL_0371
+Clotrimazole,CYP51A1,69,CVCL_0371
+Clotrimazole,CYP2A6,61,CVCL_0397
+Clotrimazole,CYP51A1,69,CVCL_0397
+Clotrimazole,CYP2A6,61,CVCL_0399
+Clotrimazole,CYP51A1,69,CVCL_0399
+Clotrimazole,CYP2A6,61,CVCL_0428
+Clotrimazole,CYP51A1,69,CVCL_0428
+Clotrimazole,CYP2A6,61,CVCL_0459
+Clotrimazole,CYP51A1,69,CVCL_0459
+Clotrimazole,CYP2A6,61,CVCL_0480
+Clotrimazole,CYP51A1,69,CVCL_0480
+Clotrimazole,CYP2A6,61,CVCL_0504
+Clotrimazole,CYP51A1,69,CVCL_0504
+Clotrimazole,CYP2A6,61,CVCL_0546
+Clotrimazole,CYP51A1,69,CVCL_0546
+Clotrimazole,CYP2A6,61,CVCL_1055
+Clotrimazole,CYP51A1,69,CVCL_1055
+Clotrimazole,CYP2A6,61,CVCL_1056
+Clotrimazole,CYP51A1,69,CVCL_1056
+Clotrimazole,CYP2A6,61,CVCL_1094
+Clotrimazole,CYP51A1,69,CVCL_1094
+Clotrimazole,CYP2A6,61,CVCL_1097
+Clotrimazole,CYP51A1,69,CVCL_1097
+Clotrimazole,CYP2A6,61,CVCL_1098
+Clotrimazole,CYP51A1,69,CVCL_1098
+Clotrimazole,CYP2A6,61,CVCL_1119
+Clotrimazole,CYP51A1,69,CVCL_1119
+Clotrimazole,CYP2A6,61,CVCL_1239
+Clotrimazole,CYP51A1,69,CVCL_1239
+Clotrimazole,CYP2A6,61,CVCL_1285
+Clotrimazole,CYP51A1,69,CVCL_1285
+Clotrimazole,CYP2A6,61,CVCL_1381
+Clotrimazole,CYP51A1,69,CVCL_1381
+Clotrimazole,CYP2A6,61,CVCL_1478
+Clotrimazole,CYP51A1,69,CVCL_1478
+Clotrimazole,CYP2A6,61,CVCL_1495
+Clotrimazole,CYP51A1,69,CVCL_1495
+Clotrimazole,CYP2A6,61,CVCL_1517
+Clotrimazole,CYP51A1,69,CVCL_1517
+Clotrimazole,CYP2A6,61,CVCL_1531
+Clotrimazole,CYP51A1,69,CVCL_1531
+Clotrimazole,CYP2A6,61,CVCL_1547
+Clotrimazole,CYP51A1,69,CVCL_1547
+Clotrimazole,CYP2A6,61,CVCL_1550
+Clotrimazole,CYP51A1,69,CVCL_1550
+Clotrimazole,CYP2A6,61,CVCL_1577
+Clotrimazole,CYP51A1,69,CVCL_1577
+Clotrimazole,CYP2A6,61,CVCL_1635
+Clotrimazole,CYP51A1,69,CVCL_1635
+Clotrimazole,CYP2A6,61,CVCL_1693
+Clotrimazole,CYP51A1,69,CVCL_1693
+Clotrimazole,CYP2A6,61,CVCL_1715
+Clotrimazole,CYP51A1,69,CVCL_1715
+Clotrimazole,CYP2A6,61,CVCL_1716
+Clotrimazole,CYP51A1,69,CVCL_1716
+Clotrimazole,CYP2A6,61,CVCL_1717
+Clotrimazole,CYP51A1,69,CVCL_1717
+Clotrimazole,CYP2A6,61,CVCL_1724
+Clotrimazole,CYP51A1,69,CVCL_1724
+Clotrimazole,CYP2A6,61,CVCL_1731
+Clotrimazole,CYP51A1,69,CVCL_1731
+Clotrimazole,CYP2A6,61,CVCL_C466
+Clotrimazole,CYP51A1,69,CVCL_C466
+Docetaxel,TUBB1,262,CVCL_0023
+Docetaxel,TUBB2A,263,CVCL_0023
+Docetaxel,TUBB2B,264,CVCL_0023
+Docetaxel,TUBB3,265,CVCL_0023
+Docetaxel,TUBB4A,266,CVCL_0023
+Docetaxel,TUBB4B,267,CVCL_0023
+Docetaxel,TUBB1,262,CVCL_0028
+Docetaxel,TUBB2A,263,CVCL_0028
+Docetaxel,TUBB2B,264,CVCL_0028
+Docetaxel,TUBB3,265,CVCL_0028
+Docetaxel,TUBB4A,266,CVCL_0028
+Docetaxel,TUBB4B,267,CVCL_0028
+Docetaxel,TUBB1,262,CVCL_0069
+Docetaxel,TUBB2A,263,CVCL_0069
+Docetaxel,TUBB2B,264,CVCL_0069
+Docetaxel,TUBB3,265,CVCL_0069
+Docetaxel,TUBB4A,266,CVCL_0069
+Docetaxel,TUBB4B,267,CVCL_0069
+Docetaxel,TUBB1,262,CVCL_0099
+Docetaxel,TUBB2A,263,CVCL_0099
+Docetaxel,TUBB2B,264,CVCL_0099
+Docetaxel,TUBB3,265,CVCL_0099
+Docetaxel,TUBB4A,266,CVCL_0099
+Docetaxel,TUBB4B,267,CVCL_0099
+Docetaxel,TUBB1,262,CVCL_0131
+Docetaxel,TUBB2A,263,CVCL_0131
+Docetaxel,TUBB2B,264,CVCL_0131
+Docetaxel,TUBB3,265,CVCL_0131
+Docetaxel,TUBB4A,266,CVCL_0131
+Docetaxel,TUBB4B,267,CVCL_0131
+Docetaxel,TUBB1,262,CVCL_0152
+Docetaxel,TUBB2A,263,CVCL_0152
+Docetaxel,TUBB2B,264,CVCL_0152
+Docetaxel,TUBB3,265,CVCL_0152
+Docetaxel,TUBB4A,266,CVCL_0152
+Docetaxel,TUBB4B,267,CVCL_0152
+Docetaxel,TUBB1,262,CVCL_0179
+Docetaxel,TUBB2A,263,CVCL_0179
+Docetaxel,TUBB2B,264,CVCL_0179
+Docetaxel,TUBB3,265,CVCL_0179
+Docetaxel,TUBB4A,266,CVCL_0179
+Docetaxel,TUBB4B,267,CVCL_0179
+Docetaxel,TUBB1,262,CVCL_0218
+Docetaxel,TUBB2A,263,CVCL_0218
+Docetaxel,TUBB2B,264,CVCL_0218
+Docetaxel,TUBB3,265,CVCL_0218
+Docetaxel,TUBB4A,266,CVCL_0218
+Docetaxel,TUBB4B,267,CVCL_0218
+Docetaxel,TUBB1,262,CVCL_0292
+Docetaxel,TUBB2A,263,CVCL_0292
+Docetaxel,TUBB2B,264,CVCL_0292
+Docetaxel,TUBB3,265,CVCL_0292
+Docetaxel,TUBB4A,266,CVCL_0292
+Docetaxel,TUBB4B,267,CVCL_0292
+Docetaxel,TUBB1,262,CVCL_0293
+Docetaxel,TUBB2A,263,CVCL_0293
+Docetaxel,TUBB2B,264,CVCL_0293
+Docetaxel,TUBB3,265,CVCL_0293
+Docetaxel,TUBB4A,266,CVCL_0293
+Docetaxel,TUBB4B,267,CVCL_0293
+Docetaxel,TUBB1,262,CVCL_0332
+Docetaxel,TUBB2A,263,CVCL_0332
+Docetaxel,TUBB2B,264,CVCL_0332
+Docetaxel,TUBB3,265,CVCL_0332
+Docetaxel,TUBB4A,266,CVCL_0332
+Docetaxel,TUBB4B,267,CVCL_0332
+Docetaxel,TUBB1,262,CVCL_0334
+Docetaxel,TUBB2A,263,CVCL_0334
+Docetaxel,TUBB2B,264,CVCL_0334
+Docetaxel,TUBB3,265,CVCL_0334
+Docetaxel,TUBB4A,266,CVCL_0334
+Docetaxel,TUBB4B,267,CVCL_0334
+Docetaxel,TUBB1,262,CVCL_0359
+Docetaxel,TUBB2A,263,CVCL_0359
+Docetaxel,TUBB2B,264,CVCL_0359
+Docetaxel,TUBB3,265,CVCL_0359
+Docetaxel,TUBB4A,266,CVCL_0359
+Docetaxel,TUBB4B,267,CVCL_0359
+Docetaxel,TUBB1,262,CVCL_0366
+Docetaxel,TUBB2A,263,CVCL_0366
+Docetaxel,TUBB2B,264,CVCL_0366
+Docetaxel,TUBB3,265,CVCL_0366
+Docetaxel,TUBB4A,266,CVCL_0366
+Docetaxel,TUBB4B,267,CVCL_0366
+Docetaxel,TUBB1,262,CVCL_0371
+Docetaxel,TUBB2A,263,CVCL_0371
+Docetaxel,TUBB2B,264,CVCL_0371
+Docetaxel,TUBB3,265,CVCL_0371
+Docetaxel,TUBB4A,266,CVCL_0371
+Docetaxel,TUBB4B,267,CVCL_0371
+Docetaxel,TUBB1,262,CVCL_0397
+Docetaxel,TUBB2A,263,CVCL_0397
+Docetaxel,TUBB2B,264,CVCL_0397
+Docetaxel,TUBB3,265,CVCL_0397
+Docetaxel,TUBB4A,266,CVCL_0397
+Docetaxel,TUBB4B,267,CVCL_0397
+Docetaxel,TUBB1,262,CVCL_0399
+Docetaxel,TUBB2A,263,CVCL_0399
+Docetaxel,TUBB2B,264,CVCL_0399
+Docetaxel,TUBB3,265,CVCL_0399
+Docetaxel,TUBB4A,266,CVCL_0399
+Docetaxel,TUBB4B,267,CVCL_0399
+Docetaxel,TUBB1,262,CVCL_0428
+Docetaxel,TUBB2A,263,CVCL_0428
+Docetaxel,TUBB2B,264,CVCL_0428
+Docetaxel,TUBB3,265,CVCL_0428
+Docetaxel,TUBB4A,266,CVCL_0428
+Docetaxel,TUBB4B,267,CVCL_0428
+Docetaxel,TUBB1,262,CVCL_0459
+Docetaxel,TUBB2A,263,CVCL_0459
+Docetaxel,TUBB2B,264,CVCL_0459
+Docetaxel,TUBB3,265,CVCL_0459
+Docetaxel,TUBB4A,266,CVCL_0459
+Docetaxel,TUBB4B,267,CVCL_0459
+Docetaxel,TUBB1,262,CVCL_0480
+Docetaxel,TUBB2A,263,CVCL_0480
+Docetaxel,TUBB2B,264,CVCL_0480
+Docetaxel,TUBB3,265,CVCL_0480
+Docetaxel,TUBB4A,266,CVCL_0480
+Docetaxel,TUBB4B,267,CVCL_0480
+Docetaxel,TUBB1,262,CVCL_0504
+Docetaxel,TUBB2A,263,CVCL_0504
+Docetaxel,TUBB2B,264,CVCL_0504
+Docetaxel,TUBB3,265,CVCL_0504
+Docetaxel,TUBB4A,266,CVCL_0504
+Docetaxel,TUBB4B,267,CVCL_0504
+Docetaxel,TUBB1,262,CVCL_0546
+Docetaxel,TUBB2A,263,CVCL_0546
+Docetaxel,TUBB2B,264,CVCL_0546
+Docetaxel,TUBB3,265,CVCL_0546
+Docetaxel,TUBB4A,266,CVCL_0546
+Docetaxel,TUBB4B,267,CVCL_0546
+Docetaxel,TUBB1,262,CVCL_1055
+Docetaxel,TUBB2A,263,CVCL_1055
+Docetaxel,TUBB2B,264,CVCL_1055
+Docetaxel,TUBB3,265,CVCL_1055
+Docetaxel,TUBB4A,266,CVCL_1055
+Docetaxel,TUBB4B,267,CVCL_1055
+Docetaxel,TUBB1,262,CVCL_1056
+Docetaxel,TUBB2A,263,CVCL_1056
+Docetaxel,TUBB2B,264,CVCL_1056
+Docetaxel,TUBB3,265,CVCL_1056
+Docetaxel,TUBB4A,266,CVCL_1056
+Docetaxel,TUBB4B,267,CVCL_1056
+Docetaxel,TUBB1,262,CVCL_1094
+Docetaxel,TUBB2A,263,CVCL_1094
+Docetaxel,TUBB2B,264,CVCL_1094
+Docetaxel,TUBB3,265,CVCL_1094
+Docetaxel,TUBB4A,266,CVCL_1094
+Docetaxel,TUBB4B,267,CVCL_1094
+Docetaxel,TUBB1,262,CVCL_1097
+Docetaxel,TUBB2A,263,CVCL_1097
+Docetaxel,TUBB2B,264,CVCL_1097
+Docetaxel,TUBB3,265,CVCL_1097
+Docetaxel,TUBB4A,266,CVCL_1097
+Docetaxel,TUBB4B,267,CVCL_1097
+Docetaxel,TUBB1,262,CVCL_1098
+Docetaxel,TUBB2A,263,CVCL_1098
+Docetaxel,TUBB2B,264,CVCL_1098
+Docetaxel,TUBB3,265,CVCL_1098
+Docetaxel,TUBB4A,266,CVCL_1098
+Docetaxel,TUBB4B,267,CVCL_1098
+Docetaxel,TUBB1,262,CVCL_1119
+Docetaxel,TUBB2A,263,CVCL_1119
+Docetaxel,TUBB2B,264,CVCL_1119
+Docetaxel,TUBB3,265,CVCL_1119
+Docetaxel,TUBB4A,266,CVCL_1119
+Docetaxel,TUBB4B,267,CVCL_1119
+Docetaxel,TUBB1,262,CVCL_1125
+Docetaxel,TUBB2A,263,CVCL_1125
+Docetaxel,TUBB2B,264,CVCL_1125
+Docetaxel,TUBB3,265,CVCL_1125
+Docetaxel,TUBB4A,266,CVCL_1125
+Docetaxel,TUBB4B,267,CVCL_1125
+Docetaxel,TUBB1,262,CVCL_1239
+Docetaxel,TUBB2A,263,CVCL_1239
+Docetaxel,TUBB2B,264,CVCL_1239
+Docetaxel,TUBB3,265,CVCL_1239
+Docetaxel,TUBB4A,266,CVCL_1239
+Docetaxel,TUBB4B,267,CVCL_1239
+Docetaxel,TUBB1,262,CVCL_1285
+Docetaxel,TUBB2A,263,CVCL_1285
+Docetaxel,TUBB2B,264,CVCL_1285
+Docetaxel,TUBB3,265,CVCL_1285
+Docetaxel,TUBB4A,266,CVCL_1285
+Docetaxel,TUBB4B,267,CVCL_1285
+Docetaxel,TUBB1,262,CVCL_1381
+Docetaxel,TUBB2A,263,CVCL_1381
+Docetaxel,TUBB2B,264,CVCL_1381
+Docetaxel,TUBB3,265,CVCL_1381
+Docetaxel,TUBB4A,266,CVCL_1381
+Docetaxel,TUBB4B,267,CVCL_1381
+Docetaxel,TUBB1,262,CVCL_1478
+Docetaxel,TUBB2A,263,CVCL_1478
+Docetaxel,TUBB2B,264,CVCL_1478
+Docetaxel,TUBB3,265,CVCL_1478
+Docetaxel,TUBB4A,266,CVCL_1478
+Docetaxel,TUBB4B,267,CVCL_1478
+Docetaxel,TUBB1,262,CVCL_1495
+Docetaxel,TUBB2A,263,CVCL_1495
+Docetaxel,TUBB2B,264,CVCL_1495
+Docetaxel,TUBB3,265,CVCL_1495
+Docetaxel,TUBB4A,266,CVCL_1495
+Docetaxel,TUBB4B,267,CVCL_1495
+Docetaxel,TUBB1,262,CVCL_1517
+Docetaxel,TUBB2A,263,CVCL_1517
+Docetaxel,TUBB2B,264,CVCL_1517
+Docetaxel,TUBB3,265,CVCL_1517
+Docetaxel,TUBB4A,266,CVCL_1517
+Docetaxel,TUBB4B,267,CVCL_1517
+Docetaxel,TUBB1,262,CVCL_1531
+Docetaxel,TUBB2A,263,CVCL_1531
+Docetaxel,TUBB2B,264,CVCL_1531
+Docetaxel,TUBB3,265,CVCL_1531
+Docetaxel,TUBB4A,266,CVCL_1531
+Docetaxel,TUBB4B,267,CVCL_1531
+Docetaxel,TUBB1,262,CVCL_1547
+Docetaxel,TUBB2A,263,CVCL_1547
+Docetaxel,TUBB2B,264,CVCL_1547
+Docetaxel,TUBB3,265,CVCL_1547
+Docetaxel,TUBB4A,266,CVCL_1547
+Docetaxel,TUBB4B,267,CVCL_1547
+Docetaxel,TUBB1,262,CVCL_1550
+Docetaxel,TUBB2A,263,CVCL_1550
+Docetaxel,TUBB2B,264,CVCL_1550
+Docetaxel,TUBB3,265,CVCL_1550
+Docetaxel,TUBB4A,266,CVCL_1550
+Docetaxel,TUBB4B,267,CVCL_1550
+Docetaxel,TUBB1,262,CVCL_1577
+Docetaxel,TUBB2A,263,CVCL_1577
+Docetaxel,TUBB2B,264,CVCL_1577
+Docetaxel,TUBB3,265,CVCL_1577
+Docetaxel,TUBB4A,266,CVCL_1577
+Docetaxel,TUBB4B,267,CVCL_1577
+Docetaxel,TUBB1,262,CVCL_1635
+Docetaxel,TUBB2A,263,CVCL_1635
+Docetaxel,TUBB2B,264,CVCL_1635
+Docetaxel,TUBB3,265,CVCL_1635
+Docetaxel,TUBB4A,266,CVCL_1635
+Docetaxel,TUBB4B,267,CVCL_1635
+Docetaxel,TUBB1,262,CVCL_1693
+Docetaxel,TUBB2A,263,CVCL_1693
+Docetaxel,TUBB2B,264,CVCL_1693
+Docetaxel,TUBB3,265,CVCL_1693
+Docetaxel,TUBB4A,266,CVCL_1693
+Docetaxel,TUBB4B,267,CVCL_1693
+Docetaxel,TUBB1,262,CVCL_1715
+Docetaxel,TUBB2A,263,CVCL_1715
+Docetaxel,TUBB2B,264,CVCL_1715
+Docetaxel,TUBB3,265,CVCL_1715
+Docetaxel,TUBB4A,266,CVCL_1715
+Docetaxel,TUBB4B,267,CVCL_1715
+Docetaxel,TUBB1,262,CVCL_1716
+Docetaxel,TUBB2A,263,CVCL_1716
+Docetaxel,TUBB2B,264,CVCL_1716
+Docetaxel,TUBB3,265,CVCL_1716
+Docetaxel,TUBB4A,266,CVCL_1716
+Docetaxel,TUBB4B,267,CVCL_1716
+Docetaxel,TUBB1,262,CVCL_1717
+Docetaxel,TUBB2A,263,CVCL_1717
+Docetaxel,TUBB2B,264,CVCL_1717
+Docetaxel,TUBB3,265,CVCL_1717
+Docetaxel,TUBB4A,266,CVCL_1717
+Docetaxel,TUBB4B,267,CVCL_1717
+Docetaxel,TUBB1,262,CVCL_1724
+Docetaxel,TUBB2A,263,CVCL_1724
+Docetaxel,TUBB2B,264,CVCL_1724
+Docetaxel,TUBB3,265,CVCL_1724
+Docetaxel,TUBB4A,266,CVCL_1724
+Docetaxel,TUBB4B,267,CVCL_1724
+Docetaxel,TUBB1,262,CVCL_1731
+Docetaxel,TUBB2A,263,CVCL_1731
+Docetaxel,TUBB2B,264,CVCL_1731
+Docetaxel,TUBB3,265,CVCL_1731
+Docetaxel,TUBB4A,266,CVCL_1731
+Docetaxel,TUBB4B,267,CVCL_1731
+Docetaxel,TUBB1,262,CVCL_C466
+Docetaxel,TUBB2A,263,CVCL_C466
+Docetaxel,TUBB2B,264,CVCL_C466
+Docetaxel,TUBB3,265,CVCL_C466
+Docetaxel,TUBB4A,266,CVCL_C466
+Docetaxel,TUBB4B,267,CVCL_C466
+Elagolix sodium,GNRHR,100,CVCL_0023
+Elagolix sodium,GNRHR,100,CVCL_0028
+Elagolix sodium,GNRHR,100,CVCL_0069
+Elagolix sodium,GNRHR,100,CVCL_0099
+Elagolix sodium,GNRHR,100,CVCL_0131
+Elagolix sodium,GNRHR,100,CVCL_0152
+Elagolix sodium,GNRHR,100,CVCL_0179
+Elagolix sodium,GNRHR,100,CVCL_0218
+Elagolix sodium,GNRHR,100,CVCL_0292
+Elagolix sodium,GNRHR,100,CVCL_0293
+Elagolix sodium,GNRHR,100,CVCL_0332
+Elagolix sodium,GNRHR,100,CVCL_0334
+Elagolix sodium,GNRHR,100,CVCL_0359
+Elagolix sodium,GNRHR,100,CVCL_0366
+Elagolix sodium,GNRHR,100,CVCL_0371
+Elagolix sodium,GNRHR,100,CVCL_0397
+Elagolix sodium,GNRHR,100,CVCL_0399
+Elagolix sodium,GNRHR,100,CVCL_0428
+Elagolix sodium,GNRHR,100,CVCL_0459
+Elagolix sodium,GNRHR,100,CVCL_0480
+Elagolix sodium,GNRHR,100,CVCL_0504
+Elagolix sodium,GNRHR,100,CVCL_0546
+Elagolix sodium,GNRHR,100,CVCL_1055
+Elagolix sodium,GNRHR,100,CVCL_1056
+Elagolix sodium,GNRHR,100,CVCL_1094
+Elagolix sodium,GNRHR,100,CVCL_1097
+Elagolix sodium,GNRHR,100,CVCL_1098
+Elagolix sodium,GNRHR,100,CVCL_1119
+Elagolix sodium,GNRHR,100,CVCL_1125
+Elagolix sodium,GNRHR,100,CVCL_1239
+Elagolix sodium,GNRHR,100,CVCL_1285
+Elagolix sodium,GNRHR,100,CVCL_1381
+Elagolix sodium,GNRHR,100,CVCL_1478
+Elagolix sodium,GNRHR,100,CVCL_1495
+Elagolix sodium,GNRHR,100,CVCL_1517
+Elagolix sodium,GNRHR,100,CVCL_1531
+Elagolix sodium,GNRHR,100,CVCL_1547
+Elagolix sodium,GNRHR,100,CVCL_1550
+Elagolix sodium,GNRHR,100,CVCL_1577
+Elagolix sodium,GNRHR,100,CVCL_1635
+Elagolix sodium,GNRHR,100,CVCL_1693
+Elagolix sodium,GNRHR,100,CVCL_1715
+Elagolix sodium,GNRHR,100,CVCL_1716
+Elagolix sodium,GNRHR,100,CVCL_1717
+Elagolix sodium,GNRHR,100,CVCL_1724
+Elagolix sodium,GNRHR,100,CVCL_1731
+Elagolix sodium,GNRHR,100,CVCL_C466
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0023
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0028
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0069
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0099
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0131
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0152
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0179
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0218
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0292
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0293
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0332
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0334
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0359
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0366
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0371
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0397
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0399
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0428
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0459
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0480
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0504
+Fluvoxamine (maleate),SLC6A4,237,CVCL_0546
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1055
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1056
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1094
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1097
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1098
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1119
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1125
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1239
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1285
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1381
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1478
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1495
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1517
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1531
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1547
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1550
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1577
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1635
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1693
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1715
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1716
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1717
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1724
+Fluvoxamine (maleate),SLC6A4,237,CVCL_1731
+Fluvoxamine (maleate),SLC6A4,237,CVCL_C466
+Furosemide,SLC12A1,232,CVCL_0023
+Furosemide,SLC12A2,233,CVCL_0023
+Furosemide,SLC12A1,232,CVCL_0069
+Furosemide,SLC12A2,233,CVCL_0069
+Furosemide,SLC12A1,232,CVCL_0099
+Furosemide,SLC12A2,233,CVCL_0099
+Furosemide,SLC12A1,232,CVCL_0131
+Furosemide,SLC12A2,233,CVCL_0131
+Furosemide,SLC12A1,232,CVCL_0152
+Furosemide,SLC12A2,233,CVCL_0152
+Furosemide,SLC12A1,232,CVCL_0179
+Furosemide,SLC12A2,233,CVCL_0179
+Furosemide,SLC12A1,232,CVCL_0218
+Furosemide,SLC12A2,233,CVCL_0218
+Furosemide,SLC12A1,232,CVCL_0292
+Furosemide,SLC12A2,233,CVCL_0292
+Furosemide,SLC12A1,232,CVCL_0293
+Furosemide,SLC12A2,233,CVCL_0293
+Furosemide,SLC12A1,232,CVCL_0320
+Furosemide,SLC12A2,233,CVCL_0320
+Furosemide,SLC12A1,232,CVCL_0332
+Furosemide,SLC12A2,233,CVCL_0332
+Furosemide,SLC12A1,232,CVCL_0334
+Furosemide,SLC12A2,233,CVCL_0334
+Furosemide,SLC12A1,232,CVCL_0359
+Furosemide,SLC12A2,233,CVCL_0359
+Furosemide,SLC12A1,232,CVCL_0366
+Furosemide,SLC12A2,233,CVCL_0366
+Furosemide,SLC12A1,232,CVCL_0371
+Furosemide,SLC12A2,233,CVCL_0371
+Furosemide,SLC12A1,232,CVCL_0397
+Furosemide,SLC12A2,233,CVCL_0397
+Furosemide,SLC12A1,232,CVCL_0399
+Furosemide,SLC12A2,233,CVCL_0399
+Furosemide,SLC12A1,232,CVCL_0428
+Furosemide,SLC12A2,233,CVCL_0428
+Furosemide,SLC12A1,232,CVCL_0459
+Furosemide,SLC12A2,233,CVCL_0459
+Furosemide,SLC12A1,232,CVCL_0480
+Furosemide,SLC12A2,233,CVCL_0480
+Furosemide,SLC12A1,232,CVCL_0504
+Furosemide,SLC12A2,233,CVCL_0504
+Furosemide,SLC12A1,232,CVCL_0546
+Furosemide,SLC12A2,233,CVCL_0546
+Furosemide,SLC12A1,232,CVCL_1055
+Furosemide,SLC12A2,233,CVCL_1055
+Furosemide,SLC12A1,232,CVCL_1056
+Furosemide,SLC12A2,233,CVCL_1056
+Furosemide,SLC12A1,232,CVCL_1094
+Furosemide,SLC12A2,233,CVCL_1094
+Furosemide,SLC12A1,232,CVCL_1097
+Furosemide,SLC12A2,233,CVCL_1097
+Furosemide,SLC12A1,232,CVCL_1098
+Furosemide,SLC12A2,233,CVCL_1098
+Furosemide,SLC12A1,232,CVCL_1119
+Furosemide,SLC12A2,233,CVCL_1119
+Furosemide,SLC12A1,232,CVCL_1125
+Furosemide,SLC12A2,233,CVCL_1125
+Furosemide,SLC12A1,232,CVCL_1239
+Furosemide,SLC12A2,233,CVCL_1239
+Furosemide,SLC12A1,232,CVCL_1285
+Furosemide,SLC12A2,233,CVCL_1285
+Furosemide,SLC12A1,232,CVCL_1381
+Furosemide,SLC12A2,233,CVCL_1381
+Furosemide,SLC12A1,232,CVCL_1478
+Furosemide,SLC12A2,233,CVCL_1478
+Furosemide,SLC12A1,232,CVCL_1495
+Furosemide,SLC12A2,233,CVCL_1495
+Furosemide,SLC12A1,232,CVCL_1517
+Furosemide,SLC12A2,233,CVCL_1517
+Furosemide,SLC12A1,232,CVCL_1531
+Furosemide,SLC12A2,233,CVCL_1531
+Furosemide,SLC12A1,232,CVCL_1547
+Furosemide,SLC12A2,233,CVCL_1547
+Furosemide,SLC12A1,232,CVCL_1550
+Furosemide,SLC12A2,233,CVCL_1550
+Furosemide,SLC12A1,232,CVCL_1577
+Furosemide,SLC12A2,233,CVCL_1577
+Furosemide,SLC12A1,232,CVCL_1635
+Furosemide,SLC12A2,233,CVCL_1635
+Furosemide,SLC12A1,232,CVCL_1693
+Furosemide,SLC12A2,233,CVCL_1693
+Furosemide,SLC12A1,232,CVCL_1715
+Furosemide,SLC12A2,233,CVCL_1715
+Furosemide,SLC12A1,232,CVCL_1716
+Furosemide,SLC12A2,233,CVCL_1716
+Furosemide,SLC12A1,232,CVCL_1717
+Furosemide,SLC12A2,233,CVCL_1717
+Furosemide,SLC12A1,232,CVCL_1724
+Furosemide,SLC12A2,233,CVCL_1724
+Furosemide,SLC12A1,232,CVCL_1731
+Furosemide,SLC12A2,233,CVCL_1731
+Furosemide,SLC12A1,232,CVCL_C466
+Furosemide,SLC12A2,233,CVCL_C466
+Gemfibrozil,CYP1A2,60,CVCL_0023
+Gemfibrozil,CYP2C19,63,CVCL_0023
+Gemfibrozil,CYP2C8,64,CVCL_0023
+Gemfibrozil,CYP2C9,65,CVCL_0023
+Gemfibrozil,PPARA,194,CVCL_0023
+Gemfibrozil,CYP1A2,60,CVCL_0069
+Gemfibrozil,CYP2C19,63,CVCL_0069
+Gemfibrozil,CYP2C8,64,CVCL_0069
+Gemfibrozil,CYP2C9,65,CVCL_0069
+Gemfibrozil,PPARA,194,CVCL_0069
+Gemfibrozil,CYP1A2,60,CVCL_0099
+Gemfibrozil,CYP2C19,63,CVCL_0099
+Gemfibrozil,CYP2C8,64,CVCL_0099
+Gemfibrozil,CYP2C9,65,CVCL_0099
+Gemfibrozil,PPARA,194,CVCL_0099
+Gemfibrozil,CYP1A2,60,CVCL_0131
+Gemfibrozil,CYP2C19,63,CVCL_0131
+Gemfibrozil,CYP2C8,64,CVCL_0131
+Gemfibrozil,CYP2C9,65,CVCL_0131
+Gemfibrozil,PPARA,194,CVCL_0131
+Gemfibrozil,CYP1A2,60,CVCL_0152
+Gemfibrozil,CYP2C19,63,CVCL_0152
+Gemfibrozil,CYP2C8,64,CVCL_0152
+Gemfibrozil,CYP2C9,65,CVCL_0152
+Gemfibrozil,PPARA,194,CVCL_0152
+Gemfibrozil,CYP1A2,60,CVCL_0179
+Gemfibrozil,CYP2C19,63,CVCL_0179
+Gemfibrozil,CYP2C8,64,CVCL_0179
+Gemfibrozil,CYP2C9,65,CVCL_0179
+Gemfibrozil,PPARA,194,CVCL_0179
+Gemfibrozil,CYP1A2,60,CVCL_0218
+Gemfibrozil,CYP2C19,63,CVCL_0218
+Gemfibrozil,CYP2C8,64,CVCL_0218
+Gemfibrozil,CYP2C9,65,CVCL_0218
+Gemfibrozil,PPARA,194,CVCL_0218
+Gemfibrozil,CYP1A2,60,CVCL_0292
+Gemfibrozil,CYP2C19,63,CVCL_0292
+Gemfibrozil,CYP2C8,64,CVCL_0292
+Gemfibrozil,CYP2C9,65,CVCL_0292
+Gemfibrozil,PPARA,194,CVCL_0292
+Gemfibrozil,CYP1A2,60,CVCL_0293
+Gemfibrozil,CYP2C19,63,CVCL_0293
+Gemfibrozil,CYP2C8,64,CVCL_0293
+Gemfibrozil,CYP2C9,65,CVCL_0293
+Gemfibrozil,PPARA,194,CVCL_0293
+Gemfibrozil,CYP1A2,60,CVCL_0320
+Gemfibrozil,CYP2C19,63,CVCL_0320
+Gemfibrozil,CYP2C8,64,CVCL_0320
+Gemfibrozil,CYP2C9,65,CVCL_0320
+Gemfibrozil,PPARA,194,CVCL_0320
+Gemfibrozil,CYP1A2,60,CVCL_0332
+Gemfibrozil,CYP2C19,63,CVCL_0332
+Gemfibrozil,CYP2C8,64,CVCL_0332
+Gemfibrozil,CYP2C9,65,CVCL_0332
+Gemfibrozil,PPARA,194,CVCL_0332
+Gemfibrozil,CYP1A2,60,CVCL_0334
+Gemfibrozil,CYP2C19,63,CVCL_0334
+Gemfibrozil,CYP2C8,64,CVCL_0334
+Gemfibrozil,CYP2C9,65,CVCL_0334
+Gemfibrozil,PPARA,194,CVCL_0334
+Gemfibrozil,CYP1A2,60,CVCL_0359
+Gemfibrozil,CYP2C19,63,CVCL_0359
+Gemfibrozil,CYP2C8,64,CVCL_0359
+Gemfibrozil,CYP2C9,65,CVCL_0359
+Gemfibrozil,PPARA,194,CVCL_0359
+Gemfibrozil,CYP1A2,60,CVCL_0366
+Gemfibrozil,CYP2C19,63,CVCL_0366
+Gemfibrozil,CYP2C8,64,CVCL_0366
+Gemfibrozil,CYP2C9,65,CVCL_0366
+Gemfibrozil,PPARA,194,CVCL_0366
+Gemfibrozil,CYP1A2,60,CVCL_0371
+Gemfibrozil,CYP2C19,63,CVCL_0371
+Gemfibrozil,CYP2C8,64,CVCL_0371
+Gemfibrozil,CYP2C9,65,CVCL_0371
+Gemfibrozil,PPARA,194,CVCL_0371
+Gemfibrozil,CYP1A2,60,CVCL_0397
+Gemfibrozil,CYP2C19,63,CVCL_0397
+Gemfibrozil,CYP2C8,64,CVCL_0397
+Gemfibrozil,CYP2C9,65,CVCL_0397
+Gemfibrozil,PPARA,194,CVCL_0397
+Gemfibrozil,CYP1A2,60,CVCL_0399
+Gemfibrozil,CYP2C19,63,CVCL_0399
+Gemfibrozil,CYP2C8,64,CVCL_0399
+Gemfibrozil,CYP2C9,65,CVCL_0399
+Gemfibrozil,PPARA,194,CVCL_0399
+Gemfibrozil,CYP1A2,60,CVCL_0428
+Gemfibrozil,CYP2C19,63,CVCL_0428
+Gemfibrozil,CYP2C8,64,CVCL_0428
+Gemfibrozil,CYP2C9,65,CVCL_0428
+Gemfibrozil,PPARA,194,CVCL_0428
+Gemfibrozil,CYP1A2,60,CVCL_0459
+Gemfibrozil,CYP2C19,63,CVCL_0459
+Gemfibrozil,CYP2C8,64,CVCL_0459
+Gemfibrozil,CYP2C9,65,CVCL_0459
+Gemfibrozil,PPARA,194,CVCL_0459
+Gemfibrozil,CYP1A2,60,CVCL_0480
+Gemfibrozil,CYP2C19,63,CVCL_0480
+Gemfibrozil,CYP2C8,64,CVCL_0480
+Gemfibrozil,CYP2C9,65,CVCL_0480
+Gemfibrozil,PPARA,194,CVCL_0480
+Gemfibrozil,CYP1A2,60,CVCL_0504
+Gemfibrozil,CYP2C19,63,CVCL_0504
+Gemfibrozil,CYP2C8,64,CVCL_0504
+Gemfibrozil,CYP2C9,65,CVCL_0504
+Gemfibrozil,PPARA,194,CVCL_0504
+Gemfibrozil,CYP1A2,60,CVCL_0546
+Gemfibrozil,CYP2C19,63,CVCL_0546
+Gemfibrozil,CYP2C8,64,CVCL_0546
+Gemfibrozil,CYP2C9,65,CVCL_0546
+Gemfibrozil,PPARA,194,CVCL_0546
+Gemfibrozil,CYP1A2,60,CVCL_1055
+Gemfibrozil,CYP2C19,63,CVCL_1055
+Gemfibrozil,CYP2C8,64,CVCL_1055
+Gemfibrozil,CYP2C9,65,CVCL_1055
+Gemfibrozil,PPARA,194,CVCL_1055
+Gemfibrozil,CYP1A2,60,CVCL_1056
+Gemfibrozil,CYP2C19,63,CVCL_1056
+Gemfibrozil,CYP2C8,64,CVCL_1056
+Gemfibrozil,CYP2C9,65,CVCL_1056
+Gemfibrozil,PPARA,194,CVCL_1056
+Gemfibrozil,CYP1A2,60,CVCL_1094
+Gemfibrozil,CYP2C19,63,CVCL_1094
+Gemfibrozil,CYP2C8,64,CVCL_1094
+Gemfibrozil,CYP2C9,65,CVCL_1094
+Gemfibrozil,PPARA,194,CVCL_1094
+Gemfibrozil,CYP1A2,60,CVCL_1097
+Gemfibrozil,CYP2C19,63,CVCL_1097
+Gemfibrozil,CYP2C8,64,CVCL_1097
+Gemfibrozil,CYP2C9,65,CVCL_1097
+Gemfibrozil,PPARA,194,CVCL_1097
+Gemfibrozil,CYP1A2,60,CVCL_1098
+Gemfibrozil,CYP2C19,63,CVCL_1098
+Gemfibrozil,CYP2C8,64,CVCL_1098
+Gemfibrozil,CYP2C9,65,CVCL_1098
+Gemfibrozil,PPARA,194,CVCL_1098
+Gemfibrozil,CYP1A2,60,CVCL_1119
+Gemfibrozil,CYP2C19,63,CVCL_1119
+Gemfibrozil,CYP2C8,64,CVCL_1119
+Gemfibrozil,CYP2C9,65,CVCL_1119
+Gemfibrozil,PPARA,194,CVCL_1119
+Gemfibrozil,CYP1A2,60,CVCL_1125
+Gemfibrozil,CYP2C19,63,CVCL_1125
+Gemfibrozil,CYP2C8,64,CVCL_1125
+Gemfibrozil,CYP2C9,65,CVCL_1125
+Gemfibrozil,PPARA,194,CVCL_1125
+Gemfibrozil,CYP1A2,60,CVCL_1239
+Gemfibrozil,CYP2C19,63,CVCL_1239
+Gemfibrozil,CYP2C8,64,CVCL_1239
+Gemfibrozil,CYP2C9,65,CVCL_1239
+Gemfibrozil,PPARA,194,CVCL_1239
+Gemfibrozil,CYP1A2,60,CVCL_1285
+Gemfibrozil,CYP2C19,63,CVCL_1285
+Gemfibrozil,CYP2C8,64,CVCL_1285
+Gemfibrozil,CYP2C9,65,CVCL_1285
+Gemfibrozil,PPARA,194,CVCL_1285
+Gemfibrozil,CYP1A2,60,CVCL_1381
+Gemfibrozil,CYP2C19,63,CVCL_1381
+Gemfibrozil,CYP2C8,64,CVCL_1381
+Gemfibrozil,CYP2C9,65,CVCL_1381
+Gemfibrozil,PPARA,194,CVCL_1381
+Gemfibrozil,CYP1A2,60,CVCL_1478
+Gemfibrozil,CYP2C19,63,CVCL_1478
+Gemfibrozil,CYP2C8,64,CVCL_1478
+Gemfibrozil,CYP2C9,65,CVCL_1478
+Gemfibrozil,PPARA,194,CVCL_1478
+Gemfibrozil,CYP1A2,60,CVCL_1495
+Gemfibrozil,CYP2C19,63,CVCL_1495
+Gemfibrozil,CYP2C8,64,CVCL_1495
+Gemfibrozil,CYP2C9,65,CVCL_1495
+Gemfibrozil,PPARA,194,CVCL_1495
+Gemfibrozil,CYP1A2,60,CVCL_1517
+Gemfibrozil,CYP2C19,63,CVCL_1517
+Gemfibrozil,CYP2C8,64,CVCL_1517
+Gemfibrozil,CYP2C9,65,CVCL_1517
+Gemfibrozil,PPARA,194,CVCL_1517
+Gemfibrozil,CYP1A2,60,CVCL_1531
+Gemfibrozil,CYP2C19,63,CVCL_1531
+Gemfibrozil,CYP2C8,64,CVCL_1531
+Gemfibrozil,CYP2C9,65,CVCL_1531
+Gemfibrozil,PPARA,194,CVCL_1531
+Gemfibrozil,CYP1A2,60,CVCL_1547
+Gemfibrozil,CYP2C19,63,CVCL_1547
+Gemfibrozil,CYP2C8,64,CVCL_1547
+Gemfibrozil,CYP2C9,65,CVCL_1547
+Gemfibrozil,PPARA,194,CVCL_1547
+Gemfibrozil,CYP1A2,60,CVCL_1550
+Gemfibrozil,CYP2C19,63,CVCL_1550
+Gemfibrozil,CYP2C8,64,CVCL_1550
+Gemfibrozil,CYP2C9,65,CVCL_1550
+Gemfibrozil,PPARA,194,CVCL_1550
+Gemfibrozil,CYP1A2,60,CVCL_1577
+Gemfibrozil,CYP2C19,63,CVCL_1577
+Gemfibrozil,CYP2C8,64,CVCL_1577
+Gemfibrozil,CYP2C9,65,CVCL_1577
+Gemfibrozil,PPARA,194,CVCL_1577
+Gemfibrozil,CYP1A2,60,CVCL_1635
+Gemfibrozil,CYP2C19,63,CVCL_1635
+Gemfibrozil,CYP2C8,64,CVCL_1635
+Gemfibrozil,CYP2C9,65,CVCL_1635
+Gemfibrozil,PPARA,194,CVCL_1635
+Gemfibrozil,CYP1A2,60,CVCL_1693
+Gemfibrozil,CYP2C19,63,CVCL_1693
+Gemfibrozil,CYP2C8,64,CVCL_1693
+Gemfibrozil,CYP2C9,65,CVCL_1693
+Gemfibrozil,PPARA,194,CVCL_1693
+Gemfibrozil,CYP1A2,60,CVCL_1715
+Gemfibrozil,CYP2C19,63,CVCL_1715
+Gemfibrozil,CYP2C8,64,CVCL_1715
+Gemfibrozil,CYP2C9,65,CVCL_1715
+Gemfibrozil,PPARA,194,CVCL_1715
+Gemfibrozil,CYP1A2,60,CVCL_1716
+Gemfibrozil,CYP2C19,63,CVCL_1716
+Gemfibrozil,CYP2C8,64,CVCL_1716
+Gemfibrozil,CYP2C9,65,CVCL_1716
+Gemfibrozil,PPARA,194,CVCL_1716
+Gemfibrozil,CYP1A2,60,CVCL_1717
+Gemfibrozil,CYP2C19,63,CVCL_1717
+Gemfibrozil,CYP2C8,64,CVCL_1717
+Gemfibrozil,CYP2C9,65,CVCL_1717
+Gemfibrozil,PPARA,194,CVCL_1717
+Gemfibrozil,CYP1A2,60,CVCL_1724
+Gemfibrozil,CYP2C19,63,CVCL_1724
+Gemfibrozil,CYP2C8,64,CVCL_1724
+Gemfibrozil,CYP2C9,65,CVCL_1724
+Gemfibrozil,PPARA,194,CVCL_1724
+Gemfibrozil,CYP1A2,60,CVCL_1731
+Gemfibrozil,CYP2C19,63,CVCL_1731
+Gemfibrozil,CYP2C8,64,CVCL_1731
+Gemfibrozil,CYP2C9,65,CVCL_1731
+Gemfibrozil,PPARA,194,CVCL_1731
+Gemfibrozil,CYP1A2,60,CVCL_C466
+Gemfibrozil,CYP2C19,63,CVCL_C466
+Gemfibrozil,CYP2C8,64,CVCL_C466
+Gemfibrozil,CYP2C9,65,CVCL_C466
+Gemfibrozil,PPARA,194,CVCL_C466
+Goserelin (acetate),GNRHR,100,CVCL_0069
+Goserelin (acetate),GNRHR,100,CVCL_0099
+Goserelin (acetate),GNRHR,100,CVCL_0131
+Goserelin (acetate),GNRHR,100,CVCL_0152
+Goserelin (acetate),GNRHR,100,CVCL_0292
+Goserelin (acetate),GNRHR,100,CVCL_0293
+Goserelin (acetate),GNRHR,100,CVCL_0320
+Goserelin (acetate),GNRHR,100,CVCL_0359
+Goserelin (acetate),GNRHR,100,CVCL_0366
+Goserelin (acetate),GNRHR,100,CVCL_0371
+Goserelin (acetate),GNRHR,100,CVCL_0397
+Goserelin (acetate),GNRHR,100,CVCL_0399
+Goserelin (acetate),GNRHR,100,CVCL_0428
+Goserelin (acetate),GNRHR,100,CVCL_0459
+Goserelin (acetate),GNRHR,100,CVCL_0480
+Goserelin (acetate),GNRHR,100,CVCL_0546
+Goserelin (acetate),GNRHR,100,CVCL_1055
+Goserelin (acetate),GNRHR,100,CVCL_1056
+Goserelin (acetate),GNRHR,100,CVCL_1119
+Goserelin (acetate),GNRHR,100,CVCL_1285
+Goserelin (acetate),GNRHR,100,CVCL_1478
+Goserelin (acetate),GNRHR,100,CVCL_1495
+Goserelin (acetate),GNRHR,100,CVCL_1531
+Goserelin (acetate),GNRHR,100,CVCL_1547
+Goserelin (acetate),GNRHR,100,CVCL_1550
+Goserelin (acetate),GNRHR,100,CVCL_1577
+Goserelin (acetate),GNRHR,100,CVCL_1635
+Goserelin (acetate),GNRHR,100,CVCL_1715
+Goserelin (acetate),GNRHR,100,CVCL_1716
+Goserelin (acetate),GNRHR,100,CVCL_1717
+Goserelin (acetate),GNRHR,100,CVCL_1724
+Goserelin (acetate),GNRHR,100,CVCL_1731
+Goserelin (acetate),GNRHR,100,CVCL_C466
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0023
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0069
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0099
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0131
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0152
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0179
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0218
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0292
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0293
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0332
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0334
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0359
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0366
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0371
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0397
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0399
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0428
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0459
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0480
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0504
+Idarubicin (hydrochloride),TOP2A,253,CVCL_0546
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1055
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1056
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1094
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1097
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1098
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1119
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1125
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1239
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1285
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1381
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1478
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1495
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1517
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1531
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1547
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1550
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1577
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1635
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1693
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1715
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1716
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1717
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1724
+Idarubicin (hydrochloride),TOP2A,253,CVCL_1731
+Idarubicin (hydrochloride),TOP2A,253,CVCL_C466
+Larotrectinib,NTRK1,167,CVCL_0023
+Larotrectinib,NTRK2,168,CVCL_0023
+Larotrectinib,NTRK3,169,CVCL_0023
+Larotrectinib,NTRK1,167,CVCL_0069
+Larotrectinib,NTRK2,168,CVCL_0069
+Larotrectinib,NTRK3,169,CVCL_0069
+Larotrectinib,NTRK1,167,CVCL_0099
+Larotrectinib,NTRK2,168,CVCL_0099
+Larotrectinib,NTRK3,169,CVCL_0099
+Larotrectinib,NTRK1,167,CVCL_0131
+Larotrectinib,NTRK2,168,CVCL_0131
+Larotrectinib,NTRK3,169,CVCL_0131
+Larotrectinib,NTRK1,167,CVCL_0152
+Larotrectinib,NTRK2,168,CVCL_0152
+Larotrectinib,NTRK3,169,CVCL_0152
+Larotrectinib,NTRK1,167,CVCL_0179
+Larotrectinib,NTRK2,168,CVCL_0179
+Larotrectinib,NTRK3,169,CVCL_0179
+Larotrectinib,NTRK1,167,CVCL_0218
+Larotrectinib,NTRK2,168,CVCL_0218
+Larotrectinib,NTRK3,169,CVCL_0218
+Larotrectinib,NTRK1,167,CVCL_0292
+Larotrectinib,NTRK2,168,CVCL_0292
+Larotrectinib,NTRK3,169,CVCL_0292
+Larotrectinib,NTRK1,167,CVCL_0293
+Larotrectinib,NTRK2,168,CVCL_0293
+Larotrectinib,NTRK3,169,CVCL_0293
+Larotrectinib,NTRK1,167,CVCL_0320
+Larotrectinib,NTRK2,168,CVCL_0320
+Larotrectinib,NTRK3,169,CVCL_0320
+Larotrectinib,NTRK1,167,CVCL_0332
+Larotrectinib,NTRK2,168,CVCL_0332
+Larotrectinib,NTRK3,169,CVCL_0332
+Larotrectinib,NTRK1,167,CVCL_0334
+Larotrectinib,NTRK2,168,CVCL_0334
+Larotrectinib,NTRK3,169,CVCL_0334
+Larotrectinib,NTRK1,167,CVCL_0359
+Larotrectinib,NTRK2,168,CVCL_0359
+Larotrectinib,NTRK3,169,CVCL_0359
+Larotrectinib,NTRK1,167,CVCL_0366
+Larotrectinib,NTRK2,168,CVCL_0366
+Larotrectinib,NTRK3,169,CVCL_0366
+Larotrectinib,NTRK1,167,CVCL_0371
+Larotrectinib,NTRK2,168,CVCL_0371
+Larotrectinib,NTRK3,169,CVCL_0371
+Larotrectinib,NTRK1,167,CVCL_0397
+Larotrectinib,NTRK2,168,CVCL_0397
+Larotrectinib,NTRK3,169,CVCL_0397
+Larotrectinib,NTRK1,167,CVCL_0399
+Larotrectinib,NTRK2,168,CVCL_0399
+Larotrectinib,NTRK3,169,CVCL_0399
+Larotrectinib,NTRK1,167,CVCL_0428
+Larotrectinib,NTRK2,168,CVCL_0428
+Larotrectinib,NTRK3,169,CVCL_0428
+Larotrectinib,NTRK1,167,CVCL_0459
+Larotrectinib,NTRK2,168,CVCL_0459
+Larotrectinib,NTRK3,169,CVCL_0459
+Larotrectinib,NTRK1,167,CVCL_0480
+Larotrectinib,NTRK2,168,CVCL_0480
+Larotrectinib,NTRK3,169,CVCL_0480
+Larotrectinib,NTRK1,167,CVCL_0504
+Larotrectinib,NTRK2,168,CVCL_0504
+Larotrectinib,NTRK3,169,CVCL_0504
+Larotrectinib,NTRK1,167,CVCL_0546
+Larotrectinib,NTRK2,168,CVCL_0546
+Larotrectinib,NTRK3,169,CVCL_0546
+Larotrectinib,NTRK1,167,CVCL_1055
+Larotrectinib,NTRK2,168,CVCL_1055
+Larotrectinib,NTRK3,169,CVCL_1055
+Larotrectinib,NTRK1,167,CVCL_1056
+Larotrectinib,NTRK2,168,CVCL_1056
+Larotrectinib,NTRK3,169,CVCL_1056
+Larotrectinib,NTRK1,167,CVCL_1094
+Larotrectinib,NTRK2,168,CVCL_1094
+Larotrectinib,NTRK3,169,CVCL_1094
+Larotrectinib,NTRK1,167,CVCL_1097
+Larotrectinib,NTRK2,168,CVCL_1097
+Larotrectinib,NTRK3,169,CVCL_1097
+Larotrectinib,NTRK1,167,CVCL_1098
+Larotrectinib,NTRK2,168,CVCL_1098
+Larotrectinib,NTRK3,169,CVCL_1098
+Larotrectinib,NTRK1,167,CVCL_1119
+Larotrectinib,NTRK2,168,CVCL_1119
+Larotrectinib,NTRK3,169,CVCL_1119
+Larotrectinib,NTRK1,167,CVCL_1239
+Larotrectinib,NTRK2,168,CVCL_1239
+Larotrectinib,NTRK3,169,CVCL_1239
+Larotrectinib,NTRK1,167,CVCL_1285
+Larotrectinib,NTRK2,168,CVCL_1285
+Larotrectinib,NTRK3,169,CVCL_1285
+Larotrectinib,NTRK1,167,CVCL_1381
+Larotrectinib,NTRK2,168,CVCL_1381
+Larotrectinib,NTRK3,169,CVCL_1381
+Larotrectinib,NTRK1,167,CVCL_1478
+Larotrectinib,NTRK2,168,CVCL_1478
+Larotrectinib,NTRK3,169,CVCL_1478
+Larotrectinib,NTRK1,167,CVCL_1495
+Larotrectinib,NTRK2,168,CVCL_1495
+Larotrectinib,NTRK3,169,CVCL_1495
+Larotrectinib,NTRK1,167,CVCL_1517
+Larotrectinib,NTRK2,168,CVCL_1517
+Larotrectinib,NTRK3,169,CVCL_1517
+Larotrectinib,NTRK1,167,CVCL_1531
+Larotrectinib,NTRK2,168,CVCL_1531
+Larotrectinib,NTRK3,169,CVCL_1531
+Larotrectinib,NTRK1,167,CVCL_1547
+Larotrectinib,NTRK2,168,CVCL_1547
+Larotrectinib,NTRK3,169,CVCL_1547
+Larotrectinib,NTRK1,167,CVCL_1550
+Larotrectinib,NTRK2,168,CVCL_1550
+Larotrectinib,NTRK3,169,CVCL_1550
+Larotrectinib,NTRK1,167,CVCL_1577
+Larotrectinib,NTRK2,168,CVCL_1577
+Larotrectinib,NTRK3,169,CVCL_1577
+Larotrectinib,NTRK1,167,CVCL_1635
+Larotrectinib,NTRK2,168,CVCL_1635
+Larotrectinib,NTRK3,169,CVCL_1635
+Larotrectinib,NTRK1,167,CVCL_1693
+Larotrectinib,NTRK2,168,CVCL_1693
+Larotrectinib,NTRK3,169,CVCL_1693
+Larotrectinib,NTRK1,167,CVCL_1715
+Larotrectinib,NTRK2,168,CVCL_1715
+Larotrectinib,NTRK3,169,CVCL_1715
+Larotrectinib,NTRK1,167,CVCL_1716
+Larotrectinib,NTRK2,168,CVCL_1716
+Larotrectinib,NTRK3,169,CVCL_1716
+Larotrectinib,NTRK1,167,CVCL_1717
+Larotrectinib,NTRK2,168,CVCL_1717
+Larotrectinib,NTRK3,169,CVCL_1717
+Larotrectinib,NTRK1,167,CVCL_1724
+Larotrectinib,NTRK2,168,CVCL_1724
+Larotrectinib,NTRK3,169,CVCL_1724
+Larotrectinib,NTRK1,167,CVCL_1731
+Larotrectinib,NTRK2,168,CVCL_1731
+Larotrectinib,NTRK3,169,CVCL_1731
+Larotrectinib,NTRK1,167,CVCL_C466
+Larotrectinib,NTRK2,168,CVCL_C466
+Larotrectinib,NTRK3,169,CVCL_C466
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0023
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0023
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0023
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0069
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0069
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0069
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0099
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0099
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0099
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0131
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0131
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0131
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0152
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0152
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0152
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0179
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0179
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0179
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0218
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0218
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0218
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0292
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0292
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0292
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0293
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0293
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0293
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0320
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0320
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0320
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0332
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0332
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0332
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0334
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0334
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0334
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0359
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0359
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0359
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0366
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0366
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0366
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0371
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0371
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0371
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0397
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0397
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0397
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0399
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0399
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0399
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0428
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0428
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0428
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0459
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0459
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0459
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0480
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0480
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0480
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0504
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0504
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0504
+Lenalidomide (hemihydrate),CRBN,56,CVCL_0546
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_0546
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_0546
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1055
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1055
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1055
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1056
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1056
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1056
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1094
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1094
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1094
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1097
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1097
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1097
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1098
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1098
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1098
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1119
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1119
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1119
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1125
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1125
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1125
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1239
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1239
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1239
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1285
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1285
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1285
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1381
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1381
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1381
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1478
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1478
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1478
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1495
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1495
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1495
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1517
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1517
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1517
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1531
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1531
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1531
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1547
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1547
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1547
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1550
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1550
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1550
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1577
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1577
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1577
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1635
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1635
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1635
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1693
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1693
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1693
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1715
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1715
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1715
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1716
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1716
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1716
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1717
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1717
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1717
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1724
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1724
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1724
+Lenalidomide (hemihydrate),CRBN,56,CVCL_1731
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_1731
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_1731
+Lenalidomide (hemihydrate),CRBN,56,CVCL_C466
+Lenalidomide (hemihydrate),IKZF1,124,CVCL_C466
+Lenalidomide (hemihydrate),IKZF3,125,CVCL_C466
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0023
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0023
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0023
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0069
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0069
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0069
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0099
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0099
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0099
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0131
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0131
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0131
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0152
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0152
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0152
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0179
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0179
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0179
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0218
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0218
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0218
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0292
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0292
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0292
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0293
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0293
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0293
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0332
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0332
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0332
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0334
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0334
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0334
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0359
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0359
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0359
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0366
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0366
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0366
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0371
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0371
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0371
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0397
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0397
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0397
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0399
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0399
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0399
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0428
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0428
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0428
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0459
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0459
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0459
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0480
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0480
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0480
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0504
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0504
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0504
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_0546
+Lidocaine (hydrochloride),MAPK1,144,CVCL_0546
+Lidocaine (hydrochloride),NFKB1,162,CVCL_0546
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1055
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1055
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1055
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1056
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1056
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1056
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1094
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1094
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1094
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1097
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1097
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1097
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1098
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1098
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1098
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1119
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1119
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1119
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1125
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1125
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1125
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1239
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1239
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1239
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1285
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1285
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1285
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1381
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1381
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1381
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1478
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1478
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1478
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1495
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1495
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1495
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1517
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1517
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1517
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1531
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1531
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1531
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1547
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1547
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1547
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1550
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1550
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1550
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1577
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1577
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1577
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1635
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1635
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1635
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1693
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1693
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1693
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1715
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1715
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1715
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1716
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1716
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1716
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1717
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1717
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1717
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1724
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1724
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1724
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_1731
+Lidocaine (hydrochloride),MAPK1,144,CVCL_1731
+Lidocaine (hydrochloride),NFKB1,162,CVCL_1731
+Lidocaine (hydrochloride),MAP2K1,138,CVCL_C466
+Lidocaine (hydrochloride),MAPK1,144,CVCL_C466
+Lidocaine (hydrochloride),NFKB1,162,CVCL_C466
+Lumateperone (tosylate),DRD2,74,CVCL_0023
+Lumateperone (tosylate),HTR2A,118,CVCL_0023
+Lumateperone (tosylate),DRD2,74,CVCL_0069
+Lumateperone (tosylate),HTR2A,118,CVCL_0069
+Lumateperone (tosylate),DRD2,74,CVCL_0099
+Lumateperone (tosylate),HTR2A,118,CVCL_0099
+Lumateperone (tosylate),DRD2,74,CVCL_0131
+Lumateperone (tosylate),HTR2A,118,CVCL_0131
+Lumateperone (tosylate),DRD2,74,CVCL_0152
+Lumateperone (tosylate),HTR2A,118,CVCL_0152
+Lumateperone (tosylate),DRD2,74,CVCL_0179
+Lumateperone (tosylate),HTR2A,118,CVCL_0179
+Lumateperone (tosylate),DRD2,74,CVCL_0292
+Lumateperone (tosylate),HTR2A,118,CVCL_0292
+Lumateperone (tosylate),DRD2,74,CVCL_0293
+Lumateperone (tosylate),HTR2A,118,CVCL_0293
+Lumateperone (tosylate),DRD2,74,CVCL_0320
+Lumateperone (tosylate),HTR2A,118,CVCL_0320
+Lumateperone (tosylate),DRD2,74,CVCL_0332
+Lumateperone (tosylate),HTR2A,118,CVCL_0332
+Lumateperone (tosylate),DRD2,74,CVCL_0359
+Lumateperone (tosylate),HTR2A,118,CVCL_0359
+Lumateperone (tosylate),DRD2,74,CVCL_0366
+Lumateperone (tosylate),HTR2A,118,CVCL_0366
+Lumateperone (tosylate),DRD2,74,CVCL_0371
+Lumateperone (tosylate),HTR2A,118,CVCL_0371
+Lumateperone (tosylate),DRD2,74,CVCL_0397
+Lumateperone (tosylate),HTR2A,118,CVCL_0397
+Lumateperone (tosylate),DRD2,74,CVCL_0399
+Lumateperone (tosylate),HTR2A,118,CVCL_0399
+Lumateperone (tosylate),DRD2,74,CVCL_0428
+Lumateperone (tosylate),HTR2A,118,CVCL_0428
+Lumateperone (tosylate),DRD2,74,CVCL_0459
+Lumateperone (tosylate),HTR2A,118,CVCL_0459
+Lumateperone (tosylate),DRD2,74,CVCL_0480
+Lumateperone (tosylate),HTR2A,118,CVCL_0480
+Lumateperone (tosylate),DRD2,74,CVCL_0504
+Lumateperone (tosylate),HTR2A,118,CVCL_0504
+Lumateperone (tosylate),DRD2,74,CVCL_1055
+Lumateperone (tosylate),HTR2A,118,CVCL_1055
+Lumateperone (tosylate),DRD2,74,CVCL_1056
+Lumateperone (tosylate),HTR2A,118,CVCL_1056
+Lumateperone (tosylate),DRD2,74,CVCL_1097
+Lumateperone (tosylate),HTR2A,118,CVCL_1097
+Lumateperone (tosylate),DRD2,74,CVCL_1119
+Lumateperone (tosylate),HTR2A,118,CVCL_1119
+Lumateperone (tosylate),DRD2,74,CVCL_1125
+Lumateperone (tosylate),HTR2A,118,CVCL_1125
+Lumateperone (tosylate),DRD2,74,CVCL_1239
+Lumateperone (tosylate),HTR2A,118,CVCL_1239
+Lumateperone (tosylate),DRD2,74,CVCL_1285
+Lumateperone (tosylate),HTR2A,118,CVCL_1285
+Lumateperone (tosylate),DRD2,74,CVCL_1381
+Lumateperone (tosylate),HTR2A,118,CVCL_1381
+Lumateperone (tosylate),DRD2,74,CVCL_1478
+Lumateperone (tosylate),HTR2A,118,CVCL_1478
+Lumateperone (tosylate),DRD2,74,CVCL_1495
+Lumateperone (tosylate),HTR2A,118,CVCL_1495
+Lumateperone (tosylate),DRD2,74,CVCL_1517
+Lumateperone (tosylate),HTR2A,118,CVCL_1517
+Lumateperone (tosylate),DRD2,74,CVCL_1531
+Lumateperone (tosylate),HTR2A,118,CVCL_1531
+Lumateperone (tosylate),DRD2,74,CVCL_1547
+Lumateperone (tosylate),HTR2A,118,CVCL_1547
+Lumateperone (tosylate),DRD2,74,CVCL_1550
+Lumateperone (tosylate),HTR2A,118,CVCL_1550
+Lumateperone (tosylate),DRD2,74,CVCL_1577
+Lumateperone (tosylate),HTR2A,118,CVCL_1577
+Lumateperone (tosylate),DRD2,74,CVCL_1635
+Lumateperone (tosylate),HTR2A,118,CVCL_1635
+Lumateperone (tosylate),DRD2,74,CVCL_1715
+Lumateperone (tosylate),HTR2A,118,CVCL_1715
+Lumateperone (tosylate),DRD2,74,CVCL_1717
+Lumateperone (tosylate),HTR2A,118,CVCL_1717
+Lumateperone (tosylate),DRD2,74,CVCL_1724
+Lumateperone (tosylate),HTR2A,118,CVCL_1724
+Lumateperone (tosylate),DRD2,74,CVCL_1731
+Lumateperone (tosylate),HTR2A,118,CVCL_1731
+Medroxyprogesterone acetate,PGR,185,CVCL_0023
+Medroxyprogesterone acetate,PGR,185,CVCL_0069
+Medroxyprogesterone acetate,PGR,185,CVCL_0099
+Medroxyprogesterone acetate,PGR,185,CVCL_0131
+Medroxyprogesterone acetate,PGR,185,CVCL_0152
+Medroxyprogesterone acetate,PGR,185,CVCL_0179
+Medroxyprogesterone acetate,PGR,185,CVCL_0218
+Medroxyprogesterone acetate,PGR,185,CVCL_0292
+Medroxyprogesterone acetate,PGR,185,CVCL_0293
+Medroxyprogesterone acetate,PGR,185,CVCL_0320
+Medroxyprogesterone acetate,PGR,185,CVCL_0332
+Medroxyprogesterone acetate,PGR,185,CVCL_0334
+Medroxyprogesterone acetate,PGR,185,CVCL_0359
+Medroxyprogesterone acetate,PGR,185,CVCL_0366
+Medroxyprogesterone acetate,PGR,185,CVCL_0371
+Medroxyprogesterone acetate,PGR,185,CVCL_0397
+Medroxyprogesterone acetate,PGR,185,CVCL_0399
+Medroxyprogesterone acetate,PGR,185,CVCL_0428
+Medroxyprogesterone acetate,PGR,185,CVCL_0459
+Medroxyprogesterone acetate,PGR,185,CVCL_0480
+Medroxyprogesterone acetate,PGR,185,CVCL_0504
+Medroxyprogesterone acetate,PGR,185,CVCL_0546
+Medroxyprogesterone acetate,PGR,185,CVCL_1055
+Medroxyprogesterone acetate,PGR,185,CVCL_1056
+Medroxyprogesterone acetate,PGR,185,CVCL_1094
+Medroxyprogesterone acetate,PGR,185,CVCL_1097
+Medroxyprogesterone acetate,PGR,185,CVCL_1098
+Medroxyprogesterone acetate,PGR,185,CVCL_1119
+Medroxyprogesterone acetate,PGR,185,CVCL_1125
+Medroxyprogesterone acetate,PGR,185,CVCL_1239
+Medroxyprogesterone acetate,PGR,185,CVCL_1285
+Medroxyprogesterone acetate,PGR,185,CVCL_1381
+Medroxyprogesterone acetate,PGR,185,CVCL_1478
+Medroxyprogesterone acetate,PGR,185,CVCL_1495
+Medroxyprogesterone acetate,PGR,185,CVCL_1517
+Medroxyprogesterone acetate,PGR,185,CVCL_1531
+Medroxyprogesterone acetate,PGR,185,CVCL_1547
+Medroxyprogesterone acetate,PGR,185,CVCL_1550
+Medroxyprogesterone acetate,PGR,185,CVCL_1577
+Medroxyprogesterone acetate,PGR,185,CVCL_1635
+Medroxyprogesterone acetate,PGR,185,CVCL_1693
+Medroxyprogesterone acetate,PGR,185,CVCL_1715
+Medroxyprogesterone acetate,PGR,185,CVCL_1717
+Medroxyprogesterone acetate,PGR,185,CVCL_1724
+Medroxyprogesterone acetate,PGR,185,CVCL_1731
+Medroxyprogesterone acetate,PGR,185,CVCL_C466
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0023
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0023
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0023
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0069
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0069
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0069
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0099
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0099
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0099
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0131
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0131
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0131
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0152
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0152
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0152
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0179
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0179
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0179
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0218
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0218
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0218
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0292
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0292
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0292
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0293
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0293
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0293
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0320
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0320
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0320
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0332
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0332
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0332
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0334
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0334
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0334
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0359
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0359
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0359
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0366
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0366
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0366
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0371
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0371
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0371
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0397
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0397
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0397
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0399
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0399
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0399
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0428
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0428
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0428
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0459
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0459
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0459
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0480
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0480
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0480
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0504
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0504
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0504
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_0546
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_0546
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_0546
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1055
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1055
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1055
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1056
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1056
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1056
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1094
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1094
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1094
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1097
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1097
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1097
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1098
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1098
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1098
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1119
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1119
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1119
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1125
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1125
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1125
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1239
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1239
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1239
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1285
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1285
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1285
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1381
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1381
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1381
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1478
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1478
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1478
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1495
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1495
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1495
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1517
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1517
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1517
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1531
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1531
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1531
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1547
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1547
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1547
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1550
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1550
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1550
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1577
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1577
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1577
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1635
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1635
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1635
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1693
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1693
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1693
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1715
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1715
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1715
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1716
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1716
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1716
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1717
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1717
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1717
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1724
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1724
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1724
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_1731
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_1731
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_1731
+Mitoxantrone (dihydrochloride),PRKCA,204,CVCL_C466
+Mitoxantrone (dihydrochloride),TOP2A,253,CVCL_C466
+Mitoxantrone (dihydrochloride),TOP2B,254,CVCL_C466
+Neratinib (maleate),EGFR,79,CVCL_0023
+Neratinib (maleate),ERBB2,87,CVCL_0023
+Neratinib (maleate),EGFR,79,CVCL_0069
+Neratinib (maleate),ERBB2,87,CVCL_0069
+Neratinib (maleate),EGFR,79,CVCL_0099
+Neratinib (maleate),ERBB2,87,CVCL_0099
+Neratinib (maleate),EGFR,79,CVCL_0131
+Neratinib (maleate),ERBB2,87,CVCL_0131
+Neratinib (maleate),EGFR,79,CVCL_0152
+Neratinib (maleate),ERBB2,87,CVCL_0152
+Neratinib (maleate),EGFR,79,CVCL_0179
+Neratinib (maleate),ERBB2,87,CVCL_0179
+Neratinib (maleate),EGFR,79,CVCL_0292
+Neratinib (maleate),ERBB2,87,CVCL_0292
+Neratinib (maleate),EGFR,79,CVCL_0293
+Neratinib (maleate),ERBB2,87,CVCL_0293
+Neratinib (maleate),EGFR,79,CVCL_0320
+Neratinib (maleate),ERBB2,87,CVCL_0320
+Neratinib (maleate),EGFR,79,CVCL_0359
+Neratinib (maleate),ERBB2,87,CVCL_0359
+Neratinib (maleate),EGFR,79,CVCL_0366
+Neratinib (maleate),ERBB2,87,CVCL_0366
+Neratinib (maleate),EGFR,79,CVCL_0371
+Neratinib (maleate),ERBB2,87,CVCL_0371
+Neratinib (maleate),EGFR,79,CVCL_0397
+Neratinib (maleate),ERBB2,87,CVCL_0397
+Neratinib (maleate),EGFR,79,CVCL_0399
+Neratinib (maleate),ERBB2,87,CVCL_0399
+Neratinib (maleate),EGFR,79,CVCL_0428
+Neratinib (maleate),ERBB2,87,CVCL_0428
+Neratinib (maleate),EGFR,79,CVCL_0459
+Neratinib (maleate),ERBB2,87,CVCL_0459
+Neratinib (maleate),EGFR,79,CVCL_0480
+Neratinib (maleate),ERBB2,87,CVCL_0480
+Neratinib (maleate),EGFR,79,CVCL_0546
+Neratinib (maleate),ERBB2,87,CVCL_0546
+Neratinib (maleate),EGFR,79,CVCL_1055
+Neratinib (maleate),ERBB2,87,CVCL_1055
+Neratinib (maleate),EGFR,79,CVCL_1056
+Neratinib (maleate),ERBB2,87,CVCL_1056
+Neratinib (maleate),EGFR,79,CVCL_1097
+Neratinib (maleate),ERBB2,87,CVCL_1097
+Neratinib (maleate),EGFR,79,CVCL_1119
+Neratinib (maleate),ERBB2,87,CVCL_1119
+Neratinib (maleate),EGFR,79,CVCL_1239
+Neratinib (maleate),ERBB2,87,CVCL_1239
+Neratinib (maleate),EGFR,79,CVCL_1285
+Neratinib (maleate),ERBB2,87,CVCL_1285
+Neratinib (maleate),EGFR,79,CVCL_1381
+Neratinib (maleate),ERBB2,87,CVCL_1381
+Neratinib (maleate),EGFR,79,CVCL_1478
+Neratinib (maleate),ERBB2,87,CVCL_1478
+Neratinib (maleate),EGFR,79,CVCL_1495
+Neratinib (maleate),ERBB2,87,CVCL_1495
+Neratinib (maleate),EGFR,79,CVCL_1517
+Neratinib (maleate),ERBB2,87,CVCL_1517
+Neratinib (maleate),EGFR,79,CVCL_1531
+Neratinib (maleate),ERBB2,87,CVCL_1531
+Neratinib (maleate),EGFR,79,CVCL_1547
+Neratinib (maleate),ERBB2,87,CVCL_1547
+Neratinib (maleate),EGFR,79,CVCL_1550
+Neratinib (maleate),ERBB2,87,CVCL_1550
+Neratinib (maleate),EGFR,79,CVCL_1577
+Neratinib (maleate),ERBB2,87,CVCL_1577
+Neratinib (maleate),EGFR,79,CVCL_1635
+Neratinib (maleate),ERBB2,87,CVCL_1635
+Neratinib (maleate),EGFR,79,CVCL_1715
+Neratinib (maleate),ERBB2,87,CVCL_1715
+Neratinib (maleate),EGFR,79,CVCL_1716
+Neratinib (maleate),ERBB2,87,CVCL_1716
+Neratinib (maleate),EGFR,79,CVCL_1717
+Neratinib (maleate),ERBB2,87,CVCL_1717
+Neratinib (maleate),EGFR,79,CVCL_1724
+Neratinib (maleate),ERBB2,87,CVCL_1724
+Neratinib (maleate),EGFR,79,CVCL_1731
+Neratinib (maleate),ERBB2,87,CVCL_1731
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0023
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0023
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0023
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0023
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0023
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0023
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0023
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0069
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0069
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0069
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0069
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0069
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0069
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0069
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0099
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0099
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0099
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0099
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0099
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0099
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0099
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0131
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0131
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0131
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0131
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0131
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0131
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0131
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0152
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0152
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0152
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0152
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0152
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0152
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0152
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0179
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0179
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0179
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0179
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0179
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0179
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0179
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0218
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0218
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0218
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0218
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0218
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0218
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0218
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0292
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0292
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0292
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0292
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0292
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0292
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0292
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0293
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0293
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0293
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0293
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0293
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0293
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0293
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0320
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0320
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0320
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0320
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0320
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0320
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0320
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0332
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0332
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0332
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0332
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0332
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0332
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0332
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0334
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0334
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0334
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0334
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0334
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0334
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0334
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0359
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0359
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0359
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0359
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0359
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0359
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0359
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0366
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0366
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0366
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0366
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0366
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0366
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0366
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0371
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0371
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0371
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0371
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0371
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0371
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0371
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0397
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0397
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0397
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0397
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0397
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0397
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0397
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0399
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0399
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0399
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0399
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0399
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0399
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0399
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0428
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0428
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0428
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0428
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0428
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0428
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0428
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0459
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0459
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0459
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0459
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0459
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0459
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0459
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0480
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0480
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0480
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0480
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0480
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0480
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0480
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0504
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0504
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0504
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0504
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0504
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0504
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0504
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_0546
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_0546
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_0546
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_0546
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_0546
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_0546
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_0546
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1055
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1055
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1055
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1055
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1055
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1055
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1055
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1056
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1056
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1056
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1056
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1056
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1056
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1056
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1094
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1094
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1094
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1094
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1094
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1094
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1094
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1097
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1097
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1097
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1097
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1097
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1097
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1097
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1098
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1098
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1098
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1098
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1098
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1098
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1098
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1119
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1119
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1119
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1119
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1119
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1119
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1119
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1125
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1125
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1125
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1125
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1125
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1125
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1125
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1239
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1239
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1239
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1239
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1239
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1239
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1239
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1285
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1285
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1285
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1285
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1285
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1285
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1285
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1381
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1381
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1381
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1381
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1381
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1381
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1381
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1478
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1478
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1478
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1478
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1478
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1478
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1478
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1495
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1495
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1495
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1495
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1495
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1495
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1495
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1517
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1517
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1517
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1517
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1517
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1517
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1517
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1531
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1531
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1531
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1531
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1531
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1531
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1531
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1547
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1547
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1547
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1547
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1547
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1547
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1547
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1550
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1550
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1550
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1550
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1550
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1550
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1550
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1577
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1577
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1577
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1577
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1577
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1577
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1577
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1635
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1635
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1635
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1635
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1635
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1635
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1635
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1693
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1693
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1693
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1693
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1693
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1693
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1693
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1715
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1715
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1715
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1715
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1715
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1715
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1715
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1716
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1716
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1716
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1716
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1716
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1716
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1716
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1717
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1717
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1717
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1717
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1717
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1717
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1717
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1724
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1724
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1724
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1724
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1724
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1724
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1724
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_1731
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_1731
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_1731
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_1731
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_1731
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_1731
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_1731
+Norepinephrine (hydrochloride),ADRA1A,9,CVCL_C466
+Norepinephrine (hydrochloride),ADRA1B,10,CVCL_C466
+Norepinephrine (hydrochloride),ADRA1D,11,CVCL_C466
+Norepinephrine (hydrochloride),ADRA2A,12,CVCL_C466
+Norepinephrine (hydrochloride),ADRA2B,13,CVCL_C466
+Norepinephrine (hydrochloride),ADRA2C,14,CVCL_C466
+Norepinephrine (hydrochloride),ADRB1,15,CVCL_C466
+Olanzapine,ADRA1A,9,CVCL_0023
+Olanzapine,ADRA1B,10,CVCL_0023
+Olanzapine,ADRA1D,11,CVCL_0023
+Olanzapine,CHRM1,49,CVCL_0023
+Olanzapine,CHRM2,50,CVCL_0023
+Olanzapine,CHRM3,51,CVCL_0023
+Olanzapine,CHRM4,52,CVCL_0023
+Olanzapine,CHRM5,53,CVCL_0023
+Olanzapine,DRD2,74,CVCL_0023
+Olanzapine,DRD4,76,CVCL_0023
+Olanzapine,HTR2A,118,CVCL_0023
+Olanzapine,HTR2C,119,CVCL_0023
+Olanzapine,HTR6,121,CVCL_0023
+Olanzapine,ADRA1A,9,CVCL_0069
+Olanzapine,ADRA1B,10,CVCL_0069
+Olanzapine,ADRA1D,11,CVCL_0069
+Olanzapine,CHRM1,49,CVCL_0069
+Olanzapine,CHRM2,50,CVCL_0069
+Olanzapine,CHRM3,51,CVCL_0069
+Olanzapine,CHRM4,52,CVCL_0069
+Olanzapine,CHRM5,53,CVCL_0069
+Olanzapine,DRD2,74,CVCL_0069
+Olanzapine,DRD4,76,CVCL_0069
+Olanzapine,HTR2A,118,CVCL_0069
+Olanzapine,HTR2C,119,CVCL_0069
+Olanzapine,HTR6,121,CVCL_0069
+Olanzapine,ADRA1A,9,CVCL_0099
+Olanzapine,ADRA1B,10,CVCL_0099
+Olanzapine,ADRA1D,11,CVCL_0099
+Olanzapine,CHRM1,49,CVCL_0099
+Olanzapine,CHRM2,50,CVCL_0099
+Olanzapine,CHRM3,51,CVCL_0099
+Olanzapine,CHRM4,52,CVCL_0099
+Olanzapine,CHRM5,53,CVCL_0099
+Olanzapine,DRD2,74,CVCL_0099
+Olanzapine,DRD4,76,CVCL_0099
+Olanzapine,HTR2A,118,CVCL_0099
+Olanzapine,HTR2C,119,CVCL_0099
+Olanzapine,HTR6,121,CVCL_0099
+Olanzapine,ADRA1A,9,CVCL_0131
+Olanzapine,ADRA1B,10,CVCL_0131
+Olanzapine,ADRA1D,11,CVCL_0131
+Olanzapine,CHRM1,49,CVCL_0131
+Olanzapine,CHRM2,50,CVCL_0131
+Olanzapine,CHRM3,51,CVCL_0131
+Olanzapine,CHRM4,52,CVCL_0131
+Olanzapine,CHRM5,53,CVCL_0131
+Olanzapine,DRD2,74,CVCL_0131
+Olanzapine,DRD4,76,CVCL_0131
+Olanzapine,HTR2A,118,CVCL_0131
+Olanzapine,HTR2C,119,CVCL_0131
+Olanzapine,HTR6,121,CVCL_0131
+Olanzapine,ADRA1A,9,CVCL_0152
+Olanzapine,ADRA1B,10,CVCL_0152
+Olanzapine,ADRA1D,11,CVCL_0152
+Olanzapine,CHRM1,49,CVCL_0152
+Olanzapine,CHRM2,50,CVCL_0152
+Olanzapine,CHRM3,51,CVCL_0152
+Olanzapine,CHRM4,52,CVCL_0152
+Olanzapine,CHRM5,53,CVCL_0152
+Olanzapine,DRD2,74,CVCL_0152
+Olanzapine,DRD4,76,CVCL_0152
+Olanzapine,HTR2A,118,CVCL_0152
+Olanzapine,HTR2C,119,CVCL_0152
+Olanzapine,HTR6,121,CVCL_0152
+Olanzapine,ADRA1A,9,CVCL_0292
+Olanzapine,ADRA1B,10,CVCL_0292
+Olanzapine,ADRA1D,11,CVCL_0292
+Olanzapine,CHRM1,49,CVCL_0292
+Olanzapine,CHRM2,50,CVCL_0292
+Olanzapine,CHRM3,51,CVCL_0292
+Olanzapine,CHRM4,52,CVCL_0292
+Olanzapine,CHRM5,53,CVCL_0292
+Olanzapine,DRD2,74,CVCL_0292
+Olanzapine,DRD4,76,CVCL_0292
+Olanzapine,HTR2A,118,CVCL_0292
+Olanzapine,HTR2C,119,CVCL_0292
+Olanzapine,HTR6,121,CVCL_0292
+Olanzapine,ADRA1A,9,CVCL_0293
+Olanzapine,ADRA1B,10,CVCL_0293
+Olanzapine,ADRA1D,11,CVCL_0293
+Olanzapine,CHRM1,49,CVCL_0293
+Olanzapine,CHRM2,50,CVCL_0293
+Olanzapine,CHRM3,51,CVCL_0293
+Olanzapine,CHRM4,52,CVCL_0293
+Olanzapine,CHRM5,53,CVCL_0293
+Olanzapine,DRD2,74,CVCL_0293
+Olanzapine,DRD4,76,CVCL_0293
+Olanzapine,HTR2A,118,CVCL_0293
+Olanzapine,HTR2C,119,CVCL_0293
+Olanzapine,HTR6,121,CVCL_0293
+Olanzapine,ADRA1A,9,CVCL_0320
+Olanzapine,ADRA1B,10,CVCL_0320
+Olanzapine,ADRA1D,11,CVCL_0320
+Olanzapine,CHRM1,49,CVCL_0320
+Olanzapine,CHRM2,50,CVCL_0320
+Olanzapine,CHRM3,51,CVCL_0320
+Olanzapine,CHRM4,52,CVCL_0320
+Olanzapine,CHRM5,53,CVCL_0320
+Olanzapine,DRD2,74,CVCL_0320
+Olanzapine,DRD4,76,CVCL_0320
+Olanzapine,HTR2A,118,CVCL_0320
+Olanzapine,HTR2C,119,CVCL_0320
+Olanzapine,HTR6,121,CVCL_0320
+Olanzapine,ADRA1A,9,CVCL_0334
+Olanzapine,ADRA1B,10,CVCL_0334
+Olanzapine,ADRA1D,11,CVCL_0334
+Olanzapine,CHRM1,49,CVCL_0334
+Olanzapine,CHRM2,50,CVCL_0334
+Olanzapine,CHRM3,51,CVCL_0334
+Olanzapine,CHRM4,52,CVCL_0334
+Olanzapine,CHRM5,53,CVCL_0334
+Olanzapine,DRD2,74,CVCL_0334
+Olanzapine,DRD4,76,CVCL_0334
+Olanzapine,HTR2A,118,CVCL_0334
+Olanzapine,HTR2C,119,CVCL_0334
+Olanzapine,HTR6,121,CVCL_0334
+Olanzapine,ADRA1A,9,CVCL_0359
+Olanzapine,ADRA1B,10,CVCL_0359
+Olanzapine,ADRA1D,11,CVCL_0359
+Olanzapine,CHRM1,49,CVCL_0359
+Olanzapine,CHRM2,50,CVCL_0359
+Olanzapine,CHRM3,51,CVCL_0359
+Olanzapine,CHRM4,52,CVCL_0359
+Olanzapine,CHRM5,53,CVCL_0359
+Olanzapine,DRD2,74,CVCL_0359
+Olanzapine,DRD4,76,CVCL_0359
+Olanzapine,HTR2A,118,CVCL_0359
+Olanzapine,HTR2C,119,CVCL_0359
+Olanzapine,HTR6,121,CVCL_0359
+Olanzapine,ADRA1A,9,CVCL_0366
+Olanzapine,ADRA1B,10,CVCL_0366
+Olanzapine,ADRA1D,11,CVCL_0366
+Olanzapine,CHRM1,49,CVCL_0366
+Olanzapine,CHRM2,50,CVCL_0366
+Olanzapine,CHRM3,51,CVCL_0366
+Olanzapine,CHRM4,52,CVCL_0366
+Olanzapine,CHRM5,53,CVCL_0366
+Olanzapine,DRD2,74,CVCL_0366
+Olanzapine,DRD4,76,CVCL_0366
+Olanzapine,HTR2A,118,CVCL_0366
+Olanzapine,HTR2C,119,CVCL_0366
+Olanzapine,HTR6,121,CVCL_0366
+Olanzapine,ADRA1A,9,CVCL_0371
+Olanzapine,ADRA1B,10,CVCL_0371
+Olanzapine,ADRA1D,11,CVCL_0371
+Olanzapine,CHRM1,49,CVCL_0371
+Olanzapine,CHRM2,50,CVCL_0371
+Olanzapine,CHRM3,51,CVCL_0371
+Olanzapine,CHRM4,52,CVCL_0371
+Olanzapine,CHRM5,53,CVCL_0371
+Olanzapine,DRD2,74,CVCL_0371
+Olanzapine,DRD4,76,CVCL_0371
+Olanzapine,HTR2A,118,CVCL_0371
+Olanzapine,HTR2C,119,CVCL_0371
+Olanzapine,HTR6,121,CVCL_0371
+Olanzapine,ADRA1A,9,CVCL_0397
+Olanzapine,ADRA1B,10,CVCL_0397
+Olanzapine,ADRA1D,11,CVCL_0397
+Olanzapine,CHRM1,49,CVCL_0397
+Olanzapine,CHRM2,50,CVCL_0397
+Olanzapine,CHRM3,51,CVCL_0397
+Olanzapine,CHRM4,52,CVCL_0397
+Olanzapine,CHRM5,53,CVCL_0397
+Olanzapine,DRD2,74,CVCL_0397
+Olanzapine,DRD4,76,CVCL_0397
+Olanzapine,HTR2A,118,CVCL_0397
+Olanzapine,HTR2C,119,CVCL_0397
+Olanzapine,HTR6,121,CVCL_0397
+Olanzapine,ADRA1A,9,CVCL_0399
+Olanzapine,ADRA1B,10,CVCL_0399
+Olanzapine,ADRA1D,11,CVCL_0399
+Olanzapine,CHRM1,49,CVCL_0399
+Olanzapine,CHRM2,50,CVCL_0399
+Olanzapine,CHRM3,51,CVCL_0399
+Olanzapine,CHRM4,52,CVCL_0399
+Olanzapine,CHRM5,53,CVCL_0399
+Olanzapine,DRD2,74,CVCL_0399
+Olanzapine,DRD4,76,CVCL_0399
+Olanzapine,HTR2A,118,CVCL_0399
+Olanzapine,HTR2C,119,CVCL_0399
+Olanzapine,HTR6,121,CVCL_0399
+Olanzapine,ADRA1A,9,CVCL_0428
+Olanzapine,ADRA1B,10,CVCL_0428
+Olanzapine,ADRA1D,11,CVCL_0428
+Olanzapine,CHRM1,49,CVCL_0428
+Olanzapine,CHRM2,50,CVCL_0428
+Olanzapine,CHRM3,51,CVCL_0428
+Olanzapine,CHRM4,52,CVCL_0428
+Olanzapine,CHRM5,53,CVCL_0428
+Olanzapine,DRD2,74,CVCL_0428
+Olanzapine,DRD4,76,CVCL_0428
+Olanzapine,HTR2A,118,CVCL_0428
+Olanzapine,HTR2C,119,CVCL_0428
+Olanzapine,HTR6,121,CVCL_0428
+Olanzapine,ADRA1A,9,CVCL_0459
+Olanzapine,ADRA1B,10,CVCL_0459
+Olanzapine,ADRA1D,11,CVCL_0459
+Olanzapine,CHRM1,49,CVCL_0459
+Olanzapine,CHRM2,50,CVCL_0459
+Olanzapine,CHRM3,51,CVCL_0459
+Olanzapine,CHRM4,52,CVCL_0459
+Olanzapine,CHRM5,53,CVCL_0459
+Olanzapine,DRD2,74,CVCL_0459
+Olanzapine,DRD4,76,CVCL_0459
+Olanzapine,HTR2A,118,CVCL_0459
+Olanzapine,HTR2C,119,CVCL_0459
+Olanzapine,HTR6,121,CVCL_0459
+Olanzapine,ADRA1A,9,CVCL_0480
+Olanzapine,ADRA1B,10,CVCL_0480
+Olanzapine,ADRA1D,11,CVCL_0480
+Olanzapine,CHRM1,49,CVCL_0480
+Olanzapine,CHRM2,50,CVCL_0480
+Olanzapine,CHRM3,51,CVCL_0480
+Olanzapine,CHRM4,52,CVCL_0480
+Olanzapine,CHRM5,53,CVCL_0480
+Olanzapine,DRD2,74,CVCL_0480
+Olanzapine,DRD4,76,CVCL_0480
+Olanzapine,HTR2A,118,CVCL_0480
+Olanzapine,HTR2C,119,CVCL_0480
+Olanzapine,HTR6,121,CVCL_0480
+Olanzapine,ADRA1A,9,CVCL_0546
+Olanzapine,ADRA1B,10,CVCL_0546
+Olanzapine,ADRA1D,11,CVCL_0546
+Olanzapine,CHRM1,49,CVCL_0546
+Olanzapine,CHRM2,50,CVCL_0546
+Olanzapine,CHRM3,51,CVCL_0546
+Olanzapine,CHRM4,52,CVCL_0546
+Olanzapine,CHRM5,53,CVCL_0546
+Olanzapine,DRD2,74,CVCL_0546
+Olanzapine,DRD4,76,CVCL_0546
+Olanzapine,HTR2A,118,CVCL_0546
+Olanzapine,HTR2C,119,CVCL_0546
+Olanzapine,HTR6,121,CVCL_0546
+Olanzapine,ADRA1A,9,CVCL_1055
+Olanzapine,ADRA1B,10,CVCL_1055
+Olanzapine,ADRA1D,11,CVCL_1055
+Olanzapine,CHRM1,49,CVCL_1055
+Olanzapine,CHRM2,50,CVCL_1055
+Olanzapine,CHRM3,51,CVCL_1055
+Olanzapine,CHRM4,52,CVCL_1055
+Olanzapine,CHRM5,53,CVCL_1055
+Olanzapine,DRD2,74,CVCL_1055
+Olanzapine,DRD4,76,CVCL_1055
+Olanzapine,HTR2A,118,CVCL_1055
+Olanzapine,HTR2C,119,CVCL_1055
+Olanzapine,HTR6,121,CVCL_1055
+Olanzapine,ADRA1A,9,CVCL_1056
+Olanzapine,ADRA1B,10,CVCL_1056
+Olanzapine,ADRA1D,11,CVCL_1056
+Olanzapine,CHRM1,49,CVCL_1056
+Olanzapine,CHRM2,50,CVCL_1056
+Olanzapine,CHRM3,51,CVCL_1056
+Olanzapine,CHRM4,52,CVCL_1056
+Olanzapine,CHRM5,53,CVCL_1056
+Olanzapine,DRD2,74,CVCL_1056
+Olanzapine,DRD4,76,CVCL_1056
+Olanzapine,HTR2A,118,CVCL_1056
+Olanzapine,HTR2C,119,CVCL_1056
+Olanzapine,HTR6,121,CVCL_1056
+Olanzapine,ADRA1A,9,CVCL_1097
+Olanzapine,ADRA1B,10,CVCL_1097
+Olanzapine,ADRA1D,11,CVCL_1097
+Olanzapine,CHRM1,49,CVCL_1097
+Olanzapine,CHRM2,50,CVCL_1097
+Olanzapine,CHRM3,51,CVCL_1097
+Olanzapine,CHRM4,52,CVCL_1097
+Olanzapine,CHRM5,53,CVCL_1097
+Olanzapine,DRD2,74,CVCL_1097
+Olanzapine,DRD4,76,CVCL_1097
+Olanzapine,HTR2A,118,CVCL_1097
+Olanzapine,HTR2C,119,CVCL_1097
+Olanzapine,HTR6,121,CVCL_1097
+Olanzapine,ADRA1A,9,CVCL_1119
+Olanzapine,ADRA1B,10,CVCL_1119
+Olanzapine,ADRA1D,11,CVCL_1119
+Olanzapine,CHRM1,49,CVCL_1119
+Olanzapine,CHRM2,50,CVCL_1119
+Olanzapine,CHRM3,51,CVCL_1119
+Olanzapine,CHRM4,52,CVCL_1119
+Olanzapine,CHRM5,53,CVCL_1119
+Olanzapine,DRD2,74,CVCL_1119
+Olanzapine,DRD4,76,CVCL_1119
+Olanzapine,HTR2A,118,CVCL_1119
+Olanzapine,HTR2C,119,CVCL_1119
+Olanzapine,HTR6,121,CVCL_1119
+Olanzapine,ADRA1A,9,CVCL_1125
+Olanzapine,ADRA1B,10,CVCL_1125
+Olanzapine,ADRA1D,11,CVCL_1125
+Olanzapine,CHRM1,49,CVCL_1125
+Olanzapine,CHRM2,50,CVCL_1125
+Olanzapine,CHRM3,51,CVCL_1125
+Olanzapine,CHRM4,52,CVCL_1125
+Olanzapine,CHRM5,53,CVCL_1125
+Olanzapine,DRD2,74,CVCL_1125
+Olanzapine,DRD4,76,CVCL_1125
+Olanzapine,HTR2A,118,CVCL_1125
+Olanzapine,HTR2C,119,CVCL_1125
+Olanzapine,HTR6,121,CVCL_1125
+Olanzapine,ADRA1A,9,CVCL_1239
+Olanzapine,ADRA1B,10,CVCL_1239
+Olanzapine,ADRA1D,11,CVCL_1239
+Olanzapine,CHRM1,49,CVCL_1239
+Olanzapine,CHRM2,50,CVCL_1239
+Olanzapine,CHRM3,51,CVCL_1239
+Olanzapine,CHRM4,52,CVCL_1239
+Olanzapine,CHRM5,53,CVCL_1239
+Olanzapine,DRD2,74,CVCL_1239
+Olanzapine,DRD4,76,CVCL_1239
+Olanzapine,HTR2A,118,CVCL_1239
+Olanzapine,HTR2C,119,CVCL_1239
+Olanzapine,HTR6,121,CVCL_1239
+Olanzapine,ADRA1A,9,CVCL_1285
+Olanzapine,ADRA1B,10,CVCL_1285
+Olanzapine,ADRA1D,11,CVCL_1285
+Olanzapine,CHRM1,49,CVCL_1285
+Olanzapine,CHRM2,50,CVCL_1285
+Olanzapine,CHRM3,51,CVCL_1285
+Olanzapine,CHRM4,52,CVCL_1285
+Olanzapine,CHRM5,53,CVCL_1285
+Olanzapine,DRD2,74,CVCL_1285
+Olanzapine,DRD4,76,CVCL_1285
+Olanzapine,HTR2A,118,CVCL_1285
+Olanzapine,HTR2C,119,CVCL_1285
+Olanzapine,HTR6,121,CVCL_1285
+Olanzapine,ADRA1A,9,CVCL_1381
+Olanzapine,ADRA1B,10,CVCL_1381
+Olanzapine,ADRA1D,11,CVCL_1381
+Olanzapine,CHRM1,49,CVCL_1381
+Olanzapine,CHRM2,50,CVCL_1381
+Olanzapine,CHRM3,51,CVCL_1381
+Olanzapine,CHRM4,52,CVCL_1381
+Olanzapine,CHRM5,53,CVCL_1381
+Olanzapine,DRD2,74,CVCL_1381
+Olanzapine,DRD4,76,CVCL_1381
+Olanzapine,HTR2A,118,CVCL_1381
+Olanzapine,HTR2C,119,CVCL_1381
+Olanzapine,HTR6,121,CVCL_1381
+Olanzapine,ADRA1A,9,CVCL_1478
+Olanzapine,ADRA1B,10,CVCL_1478
+Olanzapine,ADRA1D,11,CVCL_1478
+Olanzapine,CHRM1,49,CVCL_1478
+Olanzapine,CHRM2,50,CVCL_1478
+Olanzapine,CHRM3,51,CVCL_1478
+Olanzapine,CHRM4,52,CVCL_1478
+Olanzapine,CHRM5,53,CVCL_1478
+Olanzapine,DRD2,74,CVCL_1478
+Olanzapine,DRD4,76,CVCL_1478
+Olanzapine,HTR2A,118,CVCL_1478
+Olanzapine,HTR2C,119,CVCL_1478
+Olanzapine,HTR6,121,CVCL_1478
+Olanzapine,ADRA1A,9,CVCL_1495
+Olanzapine,ADRA1B,10,CVCL_1495
+Olanzapine,ADRA1D,11,CVCL_1495
+Olanzapine,CHRM1,49,CVCL_1495
+Olanzapine,CHRM2,50,CVCL_1495
+Olanzapine,CHRM3,51,CVCL_1495
+Olanzapine,CHRM4,52,CVCL_1495
+Olanzapine,CHRM5,53,CVCL_1495
+Olanzapine,DRD2,74,CVCL_1495
+Olanzapine,DRD4,76,CVCL_1495
+Olanzapine,HTR2A,118,CVCL_1495
+Olanzapine,HTR2C,119,CVCL_1495
+Olanzapine,HTR6,121,CVCL_1495
+Olanzapine,ADRA1A,9,CVCL_1531
+Olanzapine,ADRA1B,10,CVCL_1531
+Olanzapine,ADRA1D,11,CVCL_1531
+Olanzapine,CHRM1,49,CVCL_1531
+Olanzapine,CHRM2,50,CVCL_1531
+Olanzapine,CHRM3,51,CVCL_1531
+Olanzapine,CHRM4,52,CVCL_1531
+Olanzapine,CHRM5,53,CVCL_1531
+Olanzapine,DRD2,74,CVCL_1531
+Olanzapine,DRD4,76,CVCL_1531
+Olanzapine,HTR2A,118,CVCL_1531
+Olanzapine,HTR2C,119,CVCL_1531
+Olanzapine,HTR6,121,CVCL_1531
+Olanzapine,ADRA1A,9,CVCL_1547
+Olanzapine,ADRA1B,10,CVCL_1547
+Olanzapine,ADRA1D,11,CVCL_1547
+Olanzapine,CHRM1,49,CVCL_1547
+Olanzapine,CHRM2,50,CVCL_1547
+Olanzapine,CHRM3,51,CVCL_1547
+Olanzapine,CHRM4,52,CVCL_1547
+Olanzapine,CHRM5,53,CVCL_1547
+Olanzapine,DRD2,74,CVCL_1547
+Olanzapine,DRD4,76,CVCL_1547
+Olanzapine,HTR2A,118,CVCL_1547
+Olanzapine,HTR2C,119,CVCL_1547
+Olanzapine,HTR6,121,CVCL_1547
+Olanzapine,ADRA1A,9,CVCL_1550
+Olanzapine,ADRA1B,10,CVCL_1550
+Olanzapine,ADRA1D,11,CVCL_1550
+Olanzapine,CHRM1,49,CVCL_1550
+Olanzapine,CHRM2,50,CVCL_1550
+Olanzapine,CHRM3,51,CVCL_1550
+Olanzapine,CHRM4,52,CVCL_1550
+Olanzapine,CHRM5,53,CVCL_1550
+Olanzapine,DRD2,74,CVCL_1550
+Olanzapine,DRD4,76,CVCL_1550
+Olanzapine,HTR2A,118,CVCL_1550
+Olanzapine,HTR2C,119,CVCL_1550
+Olanzapine,HTR6,121,CVCL_1550
+Olanzapine,ADRA1A,9,CVCL_1577
+Olanzapine,ADRA1B,10,CVCL_1577
+Olanzapine,ADRA1D,11,CVCL_1577
+Olanzapine,CHRM1,49,CVCL_1577
+Olanzapine,CHRM2,50,CVCL_1577
+Olanzapine,CHRM3,51,CVCL_1577
+Olanzapine,CHRM4,52,CVCL_1577
+Olanzapine,CHRM5,53,CVCL_1577
+Olanzapine,DRD2,74,CVCL_1577
+Olanzapine,DRD4,76,CVCL_1577
+Olanzapine,HTR2A,118,CVCL_1577
+Olanzapine,HTR2C,119,CVCL_1577
+Olanzapine,HTR6,121,CVCL_1577
+Olanzapine,ADRA1A,9,CVCL_1635
+Olanzapine,ADRA1B,10,CVCL_1635
+Olanzapine,ADRA1D,11,CVCL_1635
+Olanzapine,CHRM1,49,CVCL_1635
+Olanzapine,CHRM2,50,CVCL_1635
+Olanzapine,CHRM3,51,CVCL_1635
+Olanzapine,CHRM4,52,CVCL_1635
+Olanzapine,CHRM5,53,CVCL_1635
+Olanzapine,DRD2,74,CVCL_1635
+Olanzapine,DRD4,76,CVCL_1635
+Olanzapine,HTR2A,118,CVCL_1635
+Olanzapine,HTR2C,119,CVCL_1635
+Olanzapine,HTR6,121,CVCL_1635
+Olanzapine,ADRA1A,9,CVCL_1715
+Olanzapine,ADRA1B,10,CVCL_1715
+Olanzapine,ADRA1D,11,CVCL_1715
+Olanzapine,CHRM1,49,CVCL_1715
+Olanzapine,CHRM2,50,CVCL_1715
+Olanzapine,CHRM3,51,CVCL_1715
+Olanzapine,CHRM4,52,CVCL_1715
+Olanzapine,CHRM5,53,CVCL_1715
+Olanzapine,DRD2,74,CVCL_1715
+Olanzapine,DRD4,76,CVCL_1715
+Olanzapine,HTR2A,118,CVCL_1715
+Olanzapine,HTR2C,119,CVCL_1715
+Olanzapine,HTR6,121,CVCL_1715
+Olanzapine,ADRA1A,9,CVCL_1717
+Olanzapine,ADRA1B,10,CVCL_1717
+Olanzapine,ADRA1D,11,CVCL_1717
+Olanzapine,CHRM1,49,CVCL_1717
+Olanzapine,CHRM2,50,CVCL_1717
+Olanzapine,CHRM3,51,CVCL_1717
+Olanzapine,CHRM4,52,CVCL_1717
+Olanzapine,CHRM5,53,CVCL_1717
+Olanzapine,DRD2,74,CVCL_1717
+Olanzapine,DRD4,76,CVCL_1717
+Olanzapine,HTR2A,118,CVCL_1717
+Olanzapine,HTR2C,119,CVCL_1717
+Olanzapine,HTR6,121,CVCL_1717
+Olanzapine,ADRA1A,9,CVCL_1724
+Olanzapine,ADRA1B,10,CVCL_1724
+Olanzapine,ADRA1D,11,CVCL_1724
+Olanzapine,CHRM1,49,CVCL_1724
+Olanzapine,CHRM2,50,CVCL_1724
+Olanzapine,CHRM3,51,CVCL_1724
+Olanzapine,CHRM4,52,CVCL_1724
+Olanzapine,CHRM5,53,CVCL_1724
+Olanzapine,DRD2,74,CVCL_1724
+Olanzapine,DRD4,76,CVCL_1724
+Olanzapine,HTR2A,118,CVCL_1724
+Olanzapine,HTR2C,119,CVCL_1724
+Olanzapine,HTR6,121,CVCL_1724
+Olanzapine,ADRA1A,9,CVCL_1731
+Olanzapine,ADRA1B,10,CVCL_1731
+Olanzapine,ADRA1D,11,CVCL_1731
+Olanzapine,CHRM1,49,CVCL_1731
+Olanzapine,CHRM2,50,CVCL_1731
+Olanzapine,CHRM3,51,CVCL_1731
+Olanzapine,CHRM4,52,CVCL_1731
+Olanzapine,CHRM5,53,CVCL_1731
+Olanzapine,DRD2,74,CVCL_1731
+Olanzapine,DRD4,76,CVCL_1731
+Olanzapine,HTR2A,118,CVCL_1731
+Olanzapine,HTR2C,119,CVCL_1731
+Olanzapine,HTR6,121,CVCL_1731
+Palmatine (chloride),IDO1,123,CVCL_0023
+Palmatine (chloride),NS2B-NS3,166,CVCL_0023
+Palmatine (chloride),WNV,275,CVCL_0023
+Palmatine (chloride),IDO1,123,CVCL_0069
+Palmatine (chloride),NS2B-NS3,166,CVCL_0069
+Palmatine (chloride),WNV,275,CVCL_0069
+Palmatine (chloride),IDO1,123,CVCL_0099
+Palmatine (chloride),NS2B-NS3,166,CVCL_0099
+Palmatine (chloride),WNV,275,CVCL_0099
+Palmatine (chloride),IDO1,123,CVCL_0131
+Palmatine (chloride),NS2B-NS3,166,CVCL_0131
+Palmatine (chloride),WNV,275,CVCL_0131
+Palmatine (chloride),IDO1,123,CVCL_0152
+Palmatine (chloride),NS2B-NS3,166,CVCL_0152
+Palmatine (chloride),WNV,275,CVCL_0152
+Palmatine (chloride),IDO1,123,CVCL_0292
+Palmatine (chloride),NS2B-NS3,166,CVCL_0292
+Palmatine (chloride),WNV,275,CVCL_0292
+Palmatine (chloride),IDO1,123,CVCL_0293
+Palmatine (chloride),NS2B-NS3,166,CVCL_0293
+Palmatine (chloride),WNV,275,CVCL_0293
+Palmatine (chloride),IDO1,123,CVCL_0320
+Palmatine (chloride),NS2B-NS3,166,CVCL_0320
+Palmatine (chloride),WNV,275,CVCL_0320
+Palmatine (chloride),IDO1,123,CVCL_0359
+Palmatine (chloride),NS2B-NS3,166,CVCL_0359
+Palmatine (chloride),WNV,275,CVCL_0359
+Palmatine (chloride),IDO1,123,CVCL_0366
+Palmatine (chloride),NS2B-NS3,166,CVCL_0366
+Palmatine (chloride),WNV,275,CVCL_0366
+Palmatine (chloride),IDO1,123,CVCL_0371
+Palmatine (chloride),NS2B-NS3,166,CVCL_0371
+Palmatine (chloride),WNV,275,CVCL_0371
+Palmatine (chloride),IDO1,123,CVCL_0397
+Palmatine (chloride),NS2B-NS3,166,CVCL_0397
+Palmatine (chloride),WNV,275,CVCL_0397
+Palmatine (chloride),IDO1,123,CVCL_0399
+Palmatine (chloride),NS2B-NS3,166,CVCL_0399
+Palmatine (chloride),WNV,275,CVCL_0399
+Palmatine (chloride),IDO1,123,CVCL_0428
+Palmatine (chloride),NS2B-NS3,166,CVCL_0428
+Palmatine (chloride),WNV,275,CVCL_0428
+Palmatine (chloride),IDO1,123,CVCL_0459
+Palmatine (chloride),NS2B-NS3,166,CVCL_0459
+Palmatine (chloride),WNV,275,CVCL_0459
+Palmatine (chloride),IDO1,123,CVCL_0480
+Palmatine (chloride),NS2B-NS3,166,CVCL_0480
+Palmatine (chloride),WNV,275,CVCL_0480
+Palmatine (chloride),IDO1,123,CVCL_1055
+Palmatine (chloride),NS2B-NS3,166,CVCL_1055
+Palmatine (chloride),WNV,275,CVCL_1055
+Palmatine (chloride),IDO1,123,CVCL_1056
+Palmatine (chloride),NS2B-NS3,166,CVCL_1056
+Palmatine (chloride),WNV,275,CVCL_1056
+Palmatine (chloride),IDO1,123,CVCL_1097
+Palmatine (chloride),NS2B-NS3,166,CVCL_1097
+Palmatine (chloride),WNV,275,CVCL_1097
+Palmatine (chloride),IDO1,123,CVCL_1119
+Palmatine (chloride),NS2B-NS3,166,CVCL_1119
+Palmatine (chloride),WNV,275,CVCL_1119
+Palmatine (chloride),IDO1,123,CVCL_1125
+Palmatine (chloride),NS2B-NS3,166,CVCL_1125
+Palmatine (chloride),WNV,275,CVCL_1125
+Palmatine (chloride),IDO1,123,CVCL_1239
+Palmatine (chloride),NS2B-NS3,166,CVCL_1239
+Palmatine (chloride),WNV,275,CVCL_1239
+Palmatine (chloride),IDO1,123,CVCL_1285
+Palmatine (chloride),NS2B-NS3,166,CVCL_1285
+Palmatine (chloride),WNV,275,CVCL_1285
+Palmatine (chloride),IDO1,123,CVCL_1381
+Palmatine (chloride),NS2B-NS3,166,CVCL_1381
+Palmatine (chloride),WNV,275,CVCL_1381
+Palmatine (chloride),IDO1,123,CVCL_1478
+Palmatine (chloride),NS2B-NS3,166,CVCL_1478
+Palmatine (chloride),WNV,275,CVCL_1478
+Palmatine (chloride),IDO1,123,CVCL_1495
+Palmatine (chloride),NS2B-NS3,166,CVCL_1495
+Palmatine (chloride),WNV,275,CVCL_1495
+Palmatine (chloride),IDO1,123,CVCL_1531
+Palmatine (chloride),NS2B-NS3,166,CVCL_1531
+Palmatine (chloride),WNV,275,CVCL_1531
+Palmatine (chloride),IDO1,123,CVCL_1547
+Palmatine (chloride),NS2B-NS3,166,CVCL_1547
+Palmatine (chloride),WNV,275,CVCL_1547
+Palmatine (chloride),IDO1,123,CVCL_1550
+Palmatine (chloride),NS2B-NS3,166,CVCL_1550
+Palmatine (chloride),WNV,275,CVCL_1550
+Palmatine (chloride),IDO1,123,CVCL_1577
+Palmatine (chloride),NS2B-NS3,166,CVCL_1577
+Palmatine (chloride),WNV,275,CVCL_1577
+Palmatine (chloride),IDO1,123,CVCL_1635
+Palmatine (chloride),NS2B-NS3,166,CVCL_1635
+Palmatine (chloride),WNV,275,CVCL_1635
+Palmatine (chloride),IDO1,123,CVCL_1715
+Palmatine (chloride),NS2B-NS3,166,CVCL_1715
+Palmatine (chloride),WNV,275,CVCL_1715
+Palmatine (chloride),IDO1,123,CVCL_1716
+Palmatine (chloride),NS2B-NS3,166,CVCL_1716
+Palmatine (chloride),WNV,275,CVCL_1716
+Palmatine (chloride),IDO1,123,CVCL_1717
+Palmatine (chloride),NS2B-NS3,166,CVCL_1717
+Palmatine (chloride),WNV,275,CVCL_1717
+Palmatine (chloride),IDO1,123,CVCL_1724
+Palmatine (chloride),NS2B-NS3,166,CVCL_1724
+Palmatine (chloride),WNV,275,CVCL_1724
+Palmatine (chloride),IDO1,123,CVCL_1731
+Palmatine (chloride),NS2B-NS3,166,CVCL_1731
+Palmatine (chloride),WNV,275,CVCL_1731
+Pasireotide (acetate),SSTR1,243,CVCL_0023
+Pasireotide (acetate),SSTR2,244,CVCL_0023
+Pasireotide (acetate),SSTR3,245,CVCL_0023
+Pasireotide (acetate),SSTR5,246,CVCL_0023
+Pasireotide (acetate),SSTR1,243,CVCL_0069
+Pasireotide (acetate),SSTR2,244,CVCL_0069
+Pasireotide (acetate),SSTR3,245,CVCL_0069
+Pasireotide (acetate),SSTR5,246,CVCL_0069
+Pasireotide (acetate),SSTR1,243,CVCL_0099
+Pasireotide (acetate),SSTR2,244,CVCL_0099
+Pasireotide (acetate),SSTR3,245,CVCL_0099
+Pasireotide (acetate),SSTR5,246,CVCL_0099
+Pasireotide (acetate),SSTR1,243,CVCL_0131
+Pasireotide (acetate),SSTR2,244,CVCL_0131
+Pasireotide (acetate),SSTR3,245,CVCL_0131
+Pasireotide (acetate),SSTR5,246,CVCL_0131
+Pasireotide (acetate),SSTR1,243,CVCL_0152
+Pasireotide (acetate),SSTR2,244,CVCL_0152
+Pasireotide (acetate),SSTR3,245,CVCL_0152
+Pasireotide (acetate),SSTR5,246,CVCL_0152
+Pasireotide (acetate),SSTR1,243,CVCL_0179
+Pasireotide (acetate),SSTR2,244,CVCL_0179
+Pasireotide (acetate),SSTR3,245,CVCL_0179
+Pasireotide (acetate),SSTR5,246,CVCL_0179
+Pasireotide (acetate),SSTR1,243,CVCL_0218
+Pasireotide (acetate),SSTR2,244,CVCL_0218
+Pasireotide (acetate),SSTR3,245,CVCL_0218
+Pasireotide (acetate),SSTR5,246,CVCL_0218
+Pasireotide (acetate),SSTR1,243,CVCL_0292
+Pasireotide (acetate),SSTR2,244,CVCL_0292
+Pasireotide (acetate),SSTR3,245,CVCL_0292
+Pasireotide (acetate),SSTR5,246,CVCL_0292
+Pasireotide (acetate),SSTR1,243,CVCL_0293
+Pasireotide (acetate),SSTR2,244,CVCL_0293
+Pasireotide (acetate),SSTR3,245,CVCL_0293
+Pasireotide (acetate),SSTR5,246,CVCL_0293
+Pasireotide (acetate),SSTR1,243,CVCL_0332
+Pasireotide (acetate),SSTR2,244,CVCL_0332
+Pasireotide (acetate),SSTR3,245,CVCL_0332
+Pasireotide (acetate),SSTR5,246,CVCL_0332
+Pasireotide (acetate),SSTR1,243,CVCL_0334
+Pasireotide (acetate),SSTR2,244,CVCL_0334
+Pasireotide (acetate),SSTR3,245,CVCL_0334
+Pasireotide (acetate),SSTR5,246,CVCL_0334
+Pasireotide (acetate),SSTR1,243,CVCL_0359
+Pasireotide (acetate),SSTR2,244,CVCL_0359
+Pasireotide (acetate),SSTR3,245,CVCL_0359
+Pasireotide (acetate),SSTR5,246,CVCL_0359
+Pasireotide (acetate),SSTR1,243,CVCL_0366
+Pasireotide (acetate),SSTR2,244,CVCL_0366
+Pasireotide (acetate),SSTR3,245,CVCL_0366
+Pasireotide (acetate),SSTR5,246,CVCL_0366
+Pasireotide (acetate),SSTR1,243,CVCL_0371
+Pasireotide (acetate),SSTR2,244,CVCL_0371
+Pasireotide (acetate),SSTR3,245,CVCL_0371
+Pasireotide (acetate),SSTR5,246,CVCL_0371
+Pasireotide (acetate),SSTR1,243,CVCL_0397
+Pasireotide (acetate),SSTR2,244,CVCL_0397
+Pasireotide (acetate),SSTR3,245,CVCL_0397
+Pasireotide (acetate),SSTR5,246,CVCL_0397
+Pasireotide (acetate),SSTR1,243,CVCL_0399
+Pasireotide (acetate),SSTR2,244,CVCL_0399
+Pasireotide (acetate),SSTR3,245,CVCL_0399
+Pasireotide (acetate),SSTR5,246,CVCL_0399
+Pasireotide (acetate),SSTR1,243,CVCL_0428
+Pasireotide (acetate),SSTR2,244,CVCL_0428
+Pasireotide (acetate),SSTR3,245,CVCL_0428
+Pasireotide (acetate),SSTR5,246,CVCL_0428
+Pasireotide (acetate),SSTR1,243,CVCL_0459
+Pasireotide (acetate),SSTR2,244,CVCL_0459
+Pasireotide (acetate),SSTR3,245,CVCL_0459
+Pasireotide (acetate),SSTR5,246,CVCL_0459
+Pasireotide (acetate),SSTR1,243,CVCL_0480
+Pasireotide (acetate),SSTR2,244,CVCL_0480
+Pasireotide (acetate),SSTR3,245,CVCL_0480
+Pasireotide (acetate),SSTR5,246,CVCL_0480
+Pasireotide (acetate),SSTR1,243,CVCL_0504
+Pasireotide (acetate),SSTR2,244,CVCL_0504
+Pasireotide (acetate),SSTR3,245,CVCL_0504
+Pasireotide (acetate),SSTR5,246,CVCL_0504
+Pasireotide (acetate),SSTR1,243,CVCL_0546
+Pasireotide (acetate),SSTR2,244,CVCL_0546
+Pasireotide (acetate),SSTR3,245,CVCL_0546
+Pasireotide (acetate),SSTR5,246,CVCL_0546
+Pasireotide (acetate),SSTR1,243,CVCL_1055
+Pasireotide (acetate),SSTR2,244,CVCL_1055
+Pasireotide (acetate),SSTR3,245,CVCL_1055
+Pasireotide (acetate),SSTR5,246,CVCL_1055
+Pasireotide (acetate),SSTR1,243,CVCL_1056
+Pasireotide (acetate),SSTR2,244,CVCL_1056
+Pasireotide (acetate),SSTR3,245,CVCL_1056
+Pasireotide (acetate),SSTR5,246,CVCL_1056
+Pasireotide (acetate),SSTR1,243,CVCL_1094
+Pasireotide (acetate),SSTR2,244,CVCL_1094
+Pasireotide (acetate),SSTR3,245,CVCL_1094
+Pasireotide (acetate),SSTR5,246,CVCL_1094
+Pasireotide (acetate),SSTR1,243,CVCL_1097
+Pasireotide (acetate),SSTR2,244,CVCL_1097
+Pasireotide (acetate),SSTR3,245,CVCL_1097
+Pasireotide (acetate),SSTR5,246,CVCL_1097
+Pasireotide (acetate),SSTR1,243,CVCL_1098
+Pasireotide (acetate),SSTR2,244,CVCL_1098
+Pasireotide (acetate),SSTR3,245,CVCL_1098
+Pasireotide (acetate),SSTR5,246,CVCL_1098
+Pasireotide (acetate),SSTR1,243,CVCL_1119
+Pasireotide (acetate),SSTR2,244,CVCL_1119
+Pasireotide (acetate),SSTR3,245,CVCL_1119
+Pasireotide (acetate),SSTR5,246,CVCL_1119
+Pasireotide (acetate),SSTR1,243,CVCL_1239
+Pasireotide (acetate),SSTR2,244,CVCL_1239
+Pasireotide (acetate),SSTR3,245,CVCL_1239
+Pasireotide (acetate),SSTR5,246,CVCL_1239
+Pasireotide (acetate),SSTR1,243,CVCL_1285
+Pasireotide (acetate),SSTR2,244,CVCL_1285
+Pasireotide (acetate),SSTR3,245,CVCL_1285
+Pasireotide (acetate),SSTR5,246,CVCL_1285
+Pasireotide (acetate),SSTR1,243,CVCL_1381
+Pasireotide (acetate),SSTR2,244,CVCL_1381
+Pasireotide (acetate),SSTR3,245,CVCL_1381
+Pasireotide (acetate),SSTR5,246,CVCL_1381
+Pasireotide (acetate),SSTR1,243,CVCL_1478
+Pasireotide (acetate),SSTR2,244,CVCL_1478
+Pasireotide (acetate),SSTR3,245,CVCL_1478
+Pasireotide (acetate),SSTR5,246,CVCL_1478
+Pasireotide (acetate),SSTR1,243,CVCL_1495
+Pasireotide (acetate),SSTR2,244,CVCL_1495
+Pasireotide (acetate),SSTR3,245,CVCL_1495
+Pasireotide (acetate),SSTR5,246,CVCL_1495
+Pasireotide (acetate),SSTR1,243,CVCL_1517
+Pasireotide (acetate),SSTR2,244,CVCL_1517
+Pasireotide (acetate),SSTR3,245,CVCL_1517
+Pasireotide (acetate),SSTR5,246,CVCL_1517
+Pasireotide (acetate),SSTR1,243,CVCL_1531
+Pasireotide (acetate),SSTR2,244,CVCL_1531
+Pasireotide (acetate),SSTR3,245,CVCL_1531
+Pasireotide (acetate),SSTR5,246,CVCL_1531
+Pasireotide (acetate),SSTR1,243,CVCL_1547
+Pasireotide (acetate),SSTR2,244,CVCL_1547
+Pasireotide (acetate),SSTR3,245,CVCL_1547
+Pasireotide (acetate),SSTR5,246,CVCL_1547
+Pasireotide (acetate),SSTR1,243,CVCL_1550
+Pasireotide (acetate),SSTR2,244,CVCL_1550
+Pasireotide (acetate),SSTR3,245,CVCL_1550
+Pasireotide (acetate),SSTR5,246,CVCL_1550
+Pasireotide (acetate),SSTR1,243,CVCL_1577
+Pasireotide (acetate),SSTR2,244,CVCL_1577
+Pasireotide (acetate),SSTR3,245,CVCL_1577
+Pasireotide (acetate),SSTR5,246,CVCL_1577
+Pasireotide (acetate),SSTR1,243,CVCL_1635
+Pasireotide (acetate),SSTR2,244,CVCL_1635
+Pasireotide (acetate),SSTR3,245,CVCL_1635
+Pasireotide (acetate),SSTR5,246,CVCL_1635
+Pasireotide (acetate),SSTR1,243,CVCL_1693
+Pasireotide (acetate),SSTR2,244,CVCL_1693
+Pasireotide (acetate),SSTR3,245,CVCL_1693
+Pasireotide (acetate),SSTR5,246,CVCL_1693
+Pasireotide (acetate),SSTR1,243,CVCL_1715
+Pasireotide (acetate),SSTR2,244,CVCL_1715
+Pasireotide (acetate),SSTR3,245,CVCL_1715
+Pasireotide (acetate),SSTR5,246,CVCL_1715
+Pasireotide (acetate),SSTR1,243,CVCL_1716
+Pasireotide (acetate),SSTR2,244,CVCL_1716
+Pasireotide (acetate),SSTR3,245,CVCL_1716
+Pasireotide (acetate),SSTR5,246,CVCL_1716
+Pasireotide (acetate),SSTR1,243,CVCL_1717
+Pasireotide (acetate),SSTR2,244,CVCL_1717
+Pasireotide (acetate),SSTR3,245,CVCL_1717
+Pasireotide (acetate),SSTR5,246,CVCL_1717
+Pasireotide (acetate),SSTR1,243,CVCL_1724
+Pasireotide (acetate),SSTR2,244,CVCL_1724
+Pasireotide (acetate),SSTR3,245,CVCL_1724
+Pasireotide (acetate),SSTR5,246,CVCL_1724
+Pasireotide (acetate),SSTR1,243,CVCL_1731
+Pasireotide (acetate),SSTR2,244,CVCL_1731
+Pasireotide (acetate),SSTR3,245,CVCL_1731
+Pasireotide (acetate),SSTR5,246,CVCL_1731
+Pasireotide (acetate),SSTR1,243,CVCL_C466
+Pasireotide (acetate),SSTR2,244,CVCL_C466
+Pasireotide (acetate),SSTR3,245,CVCL_C466
+Pasireotide (acetate),SSTR5,246,CVCL_C466
+Pentagastrin,CCKBR,40,CVCL_0023
+Pentagastrin,CCKBR,40,CVCL_0028
+Pentagastrin,CCKBR,40,CVCL_0069
+Pentagastrin,CCKBR,40,CVCL_0099
+Pentagastrin,CCKBR,40,CVCL_0131
+Pentagastrin,CCKBR,40,CVCL_0152
+Pentagastrin,CCKBR,40,CVCL_0179
+Pentagastrin,CCKBR,40,CVCL_0218
+Pentagastrin,CCKBR,40,CVCL_0292
+Pentagastrin,CCKBR,40,CVCL_0293
+Pentagastrin,CCKBR,40,CVCL_0332
+Pentagastrin,CCKBR,40,CVCL_0334
+Pentagastrin,CCKBR,40,CVCL_0359
+Pentagastrin,CCKBR,40,CVCL_0366
+Pentagastrin,CCKBR,40,CVCL_0371
+Pentagastrin,CCKBR,40,CVCL_0397
+Pentagastrin,CCKBR,40,CVCL_0399
+Pentagastrin,CCKBR,40,CVCL_0428
+Pentagastrin,CCKBR,40,CVCL_0459
+Pentagastrin,CCKBR,40,CVCL_0480
+Pentagastrin,CCKBR,40,CVCL_0504
+Pentagastrin,CCKBR,40,CVCL_0546
+Pentagastrin,CCKBR,40,CVCL_1055
+Pentagastrin,CCKBR,40,CVCL_1056
+Pentagastrin,CCKBR,40,CVCL_1094
+Pentagastrin,CCKBR,40,CVCL_1097
+Pentagastrin,CCKBR,40,CVCL_1098
+Pentagastrin,CCKBR,40,CVCL_1119
+Pentagastrin,CCKBR,40,CVCL_1239
+Pentagastrin,CCKBR,40,CVCL_1285
+Pentagastrin,CCKBR,40,CVCL_1381
+Pentagastrin,CCKBR,40,CVCL_1478
+Pentagastrin,CCKBR,40,CVCL_1495
+Pentagastrin,CCKBR,40,CVCL_1517
+Pentagastrin,CCKBR,40,CVCL_1531
+Pentagastrin,CCKBR,40,CVCL_1547
+Pentagastrin,CCKBR,40,CVCL_1550
+Pentagastrin,CCKBR,40,CVCL_1577
+Pentagastrin,CCKBR,40,CVCL_1635
+Pentagastrin,CCKBR,40,CVCL_1666
+Pentagastrin,CCKBR,40,CVCL_1693
+Pentagastrin,CCKBR,40,CVCL_1715
+Pentagastrin,CCKBR,40,CVCL_1716
+Pentagastrin,CCKBR,40,CVCL_1717
+Pentagastrin,CCKBR,40,CVCL_1724
+Pentagastrin,CCKBR,40,CVCL_1731
+Pentagastrin,CCKBR,40,CVCL_C466
+Pentamidine (isethionate),PRLR,206,CVCL_0023
+Pentamidine (isethionate),PRLR,206,CVCL_0069
+Pentamidine (isethionate),PRLR,206,CVCL_0099
+Pentamidine (isethionate),PRLR,206,CVCL_0131
+Pentamidine (isethionate),PRLR,206,CVCL_0152
+Pentamidine (isethionate),PRLR,206,CVCL_0179
+Pentamidine (isethionate),PRLR,206,CVCL_0218
+Pentamidine (isethionate),PRLR,206,CVCL_0292
+Pentamidine (isethionate),PRLR,206,CVCL_0293
+Pentamidine (isethionate),PRLR,206,CVCL_0332
+Pentamidine (isethionate),PRLR,206,CVCL_0334
+Pentamidine (isethionate),PRLR,206,CVCL_0359
+Pentamidine (isethionate),PRLR,206,CVCL_0366
+Pentamidine (isethionate),PRLR,206,CVCL_0371
+Pentamidine (isethionate),PRLR,206,CVCL_0397
+Pentamidine (isethionate),PRLR,206,CVCL_0399
+Pentamidine (isethionate),PRLR,206,CVCL_0428
+Pentamidine (isethionate),PRLR,206,CVCL_0459
+Pentamidine (isethionate),PRLR,206,CVCL_0480
+Pentamidine (isethionate),PRLR,206,CVCL_0504
+Pentamidine (isethionate),PRLR,206,CVCL_0546
+Pentamidine (isethionate),PRLR,206,CVCL_1055
+Pentamidine (isethionate),PRLR,206,CVCL_1056
+Pentamidine (isethionate),PRLR,206,CVCL_1094
+Pentamidine (isethionate),PRLR,206,CVCL_1097
+Pentamidine (isethionate),PRLR,206,CVCL_1098
+Pentamidine (isethionate),PRLR,206,CVCL_1119
+Pentamidine (isethionate),PRLR,206,CVCL_1125
+Pentamidine (isethionate),PRLR,206,CVCL_1239
+Pentamidine (isethionate),PRLR,206,CVCL_1285
+Pentamidine (isethionate),PRLR,206,CVCL_1381
+Pentamidine (isethionate),PRLR,206,CVCL_1478
+Pentamidine (isethionate),PRLR,206,CVCL_1495
+Pentamidine (isethionate),PRLR,206,CVCL_1517
+Pentamidine (isethionate),PRLR,206,CVCL_1531
+Pentamidine (isethionate),PRLR,206,CVCL_1547
+Pentamidine (isethionate),PRLR,206,CVCL_1550
+Pentamidine (isethionate),PRLR,206,CVCL_1577
+Pentamidine (isethionate),PRLR,206,CVCL_1635
+Pentamidine (isethionate),PRLR,206,CVCL_1693
+Pentamidine (isethionate),PRLR,206,CVCL_1715
+Pentamidine (isethionate),PRLR,206,CVCL_1716
+Pentamidine (isethionate),PRLR,206,CVCL_1717
+Pentamidine (isethionate),PRLR,206,CVCL_1724
+Pentamidine (isethionate),PRLR,206,CVCL_1731
+Pentamidine (isethionate),PRLR,206,CVCL_C466
+Radotinib,ABL1,2,CVCL_0023
+Radotinib,ABL1,2,CVCL_0069
+Radotinib,ABL1,2,CVCL_0099
+Radotinib,ABL1,2,CVCL_0131
+Radotinib,ABL1,2,CVCL_0152
+Radotinib,ABL1,2,CVCL_0179
+Radotinib,ABL1,2,CVCL_0218
+Radotinib,ABL1,2,CVCL_0292
+Radotinib,ABL1,2,CVCL_0293
+Radotinib,ABL1,2,CVCL_0320
+Radotinib,ABL1,2,CVCL_0332
+Radotinib,ABL1,2,CVCL_0334
+Radotinib,ABL1,2,CVCL_0359
+Radotinib,ABL1,2,CVCL_0366
+Radotinib,ABL1,2,CVCL_0371
+Radotinib,ABL1,2,CVCL_0397
+Radotinib,ABL1,2,CVCL_0399
+Radotinib,ABL1,2,CVCL_0428
+Radotinib,ABL1,2,CVCL_0459
+Radotinib,ABL1,2,CVCL_0480
+Radotinib,ABL1,2,CVCL_0504
+Radotinib,ABL1,2,CVCL_0546
+Radotinib,ABL1,2,CVCL_1055
+Radotinib,ABL1,2,CVCL_1056
+Radotinib,ABL1,2,CVCL_1094
+Radotinib,ABL1,2,CVCL_1097
+Radotinib,ABL1,2,CVCL_1098
+Radotinib,ABL1,2,CVCL_1119
+Radotinib,ABL1,2,CVCL_1125
+Radotinib,ABL1,2,CVCL_1239
+Radotinib,ABL1,2,CVCL_1285
+Radotinib,ABL1,2,CVCL_1381
+Radotinib,ABL1,2,CVCL_1478
+Radotinib,ABL1,2,CVCL_1495
+Radotinib,ABL1,2,CVCL_1517
+Radotinib,ABL1,2,CVCL_1531
+Radotinib,ABL1,2,CVCL_1547
+Radotinib,ABL1,2,CVCL_1550
+Radotinib,ABL1,2,CVCL_1577
+Radotinib,ABL1,2,CVCL_1635
+Radotinib,ABL1,2,CVCL_1693
+Radotinib,ABL1,2,CVCL_1715
+Radotinib,ABL1,2,CVCL_1716
+Radotinib,ABL1,2,CVCL_1717
+Radotinib,ABL1,2,CVCL_1724
+Radotinib,ABL1,2,CVCL_1731
+Radotinib,ABL1,2,CVCL_C466
+Raltitrexed,TYMS,272,CVCL_0023
+Raltitrexed,TYMS,272,CVCL_0028
+Raltitrexed,TYMS,272,CVCL_0069
+Raltitrexed,TYMS,272,CVCL_0099
+Raltitrexed,TYMS,272,CVCL_0131
+Raltitrexed,TYMS,272,CVCL_0152
+Raltitrexed,TYMS,272,CVCL_0179
+Raltitrexed,TYMS,272,CVCL_0218
+Raltitrexed,TYMS,272,CVCL_0292
+Raltitrexed,TYMS,272,CVCL_0293
+Raltitrexed,TYMS,272,CVCL_0320
+Raltitrexed,TYMS,272,CVCL_0332
+Raltitrexed,TYMS,272,CVCL_0334
+Raltitrexed,TYMS,272,CVCL_0359
+Raltitrexed,TYMS,272,CVCL_0366
+Raltitrexed,TYMS,272,CVCL_0371
+Raltitrexed,TYMS,272,CVCL_0397
+Raltitrexed,TYMS,272,CVCL_0399
+Raltitrexed,TYMS,272,CVCL_0428
+Raltitrexed,TYMS,272,CVCL_0459
+Raltitrexed,TYMS,272,CVCL_0480
+Raltitrexed,TYMS,272,CVCL_0504
+Raltitrexed,TYMS,272,CVCL_0546
+Raltitrexed,TYMS,272,CVCL_1055
+Raltitrexed,TYMS,272,CVCL_1056
+Raltitrexed,TYMS,272,CVCL_1094
+Raltitrexed,TYMS,272,CVCL_1097
+Raltitrexed,TYMS,272,CVCL_1098
+Raltitrexed,TYMS,272,CVCL_1119
+Raltitrexed,TYMS,272,CVCL_1125
+Raltitrexed,TYMS,272,CVCL_1239
+Raltitrexed,TYMS,272,CVCL_1285
+Raltitrexed,TYMS,272,CVCL_1381
+Raltitrexed,TYMS,272,CVCL_1478
+Raltitrexed,TYMS,272,CVCL_1495
+Raltitrexed,TYMS,272,CVCL_1517
+Raltitrexed,TYMS,272,CVCL_1531
+Raltitrexed,TYMS,272,CVCL_1547
+Raltitrexed,TYMS,272,CVCL_1550
+Raltitrexed,TYMS,272,CVCL_1577
+Raltitrexed,TYMS,272,CVCL_1635
+Raltitrexed,TYMS,272,CVCL_1693
+Raltitrexed,TYMS,272,CVCL_1715
+Raltitrexed,TYMS,272,CVCL_1716
+Raltitrexed,TYMS,272,CVCL_1717
+Raltitrexed,TYMS,272,CVCL_1724
+Raltitrexed,TYMS,272,CVCL_1731
+Raltitrexed,TYMS,272,CVCL_C466
+Rapamycin,FKBP1A,95,CVCL_0023
+Rapamycin,MTOR,159,CVCL_0023
+Rapamycin,FKBP1A,95,CVCL_0028
+Rapamycin,MTOR,159,CVCL_0028
+Rapamycin,FKBP1A,95,CVCL_0069
+Rapamycin,MTOR,159,CVCL_0069
+Rapamycin,FKBP1A,95,CVCL_0099
+Rapamycin,MTOR,159,CVCL_0099
+Rapamycin,FKBP1A,95,CVCL_0131
+Rapamycin,MTOR,159,CVCL_0131
+Rapamycin,FKBP1A,95,CVCL_0152
+Rapamycin,MTOR,159,CVCL_0152
+Rapamycin,FKBP1A,95,CVCL_0179
+Rapamycin,MTOR,159,CVCL_0179
+Rapamycin,FKBP1A,95,CVCL_0218
+Rapamycin,MTOR,159,CVCL_0218
+Rapamycin,FKBP1A,95,CVCL_0292
+Rapamycin,MTOR,159,CVCL_0292
+Rapamycin,FKBP1A,95,CVCL_0293
+Rapamycin,MTOR,159,CVCL_0293
+Rapamycin,FKBP1A,95,CVCL_0320
+Rapamycin,MTOR,159,CVCL_0320
+Rapamycin,FKBP1A,95,CVCL_0332
+Rapamycin,MTOR,159,CVCL_0332
+Rapamycin,FKBP1A,95,CVCL_0334
+Rapamycin,MTOR,159,CVCL_0334
+Rapamycin,FKBP1A,95,CVCL_0359
+Rapamycin,MTOR,159,CVCL_0359
+Rapamycin,FKBP1A,95,CVCL_0366
+Rapamycin,MTOR,159,CVCL_0366
+Rapamycin,FKBP1A,95,CVCL_0371
+Rapamycin,MTOR,159,CVCL_0371
+Rapamycin,FKBP1A,95,CVCL_0397
+Rapamycin,MTOR,159,CVCL_0397
+Rapamycin,FKBP1A,95,CVCL_0399
+Rapamycin,MTOR,159,CVCL_0399
+Rapamycin,FKBP1A,95,CVCL_0428
+Rapamycin,MTOR,159,CVCL_0428
+Rapamycin,FKBP1A,95,CVCL_0459
+Rapamycin,MTOR,159,CVCL_0459
+Rapamycin,FKBP1A,95,CVCL_0480
+Rapamycin,MTOR,159,CVCL_0480
+Rapamycin,FKBP1A,95,CVCL_0504
+Rapamycin,MTOR,159,CVCL_0504
+Rapamycin,FKBP1A,95,CVCL_0546
+Rapamycin,MTOR,159,CVCL_0546
+Rapamycin,FKBP1A,95,CVCL_1055
+Rapamycin,MTOR,159,CVCL_1055
+Rapamycin,FKBP1A,95,CVCL_1056
+Rapamycin,MTOR,159,CVCL_1056
+Rapamycin,FKBP1A,95,CVCL_1094
+Rapamycin,MTOR,159,CVCL_1094
+Rapamycin,FKBP1A,95,CVCL_1097
+Rapamycin,MTOR,159,CVCL_1097
+Rapamycin,FKBP1A,95,CVCL_1098
+Rapamycin,MTOR,159,CVCL_1098
+Rapamycin,FKBP1A,95,CVCL_1119
+Rapamycin,MTOR,159,CVCL_1119
+Rapamycin,FKBP1A,95,CVCL_1125
+Rapamycin,MTOR,159,CVCL_1125
+Rapamycin,FKBP1A,95,CVCL_1239
+Rapamycin,MTOR,159,CVCL_1239
+Rapamycin,FKBP1A,95,CVCL_1285
+Rapamycin,MTOR,159,CVCL_1285
+Rapamycin,FKBP1A,95,CVCL_1381
+Rapamycin,MTOR,159,CVCL_1381
+Rapamycin,FKBP1A,95,CVCL_1478
+Rapamycin,MTOR,159,CVCL_1478
+Rapamycin,FKBP1A,95,CVCL_1495
+Rapamycin,MTOR,159,CVCL_1495
+Rapamycin,FKBP1A,95,CVCL_1517
+Rapamycin,MTOR,159,CVCL_1517
+Rapamycin,FKBP1A,95,CVCL_1531
+Rapamycin,MTOR,159,CVCL_1531
+Rapamycin,FKBP1A,95,CVCL_1547
+Rapamycin,MTOR,159,CVCL_1547
+Rapamycin,FKBP1A,95,CVCL_1550
+Rapamycin,MTOR,159,CVCL_1550
+Rapamycin,FKBP1A,95,CVCL_1577
+Rapamycin,MTOR,159,CVCL_1577
+Rapamycin,FKBP1A,95,CVCL_1635
+Rapamycin,MTOR,159,CVCL_1635
+Rapamycin,FKBP1A,95,CVCL_1693
+Rapamycin,MTOR,159,CVCL_1693
+Rapamycin,FKBP1A,95,CVCL_1715
+Rapamycin,MTOR,159,CVCL_1715
+Rapamycin,FKBP1A,95,CVCL_1716
+Rapamycin,MTOR,159,CVCL_1716
+Rapamycin,FKBP1A,95,CVCL_1717
+Rapamycin,MTOR,159,CVCL_1717
+Rapamycin,FKBP1A,95,CVCL_1724
+Rapamycin,MTOR,159,CVCL_1724
+Rapamycin,FKBP1A,95,CVCL_1731
+Rapamycin,MTOR,159,CVCL_1731
+Rapamycin,FKBP1A,95,CVCL_C466
+Rapamycin,MTOR,159,CVCL_C466
+Relugolix,GNRHR,100,CVCL_0023
+Relugolix,GNRHR,100,CVCL_0069
+Relugolix,GNRHR,100,CVCL_0099
+Relugolix,GNRHR,100,CVCL_0131
+Relugolix,GNRHR,100,CVCL_0152
+Relugolix,GNRHR,100,CVCL_0179
+Relugolix,GNRHR,100,CVCL_0218
+Relugolix,GNRHR,100,CVCL_0292
+Relugolix,GNRHR,100,CVCL_0293
+Relugolix,GNRHR,100,CVCL_0332
+Relugolix,GNRHR,100,CVCL_0334
+Relugolix,GNRHR,100,CVCL_0359
+Relugolix,GNRHR,100,CVCL_0366
+Relugolix,GNRHR,100,CVCL_0371
+Relugolix,GNRHR,100,CVCL_0397
+Relugolix,GNRHR,100,CVCL_0399
+Relugolix,GNRHR,100,CVCL_0428
+Relugolix,GNRHR,100,CVCL_0459
+Relugolix,GNRHR,100,CVCL_0480
+Relugolix,GNRHR,100,CVCL_0504
+Relugolix,GNRHR,100,CVCL_0546
+Relugolix,GNRHR,100,CVCL_1055
+Relugolix,GNRHR,100,CVCL_1056
+Relugolix,GNRHR,100,CVCL_1094
+Relugolix,GNRHR,100,CVCL_1097
+Relugolix,GNRHR,100,CVCL_1098
+Relugolix,GNRHR,100,CVCL_1119
+Relugolix,GNRHR,100,CVCL_1239
+Relugolix,GNRHR,100,CVCL_1285
+Relugolix,GNRHR,100,CVCL_1381
+Relugolix,GNRHR,100,CVCL_1478
+Relugolix,GNRHR,100,CVCL_1495
+Relugolix,GNRHR,100,CVCL_1517
+Relugolix,GNRHR,100,CVCL_1531
+Relugolix,GNRHR,100,CVCL_1547
+Relugolix,GNRHR,100,CVCL_1550
+Relugolix,GNRHR,100,CVCL_1577
+Relugolix,GNRHR,100,CVCL_1635
+Relugolix,GNRHR,100,CVCL_1666
+Relugolix,GNRHR,100,CVCL_1693
+Relugolix,GNRHR,100,CVCL_1715
+Relugolix,GNRHR,100,CVCL_1716
+Relugolix,GNRHR,100,CVCL_1717
+Relugolix,GNRHR,100,CVCL_1724
+Relugolix,GNRHR,100,CVCL_1731
+Relugolix,GNRHR,100,CVCL_C466
+Resveratrol,SIRT1,231,CVCL_0023
+Resveratrol,SIRT1,231,CVCL_0028
+Resveratrol,SIRT1,231,CVCL_0069
+Resveratrol,SIRT1,231,CVCL_0099
+Resveratrol,SIRT1,231,CVCL_0131
+Resveratrol,SIRT1,231,CVCL_0152
+Resveratrol,SIRT1,231,CVCL_0179
+Resveratrol,SIRT1,231,CVCL_0218
+Resveratrol,SIRT1,231,CVCL_0292
+Resveratrol,SIRT1,231,CVCL_0293
+Resveratrol,SIRT1,231,CVCL_0320
+Resveratrol,SIRT1,231,CVCL_0332
+Resveratrol,SIRT1,231,CVCL_0334
+Resveratrol,SIRT1,231,CVCL_0359
+Resveratrol,SIRT1,231,CVCL_0366
+Resveratrol,SIRT1,231,CVCL_0371
+Resveratrol,SIRT1,231,CVCL_0397
+Resveratrol,SIRT1,231,CVCL_0399
+Resveratrol,SIRT1,231,CVCL_0428
+Resveratrol,SIRT1,231,CVCL_0459
+Resveratrol,SIRT1,231,CVCL_0480
+Resveratrol,SIRT1,231,CVCL_0504
+Resveratrol,SIRT1,231,CVCL_0546
+Resveratrol,SIRT1,231,CVCL_1055
+Resveratrol,SIRT1,231,CVCL_1056
+Resveratrol,SIRT1,231,CVCL_1094
+Resveratrol,SIRT1,231,CVCL_1097
+Resveratrol,SIRT1,231,CVCL_1098
+Resveratrol,SIRT1,231,CVCL_1119
+Resveratrol,SIRT1,231,CVCL_1125
+Resveratrol,SIRT1,231,CVCL_1239
+Resveratrol,SIRT1,231,CVCL_1285
+Resveratrol,SIRT1,231,CVCL_1381
+Resveratrol,SIRT1,231,CVCL_1478
+Resveratrol,SIRT1,231,CVCL_1495
+Resveratrol,SIRT1,231,CVCL_1517
+Resveratrol,SIRT1,231,CVCL_1531
+Resveratrol,SIRT1,231,CVCL_1547
+Resveratrol,SIRT1,231,CVCL_1550
+Resveratrol,SIRT1,231,CVCL_1577
+Resveratrol,SIRT1,231,CVCL_1635
+Resveratrol,SIRT1,231,CVCL_1693
+Resveratrol,SIRT1,231,CVCL_1715
+Resveratrol,SIRT1,231,CVCL_1716
+Resveratrol,SIRT1,231,CVCL_1717
+Resveratrol,SIRT1,231,CVCL_1724
+Resveratrol,SIRT1,231,CVCL_1731
+Resveratrol,SIRT1,231,CVCL_C466
+Retinoic acid,PPARD,195,CVCL_0023
+Retinoic acid,RARA,213,CVCL_0023
+Retinoic acid,RARB,214,CVCL_0023
+Retinoic acid,RARG,215,CVCL_0023
+Retinoic acid,PPARD,195,CVCL_0028
+Retinoic acid,RARA,213,CVCL_0028
+Retinoic acid,RARB,214,CVCL_0028
+Retinoic acid,RARG,215,CVCL_0028
+Retinoic acid,PPARD,195,CVCL_0069
+Retinoic acid,RARA,213,CVCL_0069
+Retinoic acid,RARB,214,CVCL_0069
+Retinoic acid,RARG,215,CVCL_0069
+Retinoic acid,PPARD,195,CVCL_0099
+Retinoic acid,RARA,213,CVCL_0099
+Retinoic acid,RARB,214,CVCL_0099
+Retinoic acid,RARG,215,CVCL_0099
+Retinoic acid,PPARD,195,CVCL_0131
+Retinoic acid,RARA,213,CVCL_0131
+Retinoic acid,RARB,214,CVCL_0131
+Retinoic acid,RARG,215,CVCL_0131
+Retinoic acid,PPARD,195,CVCL_0152
+Retinoic acid,RARA,213,CVCL_0152
+Retinoic acid,RARB,214,CVCL_0152
+Retinoic acid,RARG,215,CVCL_0152
+Retinoic acid,PPARD,195,CVCL_0179
+Retinoic acid,RARA,213,CVCL_0179
+Retinoic acid,RARB,214,CVCL_0179
+Retinoic acid,RARG,215,CVCL_0179
+Retinoic acid,PPARD,195,CVCL_0218
+Retinoic acid,RARA,213,CVCL_0218
+Retinoic acid,RARB,214,CVCL_0218
+Retinoic acid,RARG,215,CVCL_0218
+Retinoic acid,PPARD,195,CVCL_0292
+Retinoic acid,RARA,213,CVCL_0292
+Retinoic acid,RARB,214,CVCL_0292
+Retinoic acid,RARG,215,CVCL_0292
+Retinoic acid,PPARD,195,CVCL_0293
+Retinoic acid,RARA,213,CVCL_0293
+Retinoic acid,RARB,214,CVCL_0293
+Retinoic acid,RARG,215,CVCL_0293
+Retinoic acid,PPARD,195,CVCL_0320
+Retinoic acid,RARA,213,CVCL_0320
+Retinoic acid,RARB,214,CVCL_0320
+Retinoic acid,RARG,215,CVCL_0320
+Retinoic acid,PPARD,195,CVCL_0332
+Retinoic acid,RARA,213,CVCL_0332
+Retinoic acid,RARB,214,CVCL_0332
+Retinoic acid,RARG,215,CVCL_0332
+Retinoic acid,PPARD,195,CVCL_0334
+Retinoic acid,RARA,213,CVCL_0334
+Retinoic acid,RARB,214,CVCL_0334
+Retinoic acid,RARG,215,CVCL_0334
+Retinoic acid,PPARD,195,CVCL_0359
+Retinoic acid,RARA,213,CVCL_0359
+Retinoic acid,RARB,214,CVCL_0359
+Retinoic acid,RARG,215,CVCL_0359
+Retinoic acid,PPARD,195,CVCL_0366
+Retinoic acid,RARA,213,CVCL_0366
+Retinoic acid,RARB,214,CVCL_0366
+Retinoic acid,RARG,215,CVCL_0366
+Retinoic acid,PPARD,195,CVCL_0371
+Retinoic acid,RARA,213,CVCL_0371
+Retinoic acid,RARB,214,CVCL_0371
+Retinoic acid,RARG,215,CVCL_0371
+Retinoic acid,PPARD,195,CVCL_0397
+Retinoic acid,RARA,213,CVCL_0397
+Retinoic acid,RARB,214,CVCL_0397
+Retinoic acid,RARG,215,CVCL_0397
+Retinoic acid,PPARD,195,CVCL_0399
+Retinoic acid,RARA,213,CVCL_0399
+Retinoic acid,RARB,214,CVCL_0399
+Retinoic acid,RARG,215,CVCL_0399
+Retinoic acid,PPARD,195,CVCL_0428
+Retinoic acid,RARA,213,CVCL_0428
+Retinoic acid,RARB,214,CVCL_0428
+Retinoic acid,RARG,215,CVCL_0428
+Retinoic acid,PPARD,195,CVCL_0459
+Retinoic acid,RARA,213,CVCL_0459
+Retinoic acid,RARB,214,CVCL_0459
+Retinoic acid,RARG,215,CVCL_0459
+Retinoic acid,PPARD,195,CVCL_0480
+Retinoic acid,RARA,213,CVCL_0480
+Retinoic acid,RARB,214,CVCL_0480
+Retinoic acid,RARG,215,CVCL_0480
+Retinoic acid,PPARD,195,CVCL_0504
+Retinoic acid,RARA,213,CVCL_0504
+Retinoic acid,RARB,214,CVCL_0504
+Retinoic acid,RARG,215,CVCL_0504
+Retinoic acid,PPARD,195,CVCL_0546
+Retinoic acid,RARA,213,CVCL_0546
+Retinoic acid,RARB,214,CVCL_0546
+Retinoic acid,RARG,215,CVCL_0546
+Retinoic acid,PPARD,195,CVCL_1055
+Retinoic acid,RARA,213,CVCL_1055
+Retinoic acid,RARB,214,CVCL_1055
+Retinoic acid,RARG,215,CVCL_1055
+Retinoic acid,PPARD,195,CVCL_1056
+Retinoic acid,RARA,213,CVCL_1056
+Retinoic acid,RARB,214,CVCL_1056
+Retinoic acid,RARG,215,CVCL_1056
+Retinoic acid,PPARD,195,CVCL_1094
+Retinoic acid,RARA,213,CVCL_1094
+Retinoic acid,RARB,214,CVCL_1094
+Retinoic acid,RARG,215,CVCL_1094
+Retinoic acid,PPARD,195,CVCL_1097
+Retinoic acid,RARA,213,CVCL_1097
+Retinoic acid,RARB,214,CVCL_1097
+Retinoic acid,RARG,215,CVCL_1097
+Retinoic acid,PPARD,195,CVCL_1098
+Retinoic acid,RARA,213,CVCL_1098
+Retinoic acid,RARB,214,CVCL_1098
+Retinoic acid,RARG,215,CVCL_1098
+Retinoic acid,PPARD,195,CVCL_1119
+Retinoic acid,RARA,213,CVCL_1119
+Retinoic acid,RARB,214,CVCL_1119
+Retinoic acid,RARG,215,CVCL_1119
+Retinoic acid,PPARD,195,CVCL_1239
+Retinoic acid,RARA,213,CVCL_1239
+Retinoic acid,RARB,214,CVCL_1239
+Retinoic acid,RARG,215,CVCL_1239
+Retinoic acid,PPARD,195,CVCL_1285
+Retinoic acid,RARA,213,CVCL_1285
+Retinoic acid,RARB,214,CVCL_1285
+Retinoic acid,RARG,215,CVCL_1285
+Retinoic acid,PPARD,195,CVCL_1381
+Retinoic acid,RARA,213,CVCL_1381
+Retinoic acid,RARB,214,CVCL_1381
+Retinoic acid,RARG,215,CVCL_1381
+Retinoic acid,PPARD,195,CVCL_1478
+Retinoic acid,RARA,213,CVCL_1478
+Retinoic acid,RARB,214,CVCL_1478
+Retinoic acid,RARG,215,CVCL_1478
+Retinoic acid,PPARD,195,CVCL_1495
+Retinoic acid,RARA,213,CVCL_1495
+Retinoic acid,RARB,214,CVCL_1495
+Retinoic acid,RARG,215,CVCL_1495
+Retinoic acid,PPARD,195,CVCL_1517
+Retinoic acid,RARA,213,CVCL_1517
+Retinoic acid,RARB,214,CVCL_1517
+Retinoic acid,RARG,215,CVCL_1517
+Retinoic acid,PPARD,195,CVCL_1531
+Retinoic acid,RARA,213,CVCL_1531
+Retinoic acid,RARB,214,CVCL_1531
+Retinoic acid,RARG,215,CVCL_1531
+Retinoic acid,PPARD,195,CVCL_1547
+Retinoic acid,RARA,213,CVCL_1547
+Retinoic acid,RARB,214,CVCL_1547
+Retinoic acid,RARG,215,CVCL_1547
+Retinoic acid,PPARD,195,CVCL_1550
+Retinoic acid,RARA,213,CVCL_1550
+Retinoic acid,RARB,214,CVCL_1550
+Retinoic acid,RARG,215,CVCL_1550
+Retinoic acid,PPARD,195,CVCL_1577
+Retinoic acid,RARA,213,CVCL_1577
+Retinoic acid,RARB,214,CVCL_1577
+Retinoic acid,RARG,215,CVCL_1577
+Retinoic acid,PPARD,195,CVCL_1635
+Retinoic acid,RARA,213,CVCL_1635
+Retinoic acid,RARB,214,CVCL_1635
+Retinoic acid,RARG,215,CVCL_1635
+Retinoic acid,PPARD,195,CVCL_1693
+Retinoic acid,RARA,213,CVCL_1693
+Retinoic acid,RARB,214,CVCL_1693
+Retinoic acid,RARG,215,CVCL_1693
+Retinoic acid,PPARD,195,CVCL_1715
+Retinoic acid,RARA,213,CVCL_1715
+Retinoic acid,RARB,214,CVCL_1715
+Retinoic acid,RARG,215,CVCL_1715
+Retinoic acid,PPARD,195,CVCL_1716
+Retinoic acid,RARA,213,CVCL_1716
+Retinoic acid,RARB,214,CVCL_1716
+Retinoic acid,RARG,215,CVCL_1716
+Retinoic acid,PPARD,195,CVCL_1717
+Retinoic acid,RARA,213,CVCL_1717
+Retinoic acid,RARB,214,CVCL_1717
+Retinoic acid,RARG,215,CVCL_1717
+Retinoic acid,PPARD,195,CVCL_1724
+Retinoic acid,RARA,213,CVCL_1724
+Retinoic acid,RARB,214,CVCL_1724
+Retinoic acid,RARG,215,CVCL_1724
+Retinoic acid,PPARD,195,CVCL_1731
+Retinoic acid,RARA,213,CVCL_1731
+Retinoic acid,RARB,214,CVCL_1731
+Retinoic acid,RARG,215,CVCL_1731
+Retinoic acid,PPARD,195,CVCL_C466
+Retinoic acid,RARA,213,CVCL_C466
+Retinoic acid,RARB,214,CVCL_C466
+Retinoic acid,RARG,215,CVCL_C466
+Rimonabant,CNR1,54,CVCL_0023
+Rimonabant,CNR1,54,CVCL_0069
+Rimonabant,CNR1,54,CVCL_0099
+Rimonabant,CNR1,54,CVCL_0131
+Rimonabant,CNR1,54,CVCL_0152
+Rimonabant,CNR1,54,CVCL_0292
+Rimonabant,CNR1,54,CVCL_0293
+Rimonabant,CNR1,54,CVCL_0320
+Rimonabant,CNR1,54,CVCL_0332
+Rimonabant,CNR1,54,CVCL_0359
+Rimonabant,CNR1,54,CVCL_0366
+Rimonabant,CNR1,54,CVCL_0371
+Rimonabant,CNR1,54,CVCL_0397
+Rimonabant,CNR1,54,CVCL_0399
+Rimonabant,CNR1,54,CVCL_0428
+Rimonabant,CNR1,54,CVCL_0459
+Rimonabant,CNR1,54,CVCL_0480
+Rimonabant,CNR1,54,CVCL_0504
+Rimonabant,CNR1,54,CVCL_1055
+Rimonabant,CNR1,54,CVCL_1056
+Rimonabant,CNR1,54,CVCL_1097
+Rimonabant,CNR1,54,CVCL_1119
+Rimonabant,CNR1,54,CVCL_1239
+Rimonabant,CNR1,54,CVCL_1285
+Rimonabant,CNR1,54,CVCL_1478
+Rimonabant,CNR1,54,CVCL_1495
+Rimonabant,CNR1,54,CVCL_1531
+Rimonabant,CNR1,54,CVCL_1547
+Rimonabant,CNR1,54,CVCL_1550
+Rimonabant,CNR1,54,CVCL_1577
+Rimonabant,CNR1,54,CVCL_1635
+Rimonabant,CNR1,54,CVCL_1715
+Rimonabant,CNR1,54,CVCL_1716
+Rimonabant,CNR1,54,CVCL_1717
+Rimonabant,CNR1,54,CVCL_1724
+Rimonabant,CNR1,54,CVCL_1731
+Selinexor,XPO1,277,CVCL_0069
+Selinexor,XPO1,277,CVCL_0099
+Selinexor,XPO1,277,CVCL_0131
+Selinexor,XPO1,277,CVCL_0152
+Selinexor,XPO1,277,CVCL_0292
+Selinexor,XPO1,277,CVCL_0293
+Selinexor,XPO1,277,CVCL_0320
+Selinexor,XPO1,277,CVCL_0334
+Selinexor,XPO1,277,CVCL_0359
+Selinexor,XPO1,277,CVCL_0366
+Selinexor,XPO1,277,CVCL_0371
+Selinexor,XPO1,277,CVCL_0397
+Selinexor,XPO1,277,CVCL_0399
+Selinexor,XPO1,277,CVCL_0428
+Selinexor,XPO1,277,CVCL_0459
+Selinexor,XPO1,277,CVCL_0480
+Selinexor,XPO1,277,CVCL_1055
+Selinexor,XPO1,277,CVCL_1097
+Selinexor,XPO1,277,CVCL_1119
+Selinexor,XPO1,277,CVCL_1239
+Selinexor,XPO1,277,CVCL_1285
+Selinexor,XPO1,277,CVCL_1381
+Selinexor,XPO1,277,CVCL_1478
+Selinexor,XPO1,277,CVCL_1495
+Selinexor,XPO1,277,CVCL_1531
+Selinexor,XPO1,277,CVCL_1547
+Selinexor,XPO1,277,CVCL_1550
+Selinexor,XPO1,277,CVCL_1577
+Selinexor,XPO1,277,CVCL_1635
+Selinexor,XPO1,277,CVCL_1715
+Selinexor,XPO1,277,CVCL_1717
+Selinexor,XPO1,277,CVCL_1724
+Selinexor,XPO1,277,CVCL_1731
+Sinomenine,OPRM1,172,CVCL_0023
+Sinomenine,OPRM1,172,CVCL_0028
+Sinomenine,OPRM1,172,CVCL_0069
+Sinomenine,OPRM1,172,CVCL_0099
+Sinomenine,OPRM1,172,CVCL_0131
+Sinomenine,OPRM1,172,CVCL_0152
+Sinomenine,OPRM1,172,CVCL_0179
+Sinomenine,OPRM1,172,CVCL_0218
+Sinomenine,OPRM1,172,CVCL_0292
+Sinomenine,OPRM1,172,CVCL_0293
+Sinomenine,OPRM1,172,CVCL_0320
+Sinomenine,OPRM1,172,CVCL_0332
+Sinomenine,OPRM1,172,CVCL_0334
+Sinomenine,OPRM1,172,CVCL_0359
+Sinomenine,OPRM1,172,CVCL_0366
+Sinomenine,OPRM1,172,CVCL_0371
+Sinomenine,OPRM1,172,CVCL_0397
+Sinomenine,OPRM1,172,CVCL_0399
+Sinomenine,OPRM1,172,CVCL_0428
+Sinomenine,OPRM1,172,CVCL_0459
+Sinomenine,OPRM1,172,CVCL_0480
+Sinomenine,OPRM1,172,CVCL_0504
+Sinomenine,OPRM1,172,CVCL_0546
+Sinomenine,OPRM1,172,CVCL_1055
+Sinomenine,OPRM1,172,CVCL_1056
+Sinomenine,OPRM1,172,CVCL_1094
+Sinomenine,OPRM1,172,CVCL_1097
+Sinomenine,OPRM1,172,CVCL_1098
+Sinomenine,OPRM1,172,CVCL_1119
+Sinomenine,OPRM1,172,CVCL_1125
+Sinomenine,OPRM1,172,CVCL_1239
+Sinomenine,OPRM1,172,CVCL_1285
+Sinomenine,OPRM1,172,CVCL_1381
+Sinomenine,OPRM1,172,CVCL_1478
+Sinomenine,OPRM1,172,CVCL_1495
+Sinomenine,OPRM1,172,CVCL_1517
+Sinomenine,OPRM1,172,CVCL_1531
+Sinomenine,OPRM1,172,CVCL_1547
+Sinomenine,OPRM1,172,CVCL_1550
+Sinomenine,OPRM1,172,CVCL_1577
+Sinomenine,OPRM1,172,CVCL_1635
+Sinomenine,OPRM1,172,CVCL_1693
+Sinomenine,OPRM1,172,CVCL_1715
+Sinomenine,OPRM1,172,CVCL_1716
+Sinomenine,OPRM1,172,CVCL_1717
+Sinomenine,OPRM1,172,CVCL_1724
+Sinomenine,OPRM1,172,CVCL_1731
+Sinomenine,OPRM1,172,CVCL_C466
+Sodium Salicylate,PTGS2,211,CVCL_0023
+Sodium Salicylate,PTGS2,211,CVCL_0069
+Sodium Salicylate,PTGS2,211,CVCL_0099
+Sodium Salicylate,PTGS2,211,CVCL_0131
+Sodium Salicylate,PTGS2,211,CVCL_0152
+Sodium Salicylate,PTGS2,211,CVCL_0179
+Sodium Salicylate,PTGS2,211,CVCL_0218
+Sodium Salicylate,PTGS2,211,CVCL_0292
+Sodium Salicylate,PTGS2,211,CVCL_0293
+Sodium Salicylate,PTGS2,211,CVCL_0320
+Sodium Salicylate,PTGS2,211,CVCL_0332
+Sodium Salicylate,PTGS2,211,CVCL_0334
+Sodium Salicylate,PTGS2,211,CVCL_0359
+Sodium Salicylate,PTGS2,211,CVCL_0366
+Sodium Salicylate,PTGS2,211,CVCL_0371
+Sodium Salicylate,PTGS2,211,CVCL_0397
+Sodium Salicylate,PTGS2,211,CVCL_0399
+Sodium Salicylate,PTGS2,211,CVCL_0428
+Sodium Salicylate,PTGS2,211,CVCL_0459
+Sodium Salicylate,PTGS2,211,CVCL_0480
+Sodium Salicylate,PTGS2,211,CVCL_0504
+Sodium Salicylate,PTGS2,211,CVCL_0546
+Sodium Salicylate,PTGS2,211,CVCL_1055
+Sodium Salicylate,PTGS2,211,CVCL_1056
+Sodium Salicylate,PTGS2,211,CVCL_1094
+Sodium Salicylate,PTGS2,211,CVCL_1097
+Sodium Salicylate,PTGS2,211,CVCL_1098
+Sodium Salicylate,PTGS2,211,CVCL_1119
+Sodium Salicylate,PTGS2,211,CVCL_1125
+Sodium Salicylate,PTGS2,211,CVCL_1239
+Sodium Salicylate,PTGS2,211,CVCL_1285
+Sodium Salicylate,PTGS2,211,CVCL_1381
+Sodium Salicylate,PTGS2,211,CVCL_1478
+Sodium Salicylate,PTGS2,211,CVCL_1495
+Sodium Salicylate,PTGS2,211,CVCL_1517
+Sodium Salicylate,PTGS2,211,CVCL_1531
+Sodium Salicylate,PTGS2,211,CVCL_1547
+Sodium Salicylate,PTGS2,211,CVCL_1550
+Sodium Salicylate,PTGS2,211,CVCL_1577
+Sodium Salicylate,PTGS2,211,CVCL_1635
+Sodium Salicylate,PTGS2,211,CVCL_1693
+Sodium Salicylate,PTGS2,211,CVCL_1715
+Sodium Salicylate,PTGS2,211,CVCL_1716
+Sodium Salicylate,PTGS2,211,CVCL_1717
+Sodium Salicylate,PTGS2,211,CVCL_1724
+Sodium Salicylate,PTGS2,211,CVCL_1731
+Sodium Salicylate,PTGS2,211,CVCL_C466
+Sulfisoxazole,EDNRA,77,CVCL_0023
+Sulfisoxazole,EDNRB,78,CVCL_0023
+Sulfisoxazole,EDNRA,77,CVCL_0069
+Sulfisoxazole,EDNRB,78,CVCL_0069
+Sulfisoxazole,EDNRA,77,CVCL_0099
+Sulfisoxazole,EDNRB,78,CVCL_0099
+Sulfisoxazole,EDNRA,77,CVCL_0131
+Sulfisoxazole,EDNRB,78,CVCL_0131
+Sulfisoxazole,EDNRA,77,CVCL_0152
+Sulfisoxazole,EDNRB,78,CVCL_0152
+Sulfisoxazole,EDNRA,77,CVCL_0179
+Sulfisoxazole,EDNRB,78,CVCL_0179
+Sulfisoxazole,EDNRA,77,CVCL_0218
+Sulfisoxazole,EDNRB,78,CVCL_0218
+Sulfisoxazole,EDNRA,77,CVCL_0292
+Sulfisoxazole,EDNRB,78,CVCL_0292
+Sulfisoxazole,EDNRA,77,CVCL_0293
+Sulfisoxazole,EDNRB,78,CVCL_0293
+Sulfisoxazole,EDNRA,77,CVCL_0320
+Sulfisoxazole,EDNRB,78,CVCL_0320
+Sulfisoxazole,EDNRA,77,CVCL_0332
+Sulfisoxazole,EDNRB,78,CVCL_0332
+Sulfisoxazole,EDNRA,77,CVCL_0334
+Sulfisoxazole,EDNRB,78,CVCL_0334
+Sulfisoxazole,EDNRA,77,CVCL_0359
+Sulfisoxazole,EDNRB,78,CVCL_0359
+Sulfisoxazole,EDNRA,77,CVCL_0366
+Sulfisoxazole,EDNRB,78,CVCL_0366
+Sulfisoxazole,EDNRA,77,CVCL_0371
+Sulfisoxazole,EDNRB,78,CVCL_0371
+Sulfisoxazole,EDNRA,77,CVCL_0397
+Sulfisoxazole,EDNRB,78,CVCL_0397
+Sulfisoxazole,EDNRA,77,CVCL_0399
+Sulfisoxazole,EDNRB,78,CVCL_0399
+Sulfisoxazole,EDNRA,77,CVCL_0428
+Sulfisoxazole,EDNRB,78,CVCL_0428
+Sulfisoxazole,EDNRA,77,CVCL_0459
+Sulfisoxazole,EDNRB,78,CVCL_0459
+Sulfisoxazole,EDNRA,77,CVCL_0480
+Sulfisoxazole,EDNRB,78,CVCL_0480
+Sulfisoxazole,EDNRA,77,CVCL_0504
+Sulfisoxazole,EDNRB,78,CVCL_0504
+Sulfisoxazole,EDNRA,77,CVCL_0546
+Sulfisoxazole,EDNRB,78,CVCL_0546
+Sulfisoxazole,EDNRA,77,CVCL_1055
+Sulfisoxazole,EDNRB,78,CVCL_1055
+Sulfisoxazole,EDNRA,77,CVCL_1056
+Sulfisoxazole,EDNRB,78,CVCL_1056
+Sulfisoxazole,EDNRA,77,CVCL_1094
+Sulfisoxazole,EDNRB,78,CVCL_1094
+Sulfisoxazole,EDNRA,77,CVCL_1097
+Sulfisoxazole,EDNRB,78,CVCL_1097
+Sulfisoxazole,EDNRA,77,CVCL_1098
+Sulfisoxazole,EDNRB,78,CVCL_1098
+Sulfisoxazole,EDNRA,77,CVCL_1119
+Sulfisoxazole,EDNRB,78,CVCL_1119
+Sulfisoxazole,EDNRA,77,CVCL_1125
+Sulfisoxazole,EDNRB,78,CVCL_1125
+Sulfisoxazole,EDNRA,77,CVCL_1239
+Sulfisoxazole,EDNRB,78,CVCL_1239
+Sulfisoxazole,EDNRA,77,CVCL_1285
+Sulfisoxazole,EDNRB,78,CVCL_1285
+Sulfisoxazole,EDNRA,77,CVCL_1381
+Sulfisoxazole,EDNRB,78,CVCL_1381
+Sulfisoxazole,EDNRA,77,CVCL_1478
+Sulfisoxazole,EDNRB,78,CVCL_1478
+Sulfisoxazole,EDNRA,77,CVCL_1495
+Sulfisoxazole,EDNRB,78,CVCL_1495
+Sulfisoxazole,EDNRA,77,CVCL_1517
+Sulfisoxazole,EDNRB,78,CVCL_1517
+Sulfisoxazole,EDNRA,77,CVCL_1531
+Sulfisoxazole,EDNRB,78,CVCL_1531
+Sulfisoxazole,EDNRA,77,CVCL_1547
+Sulfisoxazole,EDNRB,78,CVCL_1547
+Sulfisoxazole,EDNRA,77,CVCL_1550
+Sulfisoxazole,EDNRB,78,CVCL_1550
+Sulfisoxazole,EDNRA,77,CVCL_1577
+Sulfisoxazole,EDNRB,78,CVCL_1577
+Sulfisoxazole,EDNRA,77,CVCL_1635
+Sulfisoxazole,EDNRB,78,CVCL_1635
+Sulfisoxazole,EDNRA,77,CVCL_1693
+Sulfisoxazole,EDNRB,78,CVCL_1693
+Sulfisoxazole,EDNRA,77,CVCL_1715
+Sulfisoxazole,EDNRB,78,CVCL_1715
+Sulfisoxazole,EDNRA,77,CVCL_1716
+Sulfisoxazole,EDNRB,78,CVCL_1716
+Sulfisoxazole,EDNRA,77,CVCL_1717
+Sulfisoxazole,EDNRB,78,CVCL_1717
+Sulfisoxazole,EDNRA,77,CVCL_1724
+Sulfisoxazole,EDNRB,78,CVCL_1724
+Sulfisoxazole,EDNRA,77,CVCL_1731
+Sulfisoxazole,EDNRB,78,CVCL_1731
+Sulfisoxazole,EDNRA,77,CVCL_C466
+Sulfisoxazole,EDNRB,78,CVCL_C466
+Temsirolimus,MTOR,159,CVCL_0069
+Temsirolimus,MTOR,159,CVCL_0099
+Temsirolimus,MTOR,159,CVCL_0131
+Temsirolimus,MTOR,159,CVCL_0152
+Temsirolimus,MTOR,159,CVCL_0179
+Temsirolimus,MTOR,159,CVCL_0292
+Temsirolimus,MTOR,159,CVCL_0293
+Temsirolimus,MTOR,159,CVCL_0320
+Temsirolimus,MTOR,159,CVCL_0359
+Temsirolimus,MTOR,159,CVCL_0366
+Temsirolimus,MTOR,159,CVCL_0371
+Temsirolimus,MTOR,159,CVCL_0397
+Temsirolimus,MTOR,159,CVCL_0399
+Temsirolimus,MTOR,159,CVCL_0428
+Temsirolimus,MTOR,159,CVCL_0459
+Temsirolimus,MTOR,159,CVCL_0480
+Temsirolimus,MTOR,159,CVCL_0546
+Temsirolimus,MTOR,159,CVCL_1055
+Temsirolimus,MTOR,159,CVCL_1097
+Temsirolimus,MTOR,159,CVCL_1119
+Temsirolimus,MTOR,159,CVCL_1125
+Temsirolimus,MTOR,159,CVCL_1239
+Temsirolimus,MTOR,159,CVCL_1285
+Temsirolimus,MTOR,159,CVCL_1381
+Temsirolimus,MTOR,159,CVCL_1478
+Temsirolimus,MTOR,159,CVCL_1495
+Temsirolimus,MTOR,159,CVCL_1531
+Temsirolimus,MTOR,159,CVCL_1547
+Temsirolimus,MTOR,159,CVCL_1550
+Temsirolimus,MTOR,159,CVCL_1577
+Temsirolimus,MTOR,159,CVCL_1635
+Temsirolimus,MTOR,159,CVCL_1715
+Temsirolimus,MTOR,159,CVCL_1716
+Temsirolimus,MTOR,159,CVCL_1717
+Temsirolimus,MTOR,159,CVCL_1724
+Temsirolimus,MTOR,159,CVCL_1731
+Terfenadine,HRH1,115,CVCL_0023
+Terfenadine,HRH1,115,CVCL_0069
+Terfenadine,HRH1,115,CVCL_0099
+Terfenadine,HRH1,115,CVCL_0131
+Terfenadine,HRH1,115,CVCL_0152
+Terfenadine,HRH1,115,CVCL_0179
+Terfenadine,HRH1,115,CVCL_0292
+Terfenadine,HRH1,115,CVCL_0293
+Terfenadine,HRH1,115,CVCL_0320
+Terfenadine,HRH1,115,CVCL_0332
+Terfenadine,HRH1,115,CVCL_0359
+Terfenadine,HRH1,115,CVCL_0366
+Terfenadine,HRH1,115,CVCL_0371
+Terfenadine,HRH1,115,CVCL_0397
+Terfenadine,HRH1,115,CVCL_0399
+Terfenadine,HRH1,115,CVCL_0428
+Terfenadine,HRH1,115,CVCL_0459
+Terfenadine,HRH1,115,CVCL_0480
+Terfenadine,HRH1,115,CVCL_0504
+Terfenadine,HRH1,115,CVCL_0546
+Terfenadine,HRH1,115,CVCL_1055
+Terfenadine,HRH1,115,CVCL_1056
+Terfenadine,HRH1,115,CVCL_1097
+Terfenadine,HRH1,115,CVCL_1119
+Terfenadine,HRH1,115,CVCL_1125
+Terfenadine,HRH1,115,CVCL_1239
+Terfenadine,HRH1,115,CVCL_1285
+Terfenadine,HRH1,115,CVCL_1381
+Terfenadine,HRH1,115,CVCL_1478
+Terfenadine,HRH1,115,CVCL_1495
+Terfenadine,HRH1,115,CVCL_1531
+Terfenadine,HRH1,115,CVCL_1547
+Terfenadine,HRH1,115,CVCL_1550
+Terfenadine,HRH1,115,CVCL_1577
+Terfenadine,HRH1,115,CVCL_1635
+Terfenadine,HRH1,115,CVCL_1715
+Terfenadine,HRH1,115,CVCL_1716
+Terfenadine,HRH1,115,CVCL_1717
+Terfenadine,HRH1,115,CVCL_1724
+Terfenadine,HRH1,115,CVCL_1731
+Thymol,TRPA1,255,CVCL_0023
+Thymol,TRPA1,255,CVCL_0028
+Thymol,TRPA1,255,CVCL_0069
+Thymol,TRPA1,255,CVCL_0099
+Thymol,TRPA1,255,CVCL_0131
+Thymol,TRPA1,255,CVCL_0152
+Thymol,TRPA1,255,CVCL_0179
+Thymol,TRPA1,255,CVCL_0218
+Thymol,TRPA1,255,CVCL_0292
+Thymol,TRPA1,255,CVCL_0293
+Thymol,TRPA1,255,CVCL_0320
+Thymol,TRPA1,255,CVCL_0332
+Thymol,TRPA1,255,CVCL_0334
+Thymol,TRPA1,255,CVCL_0359
+Thymol,TRPA1,255,CVCL_0366
+Thymol,TRPA1,255,CVCL_0371
+Thymol,TRPA1,255,CVCL_0397
+Thymol,TRPA1,255,CVCL_0399
+Thymol,TRPA1,255,CVCL_0428
+Thymol,TRPA1,255,CVCL_0459
+Thymol,TRPA1,255,CVCL_0480
+Thymol,TRPA1,255,CVCL_0504
+Thymol,TRPA1,255,CVCL_0546
+Thymol,TRPA1,255,CVCL_1055
+Thymol,TRPA1,255,CVCL_1056
+Thymol,TRPA1,255,CVCL_1094
+Thymol,TRPA1,255,CVCL_1097
+Thymol,TRPA1,255,CVCL_1098
+Thymol,TRPA1,255,CVCL_1119
+Thymol,TRPA1,255,CVCL_1125
+Thymol,TRPA1,255,CVCL_1239
+Thymol,TRPA1,255,CVCL_1285
+Thymol,TRPA1,255,CVCL_1381
+Thymol,TRPA1,255,CVCL_1478
+Thymol,TRPA1,255,CVCL_1495
+Thymol,TRPA1,255,CVCL_1517
+Thymol,TRPA1,255,CVCL_1531
+Thymol,TRPA1,255,CVCL_1547
+Thymol,TRPA1,255,CVCL_1550
+Thymol,TRPA1,255,CVCL_1577
+Thymol,TRPA1,255,CVCL_1635
+Thymol,TRPA1,255,CVCL_1693
+Thymol,TRPA1,255,CVCL_1715
+Thymol,TRPA1,255,CVCL_1716
+Thymol,TRPA1,255,CVCL_1717
+Thymol,TRPA1,255,CVCL_1724
+Thymol,TRPA1,255,CVCL_1731
+Thymol,TRPA1,255,CVCL_C466
+Tofacitinib,JAK1,127,CVCL_0023
+Tofacitinib,JAK2,128,CVCL_0023
+Tofacitinib,JAK3,129,CVCL_0023
+Tofacitinib,JAK1,127,CVCL_0028
+Tofacitinib,JAK2,128,CVCL_0028
+Tofacitinib,JAK3,129,CVCL_0028
+Tofacitinib,JAK1,127,CVCL_0069
+Tofacitinib,JAK2,128,CVCL_0069
+Tofacitinib,JAK3,129,CVCL_0069
+Tofacitinib,JAK1,127,CVCL_0099
+Tofacitinib,JAK2,128,CVCL_0099
+Tofacitinib,JAK3,129,CVCL_0099
+Tofacitinib,JAK1,127,CVCL_0131
+Tofacitinib,JAK2,128,CVCL_0131
+Tofacitinib,JAK3,129,CVCL_0131
+Tofacitinib,JAK1,127,CVCL_0152
+Tofacitinib,JAK2,128,CVCL_0152
+Tofacitinib,JAK3,129,CVCL_0152
+Tofacitinib,JAK1,127,CVCL_0179
+Tofacitinib,JAK2,128,CVCL_0179
+Tofacitinib,JAK3,129,CVCL_0179
+Tofacitinib,JAK1,127,CVCL_0218
+Tofacitinib,JAK2,128,CVCL_0218
+Tofacitinib,JAK3,129,CVCL_0218
+Tofacitinib,JAK1,127,CVCL_0292
+Tofacitinib,JAK2,128,CVCL_0292
+Tofacitinib,JAK3,129,CVCL_0292
+Tofacitinib,JAK1,127,CVCL_0293
+Tofacitinib,JAK2,128,CVCL_0293
+Tofacitinib,JAK3,129,CVCL_0293
+Tofacitinib,JAK1,127,CVCL_0320
+Tofacitinib,JAK2,128,CVCL_0320
+Tofacitinib,JAK3,129,CVCL_0320
+Tofacitinib,JAK1,127,CVCL_0332
+Tofacitinib,JAK2,128,CVCL_0332
+Tofacitinib,JAK3,129,CVCL_0332
+Tofacitinib,JAK1,127,CVCL_0334
+Tofacitinib,JAK2,128,CVCL_0334
+Tofacitinib,JAK3,129,CVCL_0334
+Tofacitinib,JAK1,127,CVCL_0359
+Tofacitinib,JAK2,128,CVCL_0359
+Tofacitinib,JAK3,129,CVCL_0359
+Tofacitinib,JAK1,127,CVCL_0366
+Tofacitinib,JAK2,128,CVCL_0366
+Tofacitinib,JAK3,129,CVCL_0366
+Tofacitinib,JAK1,127,CVCL_0371
+Tofacitinib,JAK2,128,CVCL_0371
+Tofacitinib,JAK3,129,CVCL_0371
+Tofacitinib,JAK1,127,CVCL_0397
+Tofacitinib,JAK2,128,CVCL_0397
+Tofacitinib,JAK3,129,CVCL_0397
+Tofacitinib,JAK1,127,CVCL_0399
+Tofacitinib,JAK2,128,CVCL_0399
+Tofacitinib,JAK3,129,CVCL_0399
+Tofacitinib,JAK1,127,CVCL_0428
+Tofacitinib,JAK2,128,CVCL_0428
+Tofacitinib,JAK3,129,CVCL_0428
+Tofacitinib,JAK1,127,CVCL_0459
+Tofacitinib,JAK2,128,CVCL_0459
+Tofacitinib,JAK3,129,CVCL_0459
+Tofacitinib,JAK1,127,CVCL_0480
+Tofacitinib,JAK2,128,CVCL_0480
+Tofacitinib,JAK3,129,CVCL_0480
+Tofacitinib,JAK1,127,CVCL_0504
+Tofacitinib,JAK2,128,CVCL_0504
+Tofacitinib,JAK3,129,CVCL_0504
+Tofacitinib,JAK1,127,CVCL_0546
+Tofacitinib,JAK2,128,CVCL_0546
+Tofacitinib,JAK3,129,CVCL_0546
+Tofacitinib,JAK1,127,CVCL_1055
+Tofacitinib,JAK2,128,CVCL_1055
+Tofacitinib,JAK3,129,CVCL_1055
+Tofacitinib,JAK1,127,CVCL_1056
+Tofacitinib,JAK2,128,CVCL_1056
+Tofacitinib,JAK3,129,CVCL_1056
+Tofacitinib,JAK1,127,CVCL_1094
+Tofacitinib,JAK2,128,CVCL_1094
+Tofacitinib,JAK3,129,CVCL_1094
+Tofacitinib,JAK1,127,CVCL_1097
+Tofacitinib,JAK2,128,CVCL_1097
+Tofacitinib,JAK3,129,CVCL_1097
+Tofacitinib,JAK1,127,CVCL_1098
+Tofacitinib,JAK2,128,CVCL_1098
+Tofacitinib,JAK3,129,CVCL_1098
+Tofacitinib,JAK1,127,CVCL_1119
+Tofacitinib,JAK2,128,CVCL_1119
+Tofacitinib,JAK3,129,CVCL_1119
+Tofacitinib,JAK1,127,CVCL_1125
+Tofacitinib,JAK2,128,CVCL_1125
+Tofacitinib,JAK3,129,CVCL_1125
+Tofacitinib,JAK1,127,CVCL_1239
+Tofacitinib,JAK2,128,CVCL_1239
+Tofacitinib,JAK3,129,CVCL_1239
+Tofacitinib,JAK1,127,CVCL_1285
+Tofacitinib,JAK2,128,CVCL_1285
+Tofacitinib,JAK3,129,CVCL_1285
+Tofacitinib,JAK1,127,CVCL_1381
+Tofacitinib,JAK2,128,CVCL_1381
+Tofacitinib,JAK3,129,CVCL_1381
+Tofacitinib,JAK1,127,CVCL_1478
+Tofacitinib,JAK2,128,CVCL_1478
+Tofacitinib,JAK3,129,CVCL_1478
+Tofacitinib,JAK1,127,CVCL_1495
+Tofacitinib,JAK2,128,CVCL_1495
+Tofacitinib,JAK3,129,CVCL_1495
+Tofacitinib,JAK1,127,CVCL_1517
+Tofacitinib,JAK2,128,CVCL_1517
+Tofacitinib,JAK3,129,CVCL_1517
+Tofacitinib,JAK1,127,CVCL_1531
+Tofacitinib,JAK2,128,CVCL_1531
+Tofacitinib,JAK3,129,CVCL_1531
+Tofacitinib,JAK1,127,CVCL_1547
+Tofacitinib,JAK2,128,CVCL_1547
+Tofacitinib,JAK3,129,CVCL_1547
+Tofacitinib,JAK1,127,CVCL_1550
+Tofacitinib,JAK2,128,CVCL_1550
+Tofacitinib,JAK3,129,CVCL_1550
+Tofacitinib,JAK1,127,CVCL_1577
+Tofacitinib,JAK2,128,CVCL_1577
+Tofacitinib,JAK3,129,CVCL_1577
+Tofacitinib,JAK1,127,CVCL_1635
+Tofacitinib,JAK2,128,CVCL_1635
+Tofacitinib,JAK3,129,CVCL_1635
+Tofacitinib,JAK1,127,CVCL_1693
+Tofacitinib,JAK2,128,CVCL_1693
+Tofacitinib,JAK3,129,CVCL_1693
+Tofacitinib,JAK1,127,CVCL_1715
+Tofacitinib,JAK2,128,CVCL_1715
+Tofacitinib,JAK3,129,CVCL_1715
+Tofacitinib,JAK1,127,CVCL_1716
+Tofacitinib,JAK2,128,CVCL_1716
+Tofacitinib,JAK3,129,CVCL_1716
+Tofacitinib,JAK1,127,CVCL_1717
+Tofacitinib,JAK2,128,CVCL_1717
+Tofacitinib,JAK3,129,CVCL_1717
+Tofacitinib,JAK1,127,CVCL_1724
+Tofacitinib,JAK2,128,CVCL_1724
+Tofacitinib,JAK3,129,CVCL_1724
+Tofacitinib,JAK1,127,CVCL_1731
+Tofacitinib,JAK2,128,CVCL_1731
+Tofacitinib,JAK3,129,CVCL_1731
+Tofacitinib,JAK1,127,CVCL_C466
+Tofacitinib,JAK2,128,CVCL_C466
+Tofacitinib,JAK3,129,CVCL_C466
+Tofacitinib (citrate),JAK1,127,CVCL_0023
+Tofacitinib (citrate),JAK2,128,CVCL_0023
+Tofacitinib (citrate),JAK3,129,CVCL_0023
+Tofacitinib (citrate),JAK1,127,CVCL_0028
+Tofacitinib (citrate),JAK2,128,CVCL_0028
+Tofacitinib (citrate),JAK3,129,CVCL_0028
+Tofacitinib (citrate),JAK1,127,CVCL_0069
+Tofacitinib (citrate),JAK2,128,CVCL_0069
+Tofacitinib (citrate),JAK3,129,CVCL_0069
+Tofacitinib (citrate),JAK1,127,CVCL_0099
+Tofacitinib (citrate),JAK2,128,CVCL_0099
+Tofacitinib (citrate),JAK3,129,CVCL_0099
+Tofacitinib (citrate),JAK1,127,CVCL_0131
+Tofacitinib (citrate),JAK2,128,CVCL_0131
+Tofacitinib (citrate),JAK3,129,CVCL_0131
+Tofacitinib (citrate),JAK1,127,CVCL_0152
+Tofacitinib (citrate),JAK2,128,CVCL_0152
+Tofacitinib (citrate),JAK3,129,CVCL_0152
+Tofacitinib (citrate),JAK1,127,CVCL_0179
+Tofacitinib (citrate),JAK2,128,CVCL_0179
+Tofacitinib (citrate),JAK3,129,CVCL_0179
+Tofacitinib (citrate),JAK1,127,CVCL_0218
+Tofacitinib (citrate),JAK2,128,CVCL_0218
+Tofacitinib (citrate),JAK3,129,CVCL_0218
+Tofacitinib (citrate),JAK1,127,CVCL_0292
+Tofacitinib (citrate),JAK2,128,CVCL_0292
+Tofacitinib (citrate),JAK3,129,CVCL_0292
+Tofacitinib (citrate),JAK1,127,CVCL_0293
+Tofacitinib (citrate),JAK2,128,CVCL_0293
+Tofacitinib (citrate),JAK3,129,CVCL_0293
+Tofacitinib (citrate),JAK1,127,CVCL_0320
+Tofacitinib (citrate),JAK2,128,CVCL_0320
+Tofacitinib (citrate),JAK3,129,CVCL_0320
+Tofacitinib (citrate),JAK1,127,CVCL_0332
+Tofacitinib (citrate),JAK2,128,CVCL_0332
+Tofacitinib (citrate),JAK3,129,CVCL_0332
+Tofacitinib (citrate),JAK1,127,CVCL_0334
+Tofacitinib (citrate),JAK2,128,CVCL_0334
+Tofacitinib (citrate),JAK3,129,CVCL_0334
+Tofacitinib (citrate),JAK1,127,CVCL_0359
+Tofacitinib (citrate),JAK2,128,CVCL_0359
+Tofacitinib (citrate),JAK3,129,CVCL_0359
+Tofacitinib (citrate),JAK1,127,CVCL_0366
+Tofacitinib (citrate),JAK2,128,CVCL_0366
+Tofacitinib (citrate),JAK3,129,CVCL_0366
+Tofacitinib (citrate),JAK1,127,CVCL_0371
+Tofacitinib (citrate),JAK2,128,CVCL_0371
+Tofacitinib (citrate),JAK3,129,CVCL_0371
+Tofacitinib (citrate),JAK1,127,CVCL_0397
+Tofacitinib (citrate),JAK2,128,CVCL_0397
+Tofacitinib (citrate),JAK3,129,CVCL_0397
+Tofacitinib (citrate),JAK1,127,CVCL_0399
+Tofacitinib (citrate),JAK2,128,CVCL_0399
+Tofacitinib (citrate),JAK3,129,CVCL_0399
+Tofacitinib (citrate),JAK1,127,CVCL_0428
+Tofacitinib (citrate),JAK2,128,CVCL_0428
+Tofacitinib (citrate),JAK3,129,CVCL_0428
+Tofacitinib (citrate),JAK1,127,CVCL_0459
+Tofacitinib (citrate),JAK2,128,CVCL_0459
+Tofacitinib (citrate),JAK3,129,CVCL_0459
+Tofacitinib (citrate),JAK1,127,CVCL_0480
+Tofacitinib (citrate),JAK2,128,CVCL_0480
+Tofacitinib (citrate),JAK3,129,CVCL_0480
+Tofacitinib (citrate),JAK1,127,CVCL_0504
+Tofacitinib (citrate),JAK2,128,CVCL_0504
+Tofacitinib (citrate),JAK3,129,CVCL_0504
+Tofacitinib (citrate),JAK1,127,CVCL_0546
+Tofacitinib (citrate),JAK2,128,CVCL_0546
+Tofacitinib (citrate),JAK3,129,CVCL_0546
+Tofacitinib (citrate),JAK1,127,CVCL_1055
+Tofacitinib (citrate),JAK2,128,CVCL_1055
+Tofacitinib (citrate),JAK3,129,CVCL_1055
+Tofacitinib (citrate),JAK1,127,CVCL_1056
+Tofacitinib (citrate),JAK2,128,CVCL_1056
+Tofacitinib (citrate),JAK3,129,CVCL_1056
+Tofacitinib (citrate),JAK1,127,CVCL_1094
+Tofacitinib (citrate),JAK2,128,CVCL_1094
+Tofacitinib (citrate),JAK3,129,CVCL_1094
+Tofacitinib (citrate),JAK1,127,CVCL_1097
+Tofacitinib (citrate),JAK2,128,CVCL_1097
+Tofacitinib (citrate),JAK3,129,CVCL_1097
+Tofacitinib (citrate),JAK1,127,CVCL_1098
+Tofacitinib (citrate),JAK2,128,CVCL_1098
+Tofacitinib (citrate),JAK3,129,CVCL_1098
+Tofacitinib (citrate),JAK1,127,CVCL_1119
+Tofacitinib (citrate),JAK2,128,CVCL_1119
+Tofacitinib (citrate),JAK3,129,CVCL_1119
+Tofacitinib (citrate),JAK1,127,CVCL_1239
+Tofacitinib (citrate),JAK2,128,CVCL_1239
+Tofacitinib (citrate),JAK3,129,CVCL_1239
+Tofacitinib (citrate),JAK1,127,CVCL_1285
+Tofacitinib (citrate),JAK2,128,CVCL_1285
+Tofacitinib (citrate),JAK3,129,CVCL_1285
+Tofacitinib (citrate),JAK1,127,CVCL_1381
+Tofacitinib (citrate),JAK2,128,CVCL_1381
+Tofacitinib (citrate),JAK3,129,CVCL_1381
+Tofacitinib (citrate),JAK1,127,CVCL_1478
+Tofacitinib (citrate),JAK2,128,CVCL_1478
+Tofacitinib (citrate),JAK3,129,CVCL_1478
+Tofacitinib (citrate),JAK1,127,CVCL_1495
+Tofacitinib (citrate),JAK2,128,CVCL_1495
+Tofacitinib (citrate),JAK3,129,CVCL_1495
+Tofacitinib (citrate),JAK1,127,CVCL_1517
+Tofacitinib (citrate),JAK2,128,CVCL_1517
+Tofacitinib (citrate),JAK3,129,CVCL_1517
+Tofacitinib (citrate),JAK1,127,CVCL_1531
+Tofacitinib (citrate),JAK2,128,CVCL_1531
+Tofacitinib (citrate),JAK3,129,CVCL_1531
+Tofacitinib (citrate),JAK1,127,CVCL_1547
+Tofacitinib (citrate),JAK2,128,CVCL_1547
+Tofacitinib (citrate),JAK3,129,CVCL_1547
+Tofacitinib (citrate),JAK1,127,CVCL_1550
+Tofacitinib (citrate),JAK2,128,CVCL_1550
+Tofacitinib (citrate),JAK3,129,CVCL_1550
+Tofacitinib (citrate),JAK1,127,CVCL_1577
+Tofacitinib (citrate),JAK2,128,CVCL_1577
+Tofacitinib (citrate),JAK3,129,CVCL_1577
+Tofacitinib (citrate),JAK1,127,CVCL_1635
+Tofacitinib (citrate),JAK2,128,CVCL_1635
+Tofacitinib (citrate),JAK3,129,CVCL_1635
+Tofacitinib (citrate),JAK1,127,CVCL_1693
+Tofacitinib (citrate),JAK2,128,CVCL_1693
+Tofacitinib (citrate),JAK3,129,CVCL_1693
+Tofacitinib (citrate),JAK1,127,CVCL_1715
+Tofacitinib (citrate),JAK2,128,CVCL_1715
+Tofacitinib (citrate),JAK3,129,CVCL_1715
+Tofacitinib (citrate),JAK1,127,CVCL_1716
+Tofacitinib (citrate),JAK2,128,CVCL_1716
+Tofacitinib (citrate),JAK3,129,CVCL_1716
+Tofacitinib (citrate),JAK1,127,CVCL_1717
+Tofacitinib (citrate),JAK2,128,CVCL_1717
+Tofacitinib (citrate),JAK3,129,CVCL_1717
+Tofacitinib (citrate),JAK1,127,CVCL_1724
+Tofacitinib (citrate),JAK2,128,CVCL_1724
+Tofacitinib (citrate),JAK3,129,CVCL_1724
+Tofacitinib (citrate),JAK1,127,CVCL_1731
+Tofacitinib (citrate),JAK2,128,CVCL_1731
+Tofacitinib (citrate),JAK3,129,CVCL_1731
+Tofacitinib (citrate),JAK1,127,CVCL_C466
+Tofacitinib (citrate),JAK2,128,CVCL_C466
+Tofacitinib (citrate),JAK3,129,CVCL_C466
+Tolcapone,COMT,55,CVCL_0069
+Tolcapone,COMT,55,CVCL_0099
+Tolcapone,COMT,55,CVCL_0131
+Tolcapone,COMT,55,CVCL_0152
+Tolcapone,COMT,55,CVCL_0179
+Tolcapone,COMT,55,CVCL_0292
+Tolcapone,COMT,55,CVCL_0293
+Tolcapone,COMT,55,CVCL_0320
+Tolcapone,COMT,55,CVCL_0359
+Tolcapone,COMT,55,CVCL_0366
+Tolcapone,COMT,55,CVCL_0371
+Tolcapone,COMT,55,CVCL_0397
+Tolcapone,COMT,55,CVCL_0399
+Tolcapone,COMT,55,CVCL_0428
+Tolcapone,COMT,55,CVCL_0459
+Tolcapone,COMT,55,CVCL_0480
+Tolcapone,COMT,55,CVCL_0504
+Tolcapone,COMT,55,CVCL_0546
+Tolcapone,COMT,55,CVCL_1055
+Tolcapone,COMT,55,CVCL_1056
+Tolcapone,COMT,55,CVCL_1097
+Tolcapone,COMT,55,CVCL_1119
+Tolcapone,COMT,55,CVCL_1239
+Tolcapone,COMT,55,CVCL_1285
+Tolcapone,COMT,55,CVCL_1381
+Tolcapone,COMT,55,CVCL_1478
+Tolcapone,COMT,55,CVCL_1495
+Tolcapone,COMT,55,CVCL_1531
+Tolcapone,COMT,55,CVCL_1547
+Tolcapone,COMT,55,CVCL_1550
+Tolcapone,COMT,55,CVCL_1577
+Tolcapone,COMT,55,CVCL_1635
+Tolcapone,COMT,55,CVCL_1715
+Tolcapone,COMT,55,CVCL_1716
+Tolcapone,COMT,55,CVCL_1717
+Tolcapone,COMT,55,CVCL_1724
+Tolcapone,COMT,55,CVCL_1731
+Triamcinolone,NR3C1,163,CVCL_0023
+Triamcinolone,NR3C1,163,CVCL_0028
+Triamcinolone,NR3C1,163,CVCL_0069
+Triamcinolone,NR3C1,163,CVCL_0099
+Triamcinolone,NR3C1,163,CVCL_0131
+Triamcinolone,NR3C1,163,CVCL_0152
+Triamcinolone,NR3C1,163,CVCL_0179
+Triamcinolone,NR3C1,163,CVCL_0218
+Triamcinolone,NR3C1,163,CVCL_0292
+Triamcinolone,NR3C1,163,CVCL_0293
+Triamcinolone,NR3C1,163,CVCL_0320
+Triamcinolone,NR3C1,163,CVCL_0332
+Triamcinolone,NR3C1,163,CVCL_0334
+Triamcinolone,NR3C1,163,CVCL_0359
+Triamcinolone,NR3C1,163,CVCL_0366
+Triamcinolone,NR3C1,163,CVCL_0371
+Triamcinolone,NR3C1,163,CVCL_0397
+Triamcinolone,NR3C1,163,CVCL_0399
+Triamcinolone,NR3C1,163,CVCL_0428
+Triamcinolone,NR3C1,163,CVCL_0459
+Triamcinolone,NR3C1,163,CVCL_0480
+Triamcinolone,NR3C1,163,CVCL_0504
+Triamcinolone,NR3C1,163,CVCL_0546
+Triamcinolone,NR3C1,163,CVCL_1055
+Triamcinolone,NR3C1,163,CVCL_1056
+Triamcinolone,NR3C1,163,CVCL_1094
+Triamcinolone,NR3C1,163,CVCL_1097
+Triamcinolone,NR3C1,163,CVCL_1098
+Triamcinolone,NR3C1,163,CVCL_1119
+Triamcinolone,NR3C1,163,CVCL_1125
+Triamcinolone,NR3C1,163,CVCL_1239
+Triamcinolone,NR3C1,163,CVCL_1285
+Triamcinolone,NR3C1,163,CVCL_1381
+Triamcinolone,NR3C1,163,CVCL_1478
+Triamcinolone,NR3C1,163,CVCL_1495
+Triamcinolone,NR3C1,163,CVCL_1517
+Triamcinolone,NR3C1,163,CVCL_1531
+Triamcinolone,NR3C1,163,CVCL_1547
+Triamcinolone,NR3C1,163,CVCL_1550
+Triamcinolone,NR3C1,163,CVCL_1577
+Triamcinolone,NR3C1,163,CVCL_1635
+Triamcinolone,NR3C1,163,CVCL_1693
+Triamcinolone,NR3C1,163,CVCL_1715
+Triamcinolone,NR3C1,163,CVCL_1716
+Triamcinolone,NR3C1,163,CVCL_1717
+Triamcinolone,NR3C1,163,CVCL_1724
+Triamcinolone,NR3C1,163,CVCL_1731
+Triamcinolone,NR3C1,163,CVCL_C466
+Trimetrexate,DHFR,70,CVCL_0023
+Trimetrexate,DHFR,70,CVCL_0028
+Trimetrexate,DHFR,70,CVCL_0069
+Trimetrexate,DHFR,70,CVCL_0099
+Trimetrexate,DHFR,70,CVCL_0131
+Trimetrexate,DHFR,70,CVCL_0152
+Trimetrexate,DHFR,70,CVCL_0179
+Trimetrexate,DHFR,70,CVCL_0218
+Trimetrexate,DHFR,70,CVCL_0292
+Trimetrexate,DHFR,70,CVCL_0293
+Trimetrexate,DHFR,70,CVCL_0320
+Trimetrexate,DHFR,70,CVCL_0332
+Trimetrexate,DHFR,70,CVCL_0334
+Trimetrexate,DHFR,70,CVCL_0359
+Trimetrexate,DHFR,70,CVCL_0366
+Trimetrexate,DHFR,70,CVCL_0371
+Trimetrexate,DHFR,70,CVCL_0397
+Trimetrexate,DHFR,70,CVCL_0399
+Trimetrexate,DHFR,70,CVCL_0428
+Trimetrexate,DHFR,70,CVCL_0459
+Trimetrexate,DHFR,70,CVCL_0480
+Trimetrexate,DHFR,70,CVCL_0504
+Trimetrexate,DHFR,70,CVCL_0546
+Trimetrexate,DHFR,70,CVCL_1055
+Trimetrexate,DHFR,70,CVCL_1056
+Trimetrexate,DHFR,70,CVCL_1094
+Trimetrexate,DHFR,70,CVCL_1097
+Trimetrexate,DHFR,70,CVCL_1098
+Trimetrexate,DHFR,70,CVCL_1119
+Trimetrexate,DHFR,70,CVCL_1125
+Trimetrexate,DHFR,70,CVCL_1239
+Trimetrexate,DHFR,70,CVCL_1285
+Trimetrexate,DHFR,70,CVCL_1381
+Trimetrexate,DHFR,70,CVCL_1478
+Trimetrexate,DHFR,70,CVCL_1495
+Trimetrexate,DHFR,70,CVCL_1517
+Trimetrexate,DHFR,70,CVCL_1531
+Trimetrexate,DHFR,70,CVCL_1547
+Trimetrexate,DHFR,70,CVCL_1550
+Trimetrexate,DHFR,70,CVCL_1577
+Trimetrexate,DHFR,70,CVCL_1635
+Trimetrexate,DHFR,70,CVCL_1693
+Trimetrexate,DHFR,70,CVCL_1715
+Trimetrexate,DHFR,70,CVCL_1716
+Trimetrexate,DHFR,70,CVCL_1717
+Trimetrexate,DHFR,70,CVCL_1724
+Trimetrexate,DHFR,70,CVCL_1731
+Trimetrexate,DHFR,70,CVCL_C466
+Tucidinostat,HDAC1,106,CVCL_0023
+Tucidinostat,HDAC10,107,CVCL_0023
+Tucidinostat,HDAC11,108,CVCL_0023
+Tucidinostat,HDAC2,109,CVCL_0023
+Tucidinostat,HDAC3,110,CVCL_0023
+Tucidinostat,HDAC8,112,CVCL_0023
+Tucidinostat,HDAC1,106,CVCL_0069
+Tucidinostat,HDAC10,107,CVCL_0069
+Tucidinostat,HDAC11,108,CVCL_0069
+Tucidinostat,HDAC2,109,CVCL_0069
+Tucidinostat,HDAC3,110,CVCL_0069
+Tucidinostat,HDAC8,112,CVCL_0069
+Tucidinostat,HDAC1,106,CVCL_0099
+Tucidinostat,HDAC10,107,CVCL_0099
+Tucidinostat,HDAC11,108,CVCL_0099
+Tucidinostat,HDAC2,109,CVCL_0099
+Tucidinostat,HDAC3,110,CVCL_0099
+Tucidinostat,HDAC8,112,CVCL_0099
+Tucidinostat,HDAC1,106,CVCL_0131
+Tucidinostat,HDAC10,107,CVCL_0131
+Tucidinostat,HDAC11,108,CVCL_0131
+Tucidinostat,HDAC2,109,CVCL_0131
+Tucidinostat,HDAC3,110,CVCL_0131
+Tucidinostat,HDAC8,112,CVCL_0131
+Tucidinostat,HDAC1,106,CVCL_0152
+Tucidinostat,HDAC10,107,CVCL_0152
+Tucidinostat,HDAC11,108,CVCL_0152
+Tucidinostat,HDAC2,109,CVCL_0152
+Tucidinostat,HDAC3,110,CVCL_0152
+Tucidinostat,HDAC8,112,CVCL_0152
+Tucidinostat,HDAC1,106,CVCL_0292
+Tucidinostat,HDAC10,107,CVCL_0292
+Tucidinostat,HDAC11,108,CVCL_0292
+Tucidinostat,HDAC2,109,CVCL_0292
+Tucidinostat,HDAC3,110,CVCL_0292
+Tucidinostat,HDAC8,112,CVCL_0292
+Tucidinostat,HDAC1,106,CVCL_0293
+Tucidinostat,HDAC10,107,CVCL_0293
+Tucidinostat,HDAC11,108,CVCL_0293
+Tucidinostat,HDAC2,109,CVCL_0293
+Tucidinostat,HDAC3,110,CVCL_0293
+Tucidinostat,HDAC8,112,CVCL_0293
+Tucidinostat,HDAC1,106,CVCL_0320
+Tucidinostat,HDAC10,107,CVCL_0320
+Tucidinostat,HDAC11,108,CVCL_0320
+Tucidinostat,HDAC2,109,CVCL_0320
+Tucidinostat,HDAC3,110,CVCL_0320
+Tucidinostat,HDAC8,112,CVCL_0320
+Tucidinostat,HDAC1,106,CVCL_0332
+Tucidinostat,HDAC10,107,CVCL_0332
+Tucidinostat,HDAC11,108,CVCL_0332
+Tucidinostat,HDAC2,109,CVCL_0332
+Tucidinostat,HDAC3,110,CVCL_0332
+Tucidinostat,HDAC8,112,CVCL_0332
+Tucidinostat,HDAC1,106,CVCL_0359
+Tucidinostat,HDAC10,107,CVCL_0359
+Tucidinostat,HDAC11,108,CVCL_0359
+Tucidinostat,HDAC2,109,CVCL_0359
+Tucidinostat,HDAC3,110,CVCL_0359
+Tucidinostat,HDAC8,112,CVCL_0359
+Tucidinostat,HDAC1,106,CVCL_0366
+Tucidinostat,HDAC10,107,CVCL_0366
+Tucidinostat,HDAC11,108,CVCL_0366
+Tucidinostat,HDAC2,109,CVCL_0366
+Tucidinostat,HDAC3,110,CVCL_0366
+Tucidinostat,HDAC8,112,CVCL_0366
+Tucidinostat,HDAC1,106,CVCL_0371
+Tucidinostat,HDAC10,107,CVCL_0371
+Tucidinostat,HDAC11,108,CVCL_0371
+Tucidinostat,HDAC2,109,CVCL_0371
+Tucidinostat,HDAC3,110,CVCL_0371
+Tucidinostat,HDAC8,112,CVCL_0371
+Tucidinostat,HDAC1,106,CVCL_0397
+Tucidinostat,HDAC10,107,CVCL_0397
+Tucidinostat,HDAC11,108,CVCL_0397
+Tucidinostat,HDAC2,109,CVCL_0397
+Tucidinostat,HDAC3,110,CVCL_0397
+Tucidinostat,HDAC8,112,CVCL_0397
+Tucidinostat,HDAC1,106,CVCL_0399
+Tucidinostat,HDAC10,107,CVCL_0399
+Tucidinostat,HDAC11,108,CVCL_0399
+Tucidinostat,HDAC2,109,CVCL_0399
+Tucidinostat,HDAC3,110,CVCL_0399
+Tucidinostat,HDAC8,112,CVCL_0399
+Tucidinostat,HDAC1,106,CVCL_0428
+Tucidinostat,HDAC10,107,CVCL_0428
+Tucidinostat,HDAC11,108,CVCL_0428
+Tucidinostat,HDAC2,109,CVCL_0428
+Tucidinostat,HDAC3,110,CVCL_0428
+Tucidinostat,HDAC8,112,CVCL_0428
+Tucidinostat,HDAC1,106,CVCL_0459
+Tucidinostat,HDAC10,107,CVCL_0459
+Tucidinostat,HDAC11,108,CVCL_0459
+Tucidinostat,HDAC2,109,CVCL_0459
+Tucidinostat,HDAC3,110,CVCL_0459
+Tucidinostat,HDAC8,112,CVCL_0459
+Tucidinostat,HDAC1,106,CVCL_0480
+Tucidinostat,HDAC10,107,CVCL_0480
+Tucidinostat,HDAC11,108,CVCL_0480
+Tucidinostat,HDAC2,109,CVCL_0480
+Tucidinostat,HDAC3,110,CVCL_0480
+Tucidinostat,HDAC8,112,CVCL_0480
+Tucidinostat,HDAC1,106,CVCL_0504
+Tucidinostat,HDAC10,107,CVCL_0504
+Tucidinostat,HDAC11,108,CVCL_0504
+Tucidinostat,HDAC2,109,CVCL_0504
+Tucidinostat,HDAC3,110,CVCL_0504
+Tucidinostat,HDAC8,112,CVCL_0504
+Tucidinostat,HDAC1,106,CVCL_0546
+Tucidinostat,HDAC10,107,CVCL_0546
+Tucidinostat,HDAC11,108,CVCL_0546
+Tucidinostat,HDAC2,109,CVCL_0546
+Tucidinostat,HDAC3,110,CVCL_0546
+Tucidinostat,HDAC8,112,CVCL_0546
+Tucidinostat,HDAC1,106,CVCL_1055
+Tucidinostat,HDAC10,107,CVCL_1055
+Tucidinostat,HDAC11,108,CVCL_1055
+Tucidinostat,HDAC2,109,CVCL_1055
+Tucidinostat,HDAC3,110,CVCL_1055
+Tucidinostat,HDAC8,112,CVCL_1055
+Tucidinostat,HDAC1,106,CVCL_1097
+Tucidinostat,HDAC10,107,CVCL_1097
+Tucidinostat,HDAC11,108,CVCL_1097
+Tucidinostat,HDAC2,109,CVCL_1097
+Tucidinostat,HDAC3,110,CVCL_1097
+Tucidinostat,HDAC8,112,CVCL_1097
+Tucidinostat,HDAC1,106,CVCL_1119
+Tucidinostat,HDAC10,107,CVCL_1119
+Tucidinostat,HDAC11,108,CVCL_1119
+Tucidinostat,HDAC2,109,CVCL_1119
+Tucidinostat,HDAC3,110,CVCL_1119
+Tucidinostat,HDAC8,112,CVCL_1119
+Tucidinostat,HDAC1,106,CVCL_1125
+Tucidinostat,HDAC10,107,CVCL_1125
+Tucidinostat,HDAC11,108,CVCL_1125
+Tucidinostat,HDAC2,109,CVCL_1125
+Tucidinostat,HDAC3,110,CVCL_1125
+Tucidinostat,HDAC8,112,CVCL_1125
+Tucidinostat,HDAC1,106,CVCL_1239
+Tucidinostat,HDAC10,107,CVCL_1239
+Tucidinostat,HDAC11,108,CVCL_1239
+Tucidinostat,HDAC2,109,CVCL_1239
+Tucidinostat,HDAC3,110,CVCL_1239
+Tucidinostat,HDAC8,112,CVCL_1239
+Tucidinostat,HDAC1,106,CVCL_1285
+Tucidinostat,HDAC10,107,CVCL_1285
+Tucidinostat,HDAC11,108,CVCL_1285
+Tucidinostat,HDAC2,109,CVCL_1285
+Tucidinostat,HDAC3,110,CVCL_1285
+Tucidinostat,HDAC8,112,CVCL_1285
+Tucidinostat,HDAC1,106,CVCL_1381
+Tucidinostat,HDAC10,107,CVCL_1381
+Tucidinostat,HDAC11,108,CVCL_1381
+Tucidinostat,HDAC2,109,CVCL_1381
+Tucidinostat,HDAC3,110,CVCL_1381
+Tucidinostat,HDAC8,112,CVCL_1381
+Tucidinostat,HDAC1,106,CVCL_1478
+Tucidinostat,HDAC10,107,CVCL_1478
+Tucidinostat,HDAC11,108,CVCL_1478
+Tucidinostat,HDAC2,109,CVCL_1478
+Tucidinostat,HDAC3,110,CVCL_1478
+Tucidinostat,HDAC8,112,CVCL_1478
+Tucidinostat,HDAC1,106,CVCL_1495
+Tucidinostat,HDAC10,107,CVCL_1495
+Tucidinostat,HDAC11,108,CVCL_1495
+Tucidinostat,HDAC2,109,CVCL_1495
+Tucidinostat,HDAC3,110,CVCL_1495
+Tucidinostat,HDAC8,112,CVCL_1495
+Tucidinostat,HDAC1,106,CVCL_1531
+Tucidinostat,HDAC10,107,CVCL_1531
+Tucidinostat,HDAC11,108,CVCL_1531
+Tucidinostat,HDAC2,109,CVCL_1531
+Tucidinostat,HDAC3,110,CVCL_1531
+Tucidinostat,HDAC8,112,CVCL_1531
+Tucidinostat,HDAC1,106,CVCL_1547
+Tucidinostat,HDAC10,107,CVCL_1547
+Tucidinostat,HDAC11,108,CVCL_1547
+Tucidinostat,HDAC2,109,CVCL_1547
+Tucidinostat,HDAC3,110,CVCL_1547
+Tucidinostat,HDAC8,112,CVCL_1547
+Tucidinostat,HDAC1,106,CVCL_1550
+Tucidinostat,HDAC10,107,CVCL_1550
+Tucidinostat,HDAC11,108,CVCL_1550
+Tucidinostat,HDAC2,109,CVCL_1550
+Tucidinostat,HDAC3,110,CVCL_1550
+Tucidinostat,HDAC8,112,CVCL_1550
+Tucidinostat,HDAC1,106,CVCL_1577
+Tucidinostat,HDAC10,107,CVCL_1577
+Tucidinostat,HDAC11,108,CVCL_1577
+Tucidinostat,HDAC2,109,CVCL_1577
+Tucidinostat,HDAC3,110,CVCL_1577
+Tucidinostat,HDAC8,112,CVCL_1577
+Tucidinostat,HDAC1,106,CVCL_1635
+Tucidinostat,HDAC10,107,CVCL_1635
+Tucidinostat,HDAC11,108,CVCL_1635
+Tucidinostat,HDAC2,109,CVCL_1635
+Tucidinostat,HDAC3,110,CVCL_1635
+Tucidinostat,HDAC8,112,CVCL_1635
+Tucidinostat,HDAC1,106,CVCL_1715
+Tucidinostat,HDAC10,107,CVCL_1715
+Tucidinostat,HDAC11,108,CVCL_1715
+Tucidinostat,HDAC2,109,CVCL_1715
+Tucidinostat,HDAC3,110,CVCL_1715
+Tucidinostat,HDAC8,112,CVCL_1715
+Tucidinostat,HDAC1,106,CVCL_1716
+Tucidinostat,HDAC10,107,CVCL_1716
+Tucidinostat,HDAC11,108,CVCL_1716
+Tucidinostat,HDAC2,109,CVCL_1716
+Tucidinostat,HDAC3,110,CVCL_1716
+Tucidinostat,HDAC8,112,CVCL_1716
+Tucidinostat,HDAC1,106,CVCL_1717
+Tucidinostat,HDAC10,107,CVCL_1717
+Tucidinostat,HDAC11,108,CVCL_1717
+Tucidinostat,HDAC2,109,CVCL_1717
+Tucidinostat,HDAC3,110,CVCL_1717
+Tucidinostat,HDAC8,112,CVCL_1717
+Tucidinostat,HDAC1,106,CVCL_1724
+Tucidinostat,HDAC10,107,CVCL_1724
+Tucidinostat,HDAC11,108,CVCL_1724
+Tucidinostat,HDAC2,109,CVCL_1724
+Tucidinostat,HDAC3,110,CVCL_1724
+Tucidinostat,HDAC8,112,CVCL_1724
+Tucidinostat,HDAC1,106,CVCL_1731
+Tucidinostat,HDAC10,107,CVCL_1731
+Tucidinostat,HDAC11,108,CVCL_1731
+Tucidinostat,HDAC2,109,CVCL_1731
+Tucidinostat,HDAC3,110,CVCL_1731
+Tucidinostat,HDAC8,112,CVCL_1731
+Vilanterol,ADRB2,16,CVCL_0023
+Vilanterol,ADRB2,16,CVCL_0028
+Vilanterol,ADRB2,16,CVCL_0069
+Vilanterol,ADRB2,16,CVCL_0099
+Vilanterol,ADRB2,16,CVCL_0131
+Vilanterol,ADRB2,16,CVCL_0152
+Vilanterol,ADRB2,16,CVCL_0179
+Vilanterol,ADRB2,16,CVCL_0218
+Vilanterol,ADRB2,16,CVCL_0292
+Vilanterol,ADRB2,16,CVCL_0293
+Vilanterol,ADRB2,16,CVCL_0320
+Vilanterol,ADRB2,16,CVCL_0332
+Vilanterol,ADRB2,16,CVCL_0334
+Vilanterol,ADRB2,16,CVCL_0359
+Vilanterol,ADRB2,16,CVCL_0366
+Vilanterol,ADRB2,16,CVCL_0371
+Vilanterol,ADRB2,16,CVCL_0397
+Vilanterol,ADRB2,16,CVCL_0399
+Vilanterol,ADRB2,16,CVCL_0428
+Vilanterol,ADRB2,16,CVCL_0459
+Vilanterol,ADRB2,16,CVCL_0480
+Vilanterol,ADRB2,16,CVCL_0504
+Vilanterol,ADRB2,16,CVCL_0546
+Vilanterol,ADRB2,16,CVCL_1055
+Vilanterol,ADRB2,16,CVCL_1056
+Vilanterol,ADRB2,16,CVCL_1094
+Vilanterol,ADRB2,16,CVCL_1097
+Vilanterol,ADRB2,16,CVCL_1098
+Vilanterol,ADRB2,16,CVCL_1119
+Vilanterol,ADRB2,16,CVCL_1125
+Vilanterol,ADRB2,16,CVCL_1239
+Vilanterol,ADRB2,16,CVCL_1285
+Vilanterol,ADRB2,16,CVCL_1381
+Vilanterol,ADRB2,16,CVCL_1478
+Vilanterol,ADRB2,16,CVCL_1495
+Vilanterol,ADRB2,16,CVCL_1517
+Vilanterol,ADRB2,16,CVCL_1531
+Vilanterol,ADRB2,16,CVCL_1547
+Vilanterol,ADRB2,16,CVCL_1550
+Vilanterol,ADRB2,16,CVCL_1577
+Vilanterol,ADRB2,16,CVCL_1635
+Vilanterol,ADRB2,16,CVCL_1666
+Vilanterol,ADRB2,16,CVCL_1693
+Vilanterol,ADRB2,16,CVCL_1715
+Vilanterol,ADRB2,16,CVCL_1716
+Vilanterol,ADRB2,16,CVCL_1717
+Vilanterol,ADRB2,16,CVCL_1724
+Vilanterol,ADRB2,16,CVCL_1731
+Vilanterol,ADRB2,16,CVCL_C466
