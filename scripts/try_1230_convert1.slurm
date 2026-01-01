@@ -2,7 +2,7 @@
 #SBATCH -J test_1230_convert1
 #SBATCH -p CS286
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=128G
+#SBATCH --mem=256G
 #SBATCH --mail-type=all
 #SBATCH --mail-user=2943895132@qq.com
 #SBATCH -N 1
@@ -30,4 +30,7 @@ print(f'可用GPU: {[torch.cuda.get_device_name(i) for i in range(torch.cuda.dev
 #在CellPerturb_VCC_Proj6目录下sbatch ./scripts/try_1230_convert1.slurm
 cd ./tahoe_multi_targets || exit 1
 
-python war_convert_tahoe_to_h5ad.py
+for i in {0..5}; do
+  python parquet_to_h5ad2.py --start $((i*4)) --end $(((i+1)*4))
+done
+
