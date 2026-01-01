@@ -1,0 +1,41 @@
+Thu Jan  1 17:04:09 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:18:00.0 Off |                  N/A |
+| 25%   25C    P8             14W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+Loading tahoe_mulGene_scgptid_firstDMSO_ratio02_52drug/h5ad/tahoe.h5ad in backed mode...
+  Shape: (2345326, 31597)
+Loading data into memory...
+Normalizing obs['condition'] based on drug target genes...
+Preserving raw counts in layers['counts']...
+Normalizing X (target_sum=10000.0)...
+Normalizing ctrl layer → layers['ctrl_norm']...
+Writing to tahoe_mulGene_scgptid_firstDMSO_ratio02_52drug/h5ad/tahoe_log1p.h5ad...
+
+=== Preprocessing Complete ===
+Output: tahoe_mulGene_scgptid_firstDMSO_ratio02_52drug/h5ad/tahoe_log1p.h5ad
+Shape: (2345326, 31597)
+X range: 0.00 - 8.32
+layers['counts'] max: 2213
+layers['ctrl_norm'] range: 0 - 8.41
