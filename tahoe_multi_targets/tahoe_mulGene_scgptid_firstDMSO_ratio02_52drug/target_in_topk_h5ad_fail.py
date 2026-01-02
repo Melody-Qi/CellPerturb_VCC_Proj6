@@ -59,7 +59,8 @@ print("Opening h5ad in backed mode...")
 adata = sc.read_h5ad(H5AD_PATH, backed="r")
 debug("adata shape:", adata.shape)
 
-var_tokens = adata.var.index.astype(int).values
+var_tokens = adata.var["gene_idx"].values
+debug(var_tokens[:10])
 debug("n_vars:", len(var_tokens))
 
 # -----------------------------

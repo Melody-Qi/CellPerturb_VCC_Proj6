@@ -17,10 +17,18 @@ gene_meta = pd.read_csv(GENE_META_CSV)
 symbol2token = dict(zip(gene_meta["gene_symbol"], gene_meta["token_id"]))
 print(f"Loaded {len(symbol2token)} gene symbols")
 
+# 已经处理过的 parquet
+done_files = set(os.path.basename(f).replace(".parquet", ".pkl") for f in glob.glob(os.path.join(CACHE_DIR, "*.pkl")))
+
 # ===============================
 # process each parquet independently
 # ===============================
 for f in PARQUET_FILES:
+    parquet_name = os.path.basename(f).replace(".parquet", ".pkl")
+    if parquet_name in done_files:
+        print(f"Skipping {f} (already processed)")
+        continue
+    
     print(f"\nProcessing {f}")
     df = pd.read_parquet(
         f,

@@ -1,0 +1,21 @@
+/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/anndata/_core/anndata.py:1818: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+Traceback (most recent call last):
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'gene_idx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/public/home/CS286/qiyt2023-CS286/CellPerturb_VCC_Proj6_new4/tahoe_multi_targets/tahoe_mulGene_scgptid_firstDMSO_ratio02_52drug/target_in_topk.py", line 62, in <module>
+    var_tokens = adata.var["gene_idx"].values
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/pandas/core/frame.py", line 3807, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/public/home/CS286/qiyt2023-CS286/miniconda3/envs/CellPerturb_VCC_Proj6_STATE2/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3804, in get_loc
+    raise KeyError(key) from err
+KeyError: 'gene_idx'
