@@ -1,15 +1,17 @@
 #!/usr/bin/env python
 """
-Logistic Regression baseline:
-Input: delta expression per (drug, cell_line) + cell_line one-hot
-Output: per-gene target probability (0/1 label)
+Logistic Regression baseline using parquet_cache/global_parquet_stats.pkl
+
+Each sample = (drug, cell_line, gene)
+Feature = delta + cell_line one-hot
+Label = whether gene is a target of the drug
 """
 
+import pickle
 import ast
 import json
 import numpy as np
 import pandas as pd
-import scanpy as sc
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, average_precision_score
 from tqdm import tqdm
@@ -17,7 +19,7 @@ from tqdm import tqdm
 # -----------------------------
 # Config
 # -----------------------------
-H5AD_PATH = "h5ad/tahoe_log1p.h5ad"
+GLOBAL_STATS_PKL = "parquet_cache/global_parquet_stats.pkl"
 DRUG_SUMMARY_CSV = "drug_summary.csv"
 GENE_META_CSV = "gene_metadata.csv"
 DRUG_SPLIT_JSON = "tahoe_drug_split_seed42.json"
@@ -51,137 +53,216 @@ def parse_list(x):
 drug_df["target_genes"] = drug_df["target_genes"].apply(parse_list)
 drug_df["cell_line_ids"] = drug_df["cell_line_ids"].apply(parse_list)
 
+drug2targets = dict(zip(drug_df["drug"], drug_df["target_genes"]))
+drug2celllines = dict(zip(drug_df["drug"], drug_df["cell_line_ids"]))
+
 # -----------------------------
 # Load drug split
 # -----------------------------
 with open(DRUG_SPLIT_JSON) as f:
     split_json = json.load(f)
-drug_split = split_json["drug_split"]
-train_drugs = drug_split["train"]
-val_drugs = drug_split["val"]
-test_drugs = drug_split["test"]
+
+train_drugs = split_json["drug_split"]["train"]
+val_drugs   = split_json["drug_split"]["val"]
+test_drugs  = split_json["drug_split"]["test"]
 
 # -----------------------------
-# Open h5ad
+# Load global parquet stats
 # -----------------------------
-debug("Opening h5ad...")
-adata = sc.read_h5ad(H5AD_PATH, backed="r")
-var_tokens = adata.var.index.astype(int).values
-token2idx = {tok:i for i, tok in enumerate(var_tokens)}
-debug("adata shape:", adata.shape)
+debug("Loading global parquet stats...")
+with open(GLOBAL_STATS_PKL, "rb") as f:
+    global_stats = pickle.load(f)
+
+debug("Total (cell_line, drug):", len(global_stats))
 
 # -----------------------------
-# Get all cell lines for one-hot encoding
+# Collect all cell lines
 # -----------------------------
-all_cell_lines = sorted({cl for ids in drug_df["cell_line_ids"] for cl in ids})
-cl2idx = {cl:i for i, cl in enumerate(all_cell_lines)}
+all_cell_lines = sorted({
+    cell for (cell, _) in global_stats.keys()
+})
+cl2idx = {cl: i for i, cl in enumerate(all_cell_lines)}
 n_cell_lines = len(all_cell_lines)
+
 debug("n_cell_lines:", n_cell_lines)
 
 # -----------------------------
-# Build X, y for a list of drugs
+# Build dataset
 # -----------------------------
-def build_Xy(drug_list):
-    X_list = []
-    y_list = []
-    info_list = []
+def build_dataset(drug_list):
+    X = []
+    y = []
 
-    for drug in tqdm(drug_list, desc="Building X/y"):
-        row = drug_df[drug_df["drug"]==drug].iloc[0]
-        target_tokens = [symbol2token[g] for g in row["target_genes"] if g in symbol2token]
-        if len(target_tokens)==0:
-            debug(drug,"skipped: no target genes in gene_meta")
+    for (cell_line, drug), stats in tqdm(global_stats.items()):
+        if drug not in drug_list:
             continue
 
-        for cl in row["cell_line_ids"]:
-            # select cells
-            mask = (adata.obs["drug"]==drug) & (adata.obs["cell_line_id"]==cl)
-            if mask.sum()==0:
-                debug(drug, cl, "skipped: no cells in h5ad")
-                continue
+        target_genes = drug2targets.get(drug, [])
+        if not target_genes:
+            continue
 
-            sub = adata[mask].to_memory()
-            delta = sub.X.mean(axis=0) - sub.layers["ctrl_norm"].mean(axis=0)
-            delta = np.asarray(delta).ravel()
+        target_tokens = {
+            symbol2token[g] for g in target_genes if g in symbol2token
+        }
+        if not target_tokens:
+            continue
 
-            # cell_line one-hot
-            cl_vec = np.zeros(n_cell_lines)
-            cl_vec[cl2idx[cl]] = 1.0
+        delta = stats["delta"]  # dict: token -> delta
 
-            # concat delta + cell_line one-hot
-            X_vec = np.concatenate([delta, cl_vec])
-            X_list.append(X_vec)
+        # cell line one-hot
+        cl_vec = np.zeros(n_cell_lines)
+        cl_vec[cl2idx[cell_line]] = 1.0
 
-            # y: 1 for target genes, 0 else
-            y_vec = np.zeros_like(delta)
-            for tok in target_tokens:
-                idx = token2idx.get(tok)
-                if idx is not None:
-                    y_vec[idx] = 1
-            y_list.append(y_vec)
-            info_list.append({"drug":drug,"cell_line":cl})
+        for tok, d in delta.items():
+            # feature
+            X_vec = np.concatenate([[d], cl_vec])
+            X.append(X_vec)
 
-    if len(X_list)==0:
-        return None, None, None
+            # label
+            y.append(1 if tok in target_tokens else 0)
 
-    X = np.vstack(X_list)          # shape: n_samples x (n_genes + n_cell_lines)
-    y = np.vstack(y_list)          # shape: n_samples x n_genes
-    return X, y, info_list
+    X = np.vstack(X)
+    y = np.array(y)
+    return X, y
 
 # -----------------------------
-# Build train / val / test
+# Build splits
 # -----------------------------
-X_train, y_train, info_train = build_Xy(train_drugs)
-X_val, y_val, info_val = build_Xy(val_drugs)
-X_test, y_test, info_test = build_Xy(test_drugs)
+debug("Building train set...")
+X_train, y_train = build_dataset(train_drugs)
 
-# -----------------------------
-# Flatten for logistic regression
-# -----------------------------
-# Each row = (drug, cell_line)
-# Each column = gene delta+one-hot
-n_samples, n_features = X_train.shape
-n_genes = y_train.shape[1]
-debug("n_samples:", n_samples, "n_features:", n_features, "n_genes:", n_genes)
+debug("Building val set...")
+X_val, y_val = build_dataset(val_drugs)
 
-X_train_flat = np.repeat(X_train, n_genes, axis=0)  # repeat per gene
-y_train_flat = y_train.flatten()
-X_val_flat   = np.repeat(X_val, n_genes, axis=0)
-y_val_flat   = y_val.flatten()
-X_test_flat  = np.repeat(X_test, n_genes, axis=0)
-y_test_flat  = y_test.flatten()
+debug("Building test set...")
+X_test, y_test = build_dataset(test_drugs)
 
-# Add gene index as additional feature
-gene_idx_feature = np.tile(np.arange(n_genes), X_train.shape[0]).reshape(-1,1)
-X_train_flat = np.hstack([X_train_flat, gene_idx_feature])
-X_val_flat   = np.hstack([X_val_flat, gene_idx_feature])
-X_test_flat  = np.hstack([X_test_flat, gene_idx_feature])
+debug("Train shape:", X_train.shape, "Positive rate:", y_train.mean())
 
 # -----------------------------
 # Train logistic regression
 # -----------------------------
-clf = LogisticRegression(max_iter=200, random_state=SEED, solver="liblinear")
+clf = LogisticRegression(
+    max_iter=500,
+    solver="liblinear",
+    random_state=SEED
+)
+
 debug("Training logistic regression...")
-clf.fit(X_train_flat, y_train_flat)
+clf.fit(X_train, y_train)
 
 # -----------------------------
 # Evaluate
 # -----------------------------
-def evaluate(X, y, info_list, set_name="val"):
-    y_pred_prob = clf.predict_proba(X)[:,1]
-    roc = roc_auc_score(y, y_pred_prob)
-    pr = average_precision_score(y, y_pred_prob)
-    print(f"{set_name} ROC-AUC: {roc:.4f}, PR-AUC: {pr:.4f}")
-    # optional: save predictions per drug/cell_line
-    pred_df = pd.DataFrame({
-        "drug":[info_list[i//n_genes]["drug"] for i in range(len(y))],
-        "cell_line":[info_list[i//n_genes]["cell_line"] for i in range(len(y))],
-        "gene_idx":np.tile(np.arange(n_genes), len(info_list)),
-        "y_true":y,
-        "y_pred_prob":y_pred_prob
-    })
-    pred_df.to_csv(f"logreg_{set_name}_pred.csv", index=False)
-    return pred_df
+def evaluate(X, y, name):
+    prob = clf.predict_proba(X)[:, 1]
+    roc = roc_auc_score(y, prob)
+    pr  = average_precision_score(y, prob)
+    print(f"{name} ROC-AUC: {roc:.4f}, PR-AUC: {pr:.4f}")
 
-evaluate(X_val_flat, y_val_flat, info_val, "val")
-evaluate(X_test_flat, y_test_flat, info_test, "test")
+evaluate(X_val, y_val, "Val")
+evaluate(X_test, y_test, "Test")
+
+# =========================================================
+# Per-drug gene ranking analysis on TEST set
+# =========================================================
+
+TOPKS = [5, 10, 50, 100]
+
+print("\n=== Per-drug target gene ranking (TEST) ===")
+
+# 重新跑一遍 test，用于收集 prediction + meta info
+rows = []
+
+for (cell_line, drug), stats in global_stats.items():
+    if drug not in test_drugs:
+        continue
+
+    target_genes = drug2targets.get(drug, [])
+    if not target_genes:
+        continue
+
+    target_tokens = {
+        symbol2token[g] for g in target_genes if g in symbol2token
+    }
+    if not target_tokens:
+        continue
+
+    delta = stats["delta"]
+
+    # cell line one-hot
+    cl_vec = np.zeros(n_cell_lines)
+    cl_vec[cl2idx[cell_line]] = 1.0
+
+    for tok, d in delta.items():
+        X_vec = np.concatenate([[d], cl_vec]).reshape(1, -1)
+        prob = clf.predict_proba(X_vec)[0, 1]
+
+        rows.append({
+            "drug": drug,
+            "cell_line": cell_line,
+            "gene_token": tok,
+            "prob": prob,
+            "is_target": int(tok in target_tokens),
+        })
+
+pred_df = pd.DataFrame(rows)
+print("Total test predictions:", len(pred_df))
+
+# ---------------------------------------------------------
+# Aggregate over cell lines: (drug, gene)
+# ---------------------------------------------------------
+agg_df = (
+    pred_df
+    .groupby(["drug", "gene_token"])
+    .agg(
+        mean_prob=("prob", "mean"),
+        is_target=("is_target", "max")
+    )
+    .reset_index()
+)
+
+# ---------------------------------------------------------
+# Rank genes per drug
+# ---------------------------------------------------------
+records = []
+
+for drug, df_d in agg_df.groupby("drug"):
+    df_d = df_d.sort_values("mean_prob", ascending=False).reset_index(drop=True)
+    df_d["rank"] = np.arange(1, len(df_d) + 1)
+
+    target_ranks = df_d[df_d["is_target"] == 1]["rank"].tolist()
+
+    rec = {
+        "drug": drug,
+        "n_genes": len(df_d),
+        "n_targets": len(target_ranks),
+        "best_rank": min(target_ranks) if target_ranks else np.inf,
+    }
+
+    for k in TOPKS:
+        rec[f"n_target_in_top{k}"] = sum(r <= k for r in target_ranks)
+
+    records.append(rec)
+
+    # 打印给你直观看
+    print(f"\nDrug: {drug}")
+    print("Target gene ranks:", target_ranks)
+    for k in TOPKS:
+        print(f"  Top-{k}: {sum(r <= k for r in target_ranks)}")
+
+summary_df = pd.DataFrame(records)
+
+# ---------------------------------------------------------
+# Save
+# ---------------------------------------------------------
+summary_df.to_csv("logreg_test_target_gene_ranking.csv", index=False)
+agg_df.to_csv("logreg_test_gene_probs.csv", index=False)
+
+print("\nSaved:")
+print("  logreg_test_target_gene_ranking.csv")
+print("  logreg_test_gene_probs.csv")
+
+print("\n=== Summary ===")
+print(summary_df)
+

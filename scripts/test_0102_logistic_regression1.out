@@ -1,0 +1,74 @@
+Fri Jan  2 19:50:36 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:D8:00.0 Off |                  N/A |
+| 28%   27C    P8             16W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+[DEBUG] Loading gene metadata...
+[DEBUG] Loading drug summary...
+[DEBUG] Loading global parquet stats...
+[DEBUG] Total (cell_line, drug): 2267
+[DEBUG] n_cell_lines: 49
+[DEBUG] Building train set...
+[DEBUG] Building val set...
+[DEBUG] Building test set...
+[DEBUG] Train shape: (24289295, 50) Positive rate: 6.0273466150417295e-05
+[DEBUG] Training logistic regression...
+Val ROC-AUC: 0.5305, PR-AUC: 0.0000
+Test ROC-AUC: 0.4920, PR-AUC: 0.0001
+
+=== Per-drug target gene ranking (TEST) ===
+Total test predictions: 1393566
+
+Drug: Clonidine (hydrochloride)
+Target gene ranks: [3745, 4180]
+  Top-5: 0
+  Top-10: 0
+  Top-50: 0
+  Top-100: 0
+
+Drug: Lumateperone (tosylate)
+Target gene ranks: [3688, 22871]
+  Top-5: 0
+  Top-10: 0
+  Top-50: 0
+  Top-100: 0
+
+Drug: Tofacitinib (citrate)
+Target gene ranks: [16178]
+  Top-5: 0
+  Top-10: 0
+  Top-50: 0
+  Top-100: 0
+
+Saved:
+  logreg_test_target_gene_ranking.csv
+  logreg_test_gene_probs.csv
+
+=== Summary ===
+                        drug  n_genes  ...  n_target_in_top50  n_target_in_top100
+0  Clonidine (hydrochloride)    25257  ...                  0                   0
+1    Lumateperone (tosylate)    24608  ...                  0                   0
+2      Tofacitinib (citrate)    25093  ...                  0                   0
+
+[3 rows x 8 columns]

@@ -1,0 +1,4 @@
+drug,n_genes,n_targets,best_rank,n_target_in_top5,n_target_in_top10,n_target_in_top50,n_target_in_top100
+Clonidine (hydrochloride),25257,2,3745,0,0,0,0
+Lumateperone (tosylate),24608,2,3688,0,0,0,0
+Tofacitinib (citrate),25093,1,16178,0,0,0,0
