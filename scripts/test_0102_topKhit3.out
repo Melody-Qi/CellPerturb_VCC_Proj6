@@ -1,0 +1,42 @@
+Fri Jan  2 18:54:17 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:D8:00.0 Off |                  N/A |
+| 28%   29C    P8             16W /  250W |       0MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
+Loading gene metadata...
+[DEBUG] Loaded 62710 gene symbols
+Loading drug summary...
+Loading global parquet stats...
+Loaded 2267 (cell_line, drug) entries
+
+✅ Done!
+Total records: 2267
+        drug cell_line_id  n_rows  ... n_in_top10 n_in_top50  n_in_top100
+0  Berbamine    CVCL_1550    1549  ...          0          0            0
+1  Berbamine    CVCL_1547    1804  ...          0          0            0
+2  Berbamine    CVCL_0069     401  ...          0          0            0
+3  Berbamine    CVCL_0480    2953  ...          0          0            0
+4  Berbamine    CVCL_0293    1086  ...          0          0            0
+
+[5 rows x 10 columns]
