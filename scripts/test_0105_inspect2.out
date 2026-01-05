@@ -1,0 +1,68 @@
+Mon Jan  5 19:05:04 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:3B:00.0 Off |                  Off |
+| N/A   31C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+
+===== Inspecting REAL =====
+Shape (n_obs x n_vars): (68271, 18080)
+
+.obs keys:
+Index(['target_gene', 'cell_type', 'batch_var', 'pert_cell_barcode',
+       'ctrl_cell_barcode'],
+      dtype='object')
+
+.var:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+var index type: <class 'pandas.core.indexes.base.Index'>
+First 10 var names: Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], dtype='object')
+
+.X type: <class 'numpy.ndarray'>
+X shape: (68271, 18080)
+
+.uns keys:
+odict_keys([])
+
+===== Inspecting PRED =====
+Shape (n_obs x n_vars): (68271, 18080)
+
+.obs keys:
+Index(['target_gene', 'cell_type', 'batch_var', 'pert_cell_barcode',
+       'ctrl_cell_barcode'],
+      dtype='object')
+
+.var:
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+var index type: <class 'pandas.core.indexes.base.Index'>
+First 10 var names: Index(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], dtype='object')
+
+.X type: <class 'numpy.ndarray'>
+X shape: (68271, 18080)
+
+.uns keys:
+odict_keys([])

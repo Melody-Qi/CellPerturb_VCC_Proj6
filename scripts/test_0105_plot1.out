@@ -1,0 +1,39 @@
+Mon Jan  5 19:39:49 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-16GB           On  |   00000000:3B:00.0 Off |                  Off |
+| N/A   31C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== SLURM环境变量 ===
+SLURM_GPUS_PER_NODE: 
+CUDA_VISIBLE_DEVICES: 0
+=== PyTorch检测 ===
+PyTorch检测GPU数: 1
+可用GPU: ['Tesla V100-PCIE-16GB']
+Gene names recovered.
+First 5 genes: Index(['SAMD11', 'NOC2L', 'KLHL17', 'PLEKHN1', 'PERM1'], dtype='object')
+#cells MED13: 2787
+#cells control: 38176
+Control mean range: 0.0 5.975318
+Target mean range: 0.0 5.9540677
+Real delta stats:
+min: -4.131369 max: 5.3008223 mean: -0.008656931
+Pred delta stats:
+min: -4.131369 max: 7.201467 mean: -0.0014289785
+Genes to plot:
+['VLDLR', 'PHC1', 'CRABP2', 'MFGE8', 'ANOS1', 'JPH4', 'KDR', 'TNIK', 'HAPLN3', 'TERF1', 'ERBB2', 'ASS1', 'KCNG3', 'GPC4', 'SORBS2', 'PODXL', 'IQSEC2', 'NSG1', 'GPR176', 'MED13']
+Figure saved to: violin_MED13_truth_vs_pred.png
