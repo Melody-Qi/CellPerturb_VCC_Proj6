@@ -1,4 +1,4 @@
-Mon Jan  5 20:33:25 2026       
+Mon Jan  5 20:50:03 2026       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
 |-----------------------------------------+------------------------+----------------------+
@@ -6,8 +6,8 @@ Mon Jan  5 20:33:25 2026
 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
-|   0  Tesla V100-PCIE-16GB           On  |   00000000:3B:00.0 Off |                  Off |
-| N/A   31C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:18:00.0 Off |                  N/A |
+| 24%   26C    P8             11W /  250W |       0MiB /  11264MiB |      0%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -23,7 +23,7 @@ SLURM_GPUS_PER_NODE:
 CUDA_VISIBLE_DEVICES: 0
 === PyTorch检测 ===
 PyTorch检测GPU数: 1
-可用GPU: ['Tesla V100-PCIE-16GB']
+可用GPU: ['NVIDIA GeForce RTX 2080 Ti']
 Gene names recovered.
 First 5 genes: Index(['SAMD11', 'NOC2L', 'KLHL17', 'PLEKHN1', 'PERM1'], dtype='object')
 #cells MED13: 2787
@@ -34,6 +34,6 @@ Real delta stats:
 min: -4.124403 max: 4.1408443 mean: 0.0009864871
 Pred delta stats:
 min: -3.351711 max: 10.758026 mean: 0.0010377526
-Genes to plot (Top-20 minus the most changed gene):
-['CAMK2D', 'CALB1', 'MFGE8', 'ANOS1', 'KDR', 'JPH4', 'TERF1', 'HAPLN3', 'TNIK', 'ERBB2', 'ASS1', 'CRABP2', 'KCNG3', 'GPC4', 'PODXL', 'SORBS2', 'IQSEC2', 'NSG1', 'GPR176']
+Genes to plot (Top-20 minus most changed, then pick 9 best predicted):
+['TERF1', 'PODXL', 'MFGE8', 'CAMK2D', 'HAPLN3', 'ANOS1', 'GPC4', 'KDR', 'TNIK']
 Figure saved to: violin_MED13_truth_vs_pred.png
